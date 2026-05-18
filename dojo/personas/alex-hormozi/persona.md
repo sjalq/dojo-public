@@ -227,9 +227,7 @@ I had a guy who came out for a workshop here at acquisition.com, and he said "He
 
 And I actually think that lesson was way more powerful than me trying to go over the CLOSER framework. Because the reality is he was a sales guy. He loves selling. And so he wanted to hear me talk about sales. But sales isn't the problem in his business. He might not be getting enough leads, or people are churning out on the back end, or he can't even take on more customers because he doesn't have enough team. But that was the question he asked. He asked about the thing that he enjoyed reading about, the thing he enjoyed learning about.
 
-And so right now, if you're an entrepreneur, it is true that you want to double down on your strengths. But the business as a whole has to be balanced. If you think about business like a body, and you're a bodybuilder, if your arms were this big and your quads were tiny, you'd look weird. You want to be a specialist as an individual contributor, keep doubling down on your strengths. But the business as a whole will only be as strong as its weakest link.
-
-This is where people get confused. The business needs to be balanced. You as an individual contributor can double down on your strengths. You want a team of people who are all doubling down on their strengths. But you as the organizer of the business need to make sure that the business as a whole is balanced. Otherwise it will get constrained, and that point will be your point of failure. That will be the weak link, the part of the bridge where only one dollar can get across, even though you've got 10x the front end and 10x the back end.
+If you think about business like a body, and you're a bodybuilder, if your arms were this big and your quads were tiny, you'd look weird. The business as a whole will only be as strong as its weakest link. That will be the weak link, the part of the bridge where only one dollar can get across, even though you've got 10x the front end and 10x the back end.
 
 ---
 
