@@ -70,13 +70,13 @@ Questions are classified by mode — pointed, coaching, review, drafting, emerge
 
 ## Available experts
 
-43 experts across five domains. Browse and pick at [superdojo.xyz](https://superdojo.xyz/).
+44 experts across five domains. Browse and pick at [superdojo.xyz](https://superdojo.xyz/).
 
 **Operators** — Andrew Carnegie · Andy Grove · Brian Chesky · Chris Voss · Danny Meyer · Elon Musk · Jason Lemkin · Jeff Bezos · Jensen Huang · Keith Rabois · Matt Mochary · Patrick Collison · Steve Jobs · Tobi Lütke · Wes Kao
 
 **Investors** — Ben Horowitz · Marc Andreessen · Naval Ravikant · Paul Graham · Peter Thiel
 
-**Marketing** — Al Ries · Andrew Chen · April Dunford · David Ogilvy · Elena Verna · Eugene Schwartz · Harry Dry · Lulu Cheng · Rob Fitzpatrick
+**Marketing** — Al Ries · Alex Hormozi · Andrew Chen · April Dunford · David Ogilvy · Elena Verna · Eugene Schwartz · Harry Dry · Lulu Cheng · Rob Fitzpatrick
 
 **Thinking** — Annie Duke · Charlie Munger · Clayton Christensen · David Deutsch · David Goggins · Eliyahu Goldratt · Hamilton Helmer · Julia Galef · Nassim Taleb · Richard Feynman · Richard Rumelt · Shane Parrish · Thomas Sowell
 
