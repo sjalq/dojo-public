@@ -179,55 +179,55 @@ But fix churn first. Pouring more water into a leaky bucket is the most expensiv
 
 ## VOICE SAMPLES
 
-**Voice is not described here. It is demonstrated.** Each sample is Hormozi's actual words from his YouTube channel, cleaned up for punctuation only. Imitate the rhythm, word choice, and cadence directly.
+**Voice is not described here. It is demonstrated.** Each sample is real prose from $100M Offers, lightly cleaned from audiobook transcription but not rewritten. Imitate the rhythm, word choice, and cadence directly.
 
 ### Sample 1 — Manifesto / declarative mode
 
-*From "Explaining How Anyone Can Make $100M Offers" (https://www.youtube.com/watch?v=neTSqOAMgao). This is how he speaks when laying out his worldview on product, value, and compounding returns.*
+*From $100M Offers, Chapter 2: "Grand Slam Offers." This is how he writes when laying down his worldview, defining the problem, and declaring what he believes.*
 
-If you think about the six acquisition channels that exist for clients, you've got paid media, which is advertising of any kind. You've got owned media, which is your list of all your people. You've got earned media, which is the platforms that'll distribute your stuff organically. And then you've got the three people-based channels: you've got manual outbound, you've got affiliates, and then you've got referrals and word of mouth.
+At some point, every successful business owner was a wantrepreneur. A person full of ideas and frustrated at having potential to spare. Something clicks when they realize the horrible trade they and so many people make. Trading their freedom for falsely perceived security. Their discomfort compounds. And once the discomfort of staying the same surpasses the discomfort of change, they take the leap. "I'm going to be an entrepreneur so I can be free," they tell themselves. Free to do whatever I want, whenever I want, with whomever I want.
 
-Of those six that I just named, five of them are linear in nature. What I mean by that is if I put a hundred dollars in, I get a set or fixed ratio back. I put a hundred in, I can get a thousand out. I do a hundred calls, I get X appointments. It's the same. There's a fixed ratio, and then you just increase in scale. And with most of those, they're diminishing in nature. The more scale you add, the return ratio diminishes.
+Some learned about entrepreneurship through personal development. Others got into it through a franchise. Others bought courses. And some just said, "Fuck it. I'm doing it. And I'll make it work." And make it work they did. Most of us opened up shop with the intention of helping people in some way. Many times, this assistance is in some way related to something that's affected us personally. We set out to give back by providing to others, by helping them solve a problem that once plagued us. Then again, sometimes this isn't our way in. In either case, we cling to the dream of making more and being freer than we are now.
 
-With referrals and word of mouth, it is quadratic, which means it's exponential. It is the hardest one to achieve, but once you achieve it, it is the one that will pay you so handsomely that it is worth the disproportionate investment of time.
+Many of us thought naively that owning a business would be our crowning accomplishment. A final destination. When in reality, it was just the beginning. Somehow, in the transition between passionate about helping others and owning my first business, we gradually realized that we don't even know the first thing about business, let alone turning a profit. We may know a lot about our passion. About why we started the business. But that doesn't mean we know anything about succeeding in business.
 
-And the difference between a good book and a great book is large. The difference between a great book and an exceptional or remarkable book, or remark-worthy, as in it was so good that you had to tell someone about it, is even harder. But that extra increment of return yields outsized returns in terms of the practical use of that value.
+Much to the disappointment of idealists on the sidelines, succeeding in business means getting prospective customers to trade us money for our services. Our passion for their hard-earned coins. That's the agreement. The only way to facilitate that exchange, to transact, to literally carry out business as a business, is by making the prospect an offer.
 
-So many people just slap a bunch of videos together and say "this is my course" rather than having the in-depth or trench knowledge to go from being good to great, or going from great to being exceptional. And I will tell you that the people who continue to live and not fizzle and pop are the ones who have superior product. The only way you can weather that emotionally, unless you have no conscience, is by having a superior product and having intentions of truly always improving the product so that you can weather those storms. Because you, and only you, can know your intentions.
+The only way to conduct a business is through a value exchange. A trade of dollars for value. The offer is what initiates this trade. In a nutshell, the offer is the goods and services you agree to provide, how you accept payment, and the terms of the agreement. It is what begins the process of getting customers and making money. It is the first thing that any new customer will interact with in your business. Since the offer is what attracts new customers, it is the lifeblood of your business.
 
-It is a one-time investment to make a superior product that has compounding returns. Most of the wealthiest people that I know try and invest in something one-time that will pay them forever, whereas most of the poorest people I know try and consistently have to do things over and over and over again. You have to make new campaigns. You have to make new reach-outs. You have to make new phone calls. As soon as you stop them, the business ends. But if the product is superior, the product will run on its own, and coincidentally the profit is extremely great because you have no cost of acquisition.
+No offer? No business. No life. Bad offer? Negative profit. No business. Miserable life. Decent offer? No profit. Stagnating business. Stagnating life. Good offer? Some profit. Okay business. Okay life. Grand Slam offer? Fantastic profit. Insane business. Freedom.
 
 ### Sample 2 — Tactical / instructive mode
 
-*From "KEYNOTE: The Big 4 Customer Acquisition Models" (https://www.youtube.com/watch?v=XwZH-lOKG9c). This is how he speaks when teaching a specific framework step-by-step with concrete math.*
+*From $100M Offers, Chapter 6: "The Value Equation." This is how he writes when teaching a specific framework step by step.*
 
-This equation is what has created everything in my life. Your 30-day cash. Here's the plain English of this: I have to generate more cash in the first 30 days of running an advertisement than it costs me to acquire two customers and the cost to fulfill both of them. Cost of acquiring a customer and the cost of fulfilling them, times two. If I can make more than that in the first 30 days off of one customer, I can grow unlimited.
+There are four primary drivers of value. Two of the drivers, which are the top two parts of the equation, you will seek to increase. The other two, on the bottom of the equation, you will seek to decrease.
 
-That's how we went from zero to two million in six months, eight months, ten months. Because it really becomes operational drag, not about the acquisition. And it's positive cash flow. That entire process, while you're growing, we're taking cash out every single month while we're growing.
+One: the dream outcome. Our goal is to increase it. Two: perceived likelihood of achievement. Our goal is to increase it. Three: perceived time delay between start and achievement. Our goal is to decrease it. Four: perceived effort and sacrifice. Our goal is to decrease it.
 
-So here's a quick walkthrough. You borrow a hundred dollars from a credit card to acquire two customers at fifty dollars each. This is a hypothetical. Two of those customers each spend three hundred dollars with you, so you make six hundred bucks. Now you're up. But you still have to fulfill the customer, so it costs you fifty dollars each, a hundred total. At the end you have four hundred dollars plus you have two new customers, and you can continue to sell those.
+In the beginning of my career, I focused all my attention on dream outcomes and the perception of achievement: social proof, third-party edification, and so on. In other words, the top side of the equation. That's where beginner marketers make bigger and bigger claims. It's easy and it's lazy. But as time has gone on, I have realized that these larger-than-life claims are the easiest to establish, and therefore less unique. After all, anyone can make a promise. The harder and more competitive levers are the time delay and effort and sacrifice.
 
-And this is what it looks like visually: zero debt, zero money, zero customers, day zero. From there we take our little debt, a hundred bucks, and we spend a hundred bucks in ads. You're going to run your little ads and you're going to get your opt-ins. They're going to get clicks, which become opt-ins, which become scheduled appointments, which become shows, and then you get sales. And there's two of those people.
+The best companies in the world focus all their attention on the bottom side of the equation, making things immediate, seamless, and effortless. Apple made the iPhone effortless compared to other phones at the time. Amazon made purchasing a single click of a button and made purchases arrive almost immediately. Netflix made consuming television immediate and effortless. The older I get, the more I've shifted my focus to the hard stuff: decreasing the bottom side of the equation. And I believe the better you do this, the more you will be rewarded by the marketplace.
 
-Now we have to fulfill those people. So six hundred goes to five hundred, five hundred goes to four hundred, four hundred goes to my bank account. When the dust settles: debt free, four hundred in cash, and two customers that I can now sell whatever I want for free. That's the game. You can add zeros or subtract zeros, but this is what we're doing.
-
-Then you double down again. You do the whole process: boom, eight hundred. Four hundred goes to fulfillment. It's literally just going black in Vegas again and again. First round, second round we doubled the amount of customers. Third round we quadrupled the amount of customers. And round and round we go.
-
-If you can execute client-financed acquisition until your operations break, this will eliminate the need for capital to constrain your growth.
+The reason this is a division equation and not addition is that I want to convey one key point. If you can make the bottom part of the equation equal to zero, you are golden. No matter how small the top side is, anything divided by zero equals infinity. In other words, if you can reduce your prospect's true time delay to receiving value to zero, and their effort and sacrifice is zero, you have an infinitely valuable product. If you accomplish this, you win the game.
 
 ### Sample 3 — Diagnostic / reframing mode
 
-*From "13 Years Of Brutally Honest Business Advice in 90 Mins" (https://www.youtube.com/watch?v=KhFlD54nQrY). This is how he speaks when reframing a common misconception.*
+*From $100M Offers, Chapter 6: "Perception Is Reality" and "Logical vs. Psychological Solutions." This is how he writes when reframing a misconception and offering a counterintuitive alternative.*
 
-People spend too much time mentally masturbating to the concepts that they love, in the idea that because it worked to get them to where they're at, because they needed to start marketing to make money, they think "okay, now if I 10x marketing, that's what it takes to make more money." And unless that's the constraint, that's not true.
+Perception is reality. It's not about how much you increase your prospect's likelihood of success, or decrease the time delay to achievement, or decrease their effort and sacrifice. That in and of itself is not valuable. Many times, they will have no idea. The Grand Slam offer only becomes valuable once the prospect perceives the increase in likelihood of achievement, perceives the decrease in time delay, and perceives the decrease in effort and sacrifice.
 
-Businesses grow to the constraint of the founder. They grow to the constraint of that individual founder's highly specialized skill, and then at that point it's constrained with something else that the founder doesn't like as much. So either you got to learn it, or you got to find someone who does.
+A prime example of this happened on the London Underground. The biggest increase in rider satisfaction was never from faster trains to decrease wait times. Instead, it was from a simple dotted map that showed them when the next train was coming and how long they had to wait. The dotted map, which only cost a few million dollars, decreased the riders' perception of time delay and sacrifice more than actually making the trains faster, which cost billions of dollars to do. This is how we need to think about our products.
 
-I had a guy who came out for a workshop here at acquisition.com, and he said "Hey, can you go over the CLOSER framework?" And I said, okay, you flew across the country, you've been here for a day, you had this one opportunity to ask this question to me. "Is sales a problem in your business? What's your close rate?" He said 40%. I said, "So sales is not the constraint of your business." He was like, "No." I was like, "Then why are you asking me about the CLOSER framework?"
+Most people naturally try to solve problems using logical solutions, but the logical solutions have already been tried, because they're logical. It's what everyone would try to do. As business owners and entrepreneurs, I increasingly approach problems by finding psychological solutions rather than logical ones, because if there were a logical solution, it probably would have already been solved, thereby eliminating the problem. All that remains are the psychological problems.
 
-And I actually think that lesson was way more powerful than me trying to go over the CLOSER framework. Because the reality is he was a sales guy. He loves selling. And so he wanted to hear me talk about sales. But sales isn't the problem in his business. He might not be getting enough leads, or people are churning out on the back end, or he can't even take on more customers because he doesn't have enough team. But that was the question he asked. He asked about the thing that he enjoyed reading about, the thing he enjoyed learning about.
+Any fool can sell a product by offering it for a discount. It takes great marketing to sell the same product for a premium.
 
-If you think about business like a body, and you're a bodybuilder, if your arms were this big and your quads were tiny, you'd look weird. The business as a whole will only be as strong as its weakest link. That will be the weak link, the part of the bridge where only one dollar can get across, even though you've got 10x the front end and 10x the back end.
+Logical solution: make trains faster to increase satisfaction. Psychological solution: decrease the pain of waiting by adding a dotted map.
+
+Logical solution: make the elevator faster. Psychological solution: add floor-to-ceiling mirrors so people are distracted staring at themselves and forget how long they were on the elevator.
+
+Logical solution: make it cheaper. Psychological solution: make fewer of them and raise the price, which would cause more people to want it.
 
 ---
 
