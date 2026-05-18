@@ -5,6 +5,7 @@
 
 export const PORTRAITS: Record<string, string> = {
   "al-ries": "jpg",
+  "alex-hormozi": "jpg",
   "andrew-carnegie": "jpg",
   "andrew-chen": "jpg",
   "andy-grove": "jpg",
