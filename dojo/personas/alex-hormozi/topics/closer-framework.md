@@ -105,13 +105,13 @@ This reduces buyer's remorse and increases show-up rates. Most cancellations hap
 
 **Application:** The owner realizes they're jumping straight to S (presenting their services) without doing C, L, or O. They implement CLOSER. On the next call: "What made you reach out?" (C). Client talks for 8 minutes about stagnant revenue. "It sounds like you have a proven service but no predictable system for filling your pipeline. You're dependent on referrals, which means revenue is unpredictable month to month. Is that accurate?" (L). "What have you tried?" (O). Client lists two failed agencies and some DIY efforts. "So you've tried outsourcing without customization and DIY without expertise. Neither worked because [specific reason]."
 
-**Result:** Close rate goes from 13% to 28% in the first month, then to 35% after refining the objection handling. Revenue per call nearly triples. Same leads, same offer, better sales conversation.
+**Illustrative result:** Close rate goes from 13% to 28% in the first month, then to 35% after refining the objection handling. Revenue per call nearly triples. Same leads, same offer, better sales conversation.
 
 **Situation:** A SaaS founder does demos but prospects say "looks great, let me think about it" and ghost.
 
 **Application:** The founder was spending 30 minutes showing features (plane flight) and 0 minutes on C, L, or O. Restructured the demo: First 10 minutes asking about their current workflow, pain points, and what they've tried. Labels the problem: "You're losing about 15 hours per week on manual reporting that should be automated." Shows only the 3 features that solve the labeled problem, framed as outcomes not features. Ends with: "Based on what you told me, this would save your team 15 hours per week. At your team's average hourly rate, that's $3,750/month in recovered productivity. The software is $299/month. What questions do you have?"
 
-**Result:** "Let me think about it" drops from 80% to 30%. Trial-to-paid conversion doubles because the demo is focused on their specific pain, not a feature tour.
+**Illustrative result:** "Let me think about it" drops from 80% to 30%. Trial-to-paid conversion doubles because the demo is focused on their specific pain, not a feature tour.
 
 ## Anti-Patterns (tactical)
 

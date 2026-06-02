@@ -87,13 +87,13 @@ Here's my rule: charge at minimum 1/10th of the value you create. If your progra
 
 **Application:** Stop selling hours. Package the work into project-based pricing. A brand identity package that would take 40 hours at $75/hour ($3,000) gets priced at $8,000 because the brand will generate $200,000+ in revenue over the next year. The value justification: "This brand identity will be on every customer touchpoint for the next 5+ years. If it generates even one additional client per month at your $5,000 average deal size, that's $60,000/year. The ROI on $8,000 is 7.5:1 in year one alone."
 
-**Result:** The designer takes on 3 projects per month instead of juggling 8-10 hourly clients. Revenue goes from $15,000 to $24,000. Hours worked drop from 60 to 35. Quality goes up because there's time to do great work. Client satisfaction goes up because premium clients are better to work with.
+**Illustrative result:** The designer takes on 3 projects per month instead of juggling 8-10 hourly clients. Revenue goes from $15,000 to $24,000. Hours worked drop from 60 to 35. Quality goes up because there's time to do great work. Client satisfaction goes up because premium clients are better to work with.
 
 **Situation:** A SaaS company charges $29/month and has 2,000 users but can't afford to hire customer success or add features.
 
 **Application:** Create an enterprise tier at $299/month with priority support, custom onboarding, and quarterly strategy calls. Create a mid-tier at $99/month with enhanced features and weekly group training. Keep the $29 tier as a feeder. The $299 tier only needs to attract 5% of users (100 people) to generate $29,900/month, doubling the revenue from the other 1,900 users combined.
 
-**Result:** 100 users upgrade to enterprise ($29,900), 400 upgrade to mid-tier ($39,600), 1,500 stay at $29 ($43,500). Total revenue goes from $58,000 to $113,000. The company can now hire two customer success reps and a developer. The product gets better, retention goes up, and the flywheel spins.
+**Illustrative result:** 100 users upgrade to enterprise ($29,900), 400 upgrade to mid-tier ($39,600), 1,500 stay at $29 ($43,500). Total revenue goes from $58,000 to $113,000. The company can now hire two customer success reps and a developer. The product gets better, retention goes up, and the flywheel spins.
 
 ## Anti-Patterns (tactical)
 

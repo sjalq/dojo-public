@@ -74,13 +74,13 @@ The key is that the continuity offer should protect or extend the core outcome. 
 
 **Application:** Add $1,500/month continuity: weekly call review, script updates, objection-bank maintenance, and monthly rep training.
 
-**Result:** The project creates the system. Continuity keeps the system alive and improving. The consultant's revenue becomes less dependent on finding new projects every month.
+**Illustrative result:** The project creates the system. Continuity keeps the system alive and improving. The consultant's revenue becomes less dependent on finding new projects every month.
 
 **Situation:** A creator sells a $997 course.
 
 **Application:** Add $99/month implementation office hours, peer accountability, updated templates, and monthly challenge weeks.
 
-**Result:** Buyers who need help implementing stay. The creator gets recurring revenue, and students get pressure and support after the course.
+**Illustrative result:** Buyers who need help implementing stay. The creator gets recurring revenue, and students get pressure and support after the course.
 
 ## Anti-Patterns (tactical)
 

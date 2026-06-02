@@ -57,13 +57,13 @@ The model is not a compliance ladder. It is a coaching map. The question is not 
 
 **Application:** KMM diagnosis: they may have local visibility without service-delivery maturity. Add explicit policies, WIP limits, flow review, and customer expectation measures before scaling more ceremonies.
 
-**Result:** They evolve toward service predictability instead of adding more agile theater.
+**Illustrative result:** They evolve toward service predictability instead of adding more agile theater.
 
 **Situation:** Executives want enterprise portfolio Kanban immediately.
 
 **Application:** Assess whether lower-level services have stable policies, WIP limits, and flow data. If not, build service-level maturity first.
 
-**Result:** Portfolio decisions are eventually grounded in real service capability instead of optimistic reporting.
+**Illustrative result:** Portfolio decisions are eventually grounded in real service capability instead of optimistic reporting.
 
 ## Anti-Patterns (tactical)
 

@@ -66,13 +66,13 @@ The math matters. If 30% of buyers take a $1,000 upsell after a $2,000 core offe
 
 **Application:** Upsell: $1,500 done-with-you implementation week where the team builds the first prospect list, writes the first sequence, and reviews the first 100 sends. Downsell: $300 template pack and setup checklist for buyers who cannot buy the full course.
 
-**Result:** Buyers who want speed take the upsell. Buyers who cannot afford the course still enter the ecosystem. Average order value and total buyer count both rise.
+**Illustrative result:** Buyers who want speed take the upsell. Buyers who cannot afford the course still enter the ecosystem. Average order value and total buyer count both rise.
 
 **Situation:** A SaaS product charges $99/month and struggles with activation.
 
 **Application:** Upsell: $499 onboarding concierge that sets up the account and imports data. Downsell: a $49 setup template for customers who decline concierge.
 
-**Result:** The concierge reduces churn among serious buyers, and the template gives price-sensitive buyers a structured path instead of leaving them confused.
+**Illustrative result:** The concierge reduces churn among serious buyers, and the template gives price-sensitive buyers a structured path instead of leaving them confused.
 
 ## Anti-Patterns (tactical)
 

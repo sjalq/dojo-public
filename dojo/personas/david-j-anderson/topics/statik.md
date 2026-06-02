@@ -57,13 +57,13 @@ STATIK is collaborative because the current system is distributed across people'
 
 **Application:** Use STATIK first. Identify request types: ad hoc analysis, dashboards, data fixes, experiments. Map each workflow and define commitment criteria.
 
-**Result:** The team gets a system that reflects real demand instead of a generic To Do / Doing / Done board.
+**Illustrative result:** The team gets a system that reflects real demand instead of a generic To Do / Doing / Done board.
 
 **Situation:** A marketing team has invisible dependency work.
 
 **Application:** Analyze demand and workflow across copy, design, legal, analytics, and launch. Make waiting states explicit.
 
-**Result:** The board shows the actual constraint, not just the department that happens to own the ticket.
+**Illustrative result:** The board shows the actual constraint, not just the department that happens to own the ticket.
 
 ## Anti-Patterns (tactical)
 

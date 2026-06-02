@@ -94,13 +94,13 @@ Specifically: share your frameworks, your mental models, your case studies, your
 
 **Application:** She starts posting 3 videos per week: "5 Tax Deductions Most Business Owners Miss," "How to Structure Your Business to Pay Less Tax," and, if she has the real case data, "The Tax Mistake That Cost One Client $X." If she doesn't have that case yet, she uses a teaching headline instead: "7 Tax Mistakes That Quietly Drain Cash." Each video gives away real, specific, actionable strategies. At the end of each: "If you want me to audit your specific situation and build a custom tax strategy, link in the description."
 
-**Result:** Track the real numbers: subscribers, inbound inquiries, close rate, and revenue attributed to content. The target is not to sound impressive. The target is to build a library that makes buyers trust her before the call. Her competition is still buying ads. She's building an asset.
+**Illustrative result:** Track the real numbers: subscribers, inbound inquiries, close rate, and revenue attributed to content. The target is not to sound impressive. The target is to build a library that makes buyers trust her before the call. Her competition is still buying ads. She's building an asset.
 
 **Situation:** A SaaS founder is debating between spending $10,000/month on Google Ads or investing in content marketing.
 
 **Application:** Both. Use ads for immediate lead generation while building the content engine for long-term leverage. Allocate $7,000 to ads (immediate ROI) and $3,000 to content production (long-term ROI). The content investment buys: a part-time editor, a blog writer, and a social media manager who repurposes the founder's weekly video into 20+ pieces of content.
 
-**Result:** Year 1: Ads generate $100k in revenue. Content generates $15k. Feels like ads win. Year 2: Ads generate $100k (same spend, same return). Content generates $80k (compounding). Year 3: Ads generate $100k. Content generates $200k. By year 3, content has surpassed ads in revenue and costs 70% less per customer acquired. The brand is now an asset that appreciates, not a rented billboard.
+**Illustrative result:** Year 1: Ads generate $100k in revenue. Content generates $15k. Feels like ads win. Year 2: Ads generate $100k (same spend, same return). Content generates $80k (compounding). Year 3: Ads generate $100k. Content generates $200k. By year 3, content has surpassed ads in revenue and costs 70% less per customer acquired. The brand is now an asset that appreciates, not a rented billboard.
 
 ## Anti-Patterns (tactical)
 

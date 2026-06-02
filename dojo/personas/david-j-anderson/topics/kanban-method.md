@@ -58,13 +58,13 @@ The board is not the method. The board is a surface where the method becomes vis
 
 **Application:** Add a WIP limit to Doing and Review. Define pull criteria. Make blocked work visible. Hold a weekly flow review looking at lead time, blocked time, and aging work.
 
-**Result:** The team stops treating the board as reporting and starts using it as a management system.
+**Illustrative result:** The team stops treating the board as reporting and starts using it as a management system.
 
 **Situation:** A service desk has constant escalations and no predictability.
 
 **Application:** Define request types, visualize queues, add WIP limits by work type, define expedite policy, and review demand versus capacity weekly.
 
-**Result:** Escalation becomes an explicit class of service instead of a daily political fight.
+**Illustrative result:** Escalation becomes an explicit class of service instead of a daily political fight.
 
 ## Anti-Patterns (tactical)
 

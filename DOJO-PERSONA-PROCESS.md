@@ -103,6 +103,8 @@ That's the complete deliverable. Everything else in this doc is the process to g
 
 ## Phase -1 — Build contract (`PERSONA_SPEC.yaml`)
 
+All new personas MUST use this strict process. Legacy mode exists only for personas that existed before the strict process and have not yet been materially reworked. Shipping a new persona without `PERSONA_SPEC.yaml`, deterministic validation, and a passing `PERSONA_REVIEW.json` is a process failure, not a legacy exception.
+
 Before fetching sources or drafting prose, create `dojo/personas/<slug>/PERSONA_SPEC.yaml` from `dojo/personas/_templates/PERSONA_SPEC.yaml`.
 
 This file is the contract for the new persona. It answers the questions that otherwise get discovered too late:
@@ -119,7 +121,7 @@ This file is the contract for the new persona. It answers the questions that oth
 **Strict vs legacy:**
 
 - Personas with `PERSONA_SPEC.yaml` run in **strict** validation mode.
-- Personas without it are treated as **legacy** and only produce warnings.
+- Personas without it are treated as **legacy** and only produce warnings if they already existed before the strict process.
 - Do not mass-migrate existing personas just to satisfy the new process. Add the spec when a persona is new or materially reworked.
 
 The spec should be filled progressively:

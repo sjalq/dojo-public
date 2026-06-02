@@ -56,13 +56,13 @@ WIP limits also expose system problems. If work cannot move, something is blocki
 
 **Application:** Limit active development and review. Stop starting new features until existing work moves. Create a blocked-work lane and review it daily.
 
-**Result:** The team sees that review and dependency waits, not coding speed, are the real constraint.
+**Illustrative result:** The team sees that review and dependency waits, not coding speed, are the real constraint.
 
 **Situation:** Executives keep adding "just one more priority."
 
 **Application:** Put a WIP limit on committed portfolio work. New work can enter only when something finishes or leadership explicitly abandons an existing commitment.
 
-**Result:** Priority becomes a tradeoff instead of an infinite list.
+**Illustrative result:** Priority becomes a tradeoff instead of an infinite list.
 
 ## Anti-Patterns (tactical)
 

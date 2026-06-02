@@ -84,13 +84,13 @@ The math here is simple. If you sell a $200/month service, you need 500 clients 
 
 **Application:** Stop selling hours. Create "The Revenue Acceleration System," a 90-day done-with-you program. Core offer: weekly strategy calls + implementation support. Bonus 1: Custom marketing audit ($2,000 value). Bonus 2: Competitor analysis report ($1,500 value). Bonus 3: Ad creative templates proven to convert ($997 value). Bonus 4: Copy-paste email sequences ($497 value). Guarantee: "Double your qualified leads in 90 days or I work with you for free until you do." Price: $5,000.
 
-**Result:** Instead of competing on hourly rate, the consultant sells a proprietary system with $5,000+ in bonuses, a strong guarantee, and a clear outcome. They need 2 clients per month instead of 33 billable hours per month. They work less, earn more, and clients get better results because there's a structured system.
+**Illustrative result:** Instead of competing on hourly rate, the consultant sells a proprietary system with $5,000+ in bonuses, a strong guarantee, and a clear outcome. They need 2 clients per month instead of 33 billable hours per month. They work less, earn more, and clients get better results because there's a structured system.
 
 **Situation:** An online course creator has a $97 course with a 2% conversion rate.
 
 **Application:** Restructure as "The [Result] Accelerator." Core: the same course content. Bonus 1: Weekly live Q&A calls for 8 weeks ($2,000 value). Bonus 2: Private community access ($500 value). Bonus 3: Done-for-you templates and swipe files ($997 value). Bonus 4: 1-on-1 kickoff call ($500 value). Guarantee: "Complete the program, do the work, and if you don't get [result], full refund." Price: $997.
 
-**Result:** Conversion rate might drop from 2% to 1%, but revenue per customer goes from $97 to $997. That's a 5x increase in revenue with fewer customers. And the customers who pay $997 actually complete the program, unlike the $97 buyers who never log in.
+**Illustrative result:** Conversion rate might drop from 2% to 1%, but revenue per customer goes from $97 to $997. That's a 5x increase in revenue with fewer customers. And the customers who pay $997 actually complete the program, unlike the $97 buyers who never log in.
 
 ## Anti-Patterns (tactical)
 
@@ -110,4 +110,4 @@ The math here is simple. If you sell a $200/month service, you need 500 clients 
 **Why:** Confusion kills conversion. Your offer should be explainable in 60 seconds. "You get X (core), plus Y, Z, and W (bonuses), guaranteed to produce [result] or [guarantee]. It's [price], and I only have [scarcity] spots." If it takes longer than that, simplify.
 
 **Don't:** Ignore the fulfillment side.
-**Why:** I've seen people create incredible offers, close 50 clients, and then realize they promised weekly 1-on-1 calls to all 50. That's 50 calls a week. The business implodes. Design your offer so you can actually deliver it at scale. Group calls instead of 1-on-1. Recorded trainings instead of live. Templates instead of custom work. The offer has to be profitable AND deliverable.
+**Why:** A great offer can still kill the business if delivery does not scale. Promise weekly 1-on-1 calls to 50 buyers and you just created 50 calls a week. Design your offer so you can actually deliver it at scale. Group calls instead of 1-on-1. Recorded trainings instead of live. Templates instead of custom work. The offer has to be profitable AND deliverable.

@@ -56,13 +56,13 @@ Kanban improvement should move capability toward these fitness criteria. Otherwi
 
 **Application:** Segment requests. Executives may need fast directional answers; finance may need precision and auditability. Define fitness criteria by segment.
 
-**Result:** The team stops optimizing a generic queue and starts designing service policies by customer purpose.
+**Illustrative result:** The team stops optimizing a generic queue and starts designing service policies by customer purpose.
 
 **Situation:** A SaaS support team tracks average response time but enterprise customers still churn.
 
 **Application:** Ask what enterprise customers need: predictable resolution, escalation visibility, and risk communication. Add fitness criteria beyond first response.
 
-**Result:** Improvement targets match the reason customers buy support.
+**Illustrative result:** Improvement targets match the reason customers buy support.
 
 ## Anti-Patterns (tactical)
 

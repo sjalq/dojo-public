@@ -92,13 +92,13 @@ Each level funds the next. The person who starts as a salesperson, builds a sale
 
 Level 4 addition: Start posting daily copywriting breakdowns on LinkedIn. Within 6 months, inbound leads replace outbound prospecting. Within a year, the content becomes a course ($997) that sells 20 copies/month on autopilot. That's an extra $19,940/month from content leverage.
 
-**Result:** From $10,000/month (50 hours) to $38,940/month (30 hours). Same core skill, two types of leverage applied.
+**Illustrative result:** From $10,000/month (50 hours) to $38,940/month (30 hours). Same core skill, two types of leverage applied.
 
 **Situation:** An agency owner with 20 employees doing $500k/month (Level 2), working 70 hours/week because they're involved in every decision.
 
 **Application:** The bottleneck isn't more labor. It's that the labor isn't leveraged properly. Solution: build SOPs and playbooks for every recurring process (adding code leverage to labor). Hire a COO to manage day-to-day operations (leveraging labor at the management level). Use freed time to record case studies and frameworks on YouTube (adding media leverage). Take 20% of profits and invest in 2-3 complementary businesses (adding capital leverage).
 
-**Result:** Revenue stays at $500k or grows to $650k from the content-driven inbound leads. But the owner's hours drop from 70 to 25 per week. The investments generate an additional $100k/year in passive income. Total leverage stack: labor + code (SOPs) + media (YouTube) + capital (investments).
+**Illustrative result:** Revenue stays at $500k or grows to $650k from the content-driven inbound leads. But the owner's hours drop from 70 to 25 per week. The investments generate an additional $100k/year in passive income. Total leverage stack: labor + code (SOPs) + media (YouTube) + capital (investments).
 
 ## Anti-Patterns (tactical)
 

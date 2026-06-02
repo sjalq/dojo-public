@@ -95,13 +95,13 @@ Combine all four and you're at $50,000+/month. That's the power of the Core Four
 
 **Application:** Week 1-4: Warm outreach. Message 200 past colleagues and connections asking if they know any business owners struggling with [specific problem]. Book 15 discovery calls, close 3 at $2,000. Revenue: $6,000. Week 5-8: Cold outreach. Use LinkedIn to find 500 business owners in target niche. Send personalized connection requests and messages. Book 10 calls, close 2. Revenue: $4,000. Week 9-12: Start posting daily on LinkedIn about frameworks and client results. Begin building audience.
 
-**Result:** $10,000 in revenue in 8 weeks with zero ad spend. Content starts compounding. By month 6, inbound leads from content reduce the need for outreach.
+**Illustrative result:** $10,000 in revenue in 8 weeks with zero ad spend. Content starts compounding. By month 6, inbound leads from content reduce the need for outreach.
 
 **Situation:** An established SaaS company doing $50k/month from paid ads only. Worried about ad platform dependency.
 
 **Application:** Keep paid ads running. Add cold email campaign targeting ideal customer profile (1,000 emails/week). Start a YouTube channel with weekly tutorials and case studies. Launch a customer referral program offering one month free for each referral.
 
-**Result:** Within 6 months: paid ads still at $50k. Cold email adds $15k. YouTube starts generating $5k in inbound. Referral program adds $10k. Total: $80k/month with significantly reduced dependency on any single channel.
+**Illustrative result:** Within 6 months: paid ads still at $50k. Cold email adds $15k. YouTube starts generating $5k in inbound. Referral program adds $10k. Total: $80k/month with significantly reduced dependency on any single channel.
 
 ## Anti-Patterns (tactical)
 

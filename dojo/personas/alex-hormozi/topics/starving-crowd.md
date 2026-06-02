@@ -107,13 +107,13 @@ A score above 35 is a great market. 25-35 is workable. Below 25, pick a differen
 - Dentists: Pain 8 (revenue is everything), Purchasing power 9 (high income), Targeting 9 (license databases, dental conferences), Competition 8, Expertise 6. Total: 40.
 - Retirees: Pain 7 (running out of money is scary), Purchasing power 7 (varies widely), Targeting 4 (hard to find online), Competition 9, Expertise 3. Total: 30.
 
-**Result:** Dentists win by a landslide. High pain, high purchasing power, easy to target, proven market. The entrepreneur focuses there, reaches out to 50 dentists, validates in 2 weeks, and has paying clients within a month.
+**Illustrative result:** Dentists win by a landslide. High pain, high purchasing power, easy to target, proven market. The entrepreneur focuses there, reaches out to 50 dentists, validates in 2 weeks, and has paying clients within a month.
 
 **Situation:** A marketing consultant has been trying to sell to "small businesses" for a year with mediocre results.
 
 **Application:** "Small businesses" is not a market. It's a category containing millions of completely different businesses with different problems, different budgets, and different needs. The consultant narrows: What type of small business has the highest pain, highest purchasing power, and is easiest to target? She analyzes her past clients and discovers her best results were with e-commerce businesses doing $500k-$2M/year who wanted to scale paid ads. She niches down to that exact market.
 
-**Result:** Her messaging goes from "I help small businesses grow" to "I help e-commerce brands doing $500k-$2M scale to $5M through paid social advertising." Close rate jumps from 10% to 35%. Price goes from $2,000/month to $5,000/month. Referrals increase because her clients all know each other (e-commerce founders talk to other e-commerce founders).
+**Illustrative result:** Her messaging goes from "I help small businesses grow" to "I help e-commerce brands doing $500k-$2M scale to $5M through paid social advertising." Close rate jumps from 10% to 35%. Price goes from $2,000/month to $5,000/month. Referrals increase because her clients all know each other (e-commerce founders talk to other e-commerce founders).
 
 ## Anti-Patterns (tactical)
 

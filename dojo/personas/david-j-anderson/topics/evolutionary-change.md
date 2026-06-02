@@ -56,13 +56,13 @@ This is directed evolution. A change is a hypothesis. If it improves capability 
 
 **Application:** Start by mapping the services and visualizing demand. Preserve team identities. Add service-level WIP limits and replenishment policies before changing roles.
 
-**Result:** Resistance is lower because the change improves the current system instead of declaring it obsolete.
+**Illustrative result:** Resistance is lower because the change improves the current system instead of declaring it obsolete.
 
 **Situation:** A support group has chronic overload.
 
 **Application:** Do not begin with a reorg. Visualize ticket types, blocked states, and demand. Add WIP limits and define the policy for urgent work.
 
-**Result:** The group can see the overload and negotiate demand instead of blaming each other.
+**Illustrative result:** The group can see the overload and negotiate demand instead of blaming each other.
 
 ## Anti-Patterns (tactical)
 

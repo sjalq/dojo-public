@@ -81,13 +81,13 @@ Every variable in this equation is a lever you can pull. Most business owners on
 
 Now engineer it. Dream outcome: Don't sell a website. Sell "a client acquisition system that generates 20+ leads per month." That's a 9. Perceived likelihood: Include a guarantee, "If you don't get 20 leads in the first 60 days, we rebuild it for free and you keep the original." Include 5 case studies. That's a 7. Time delay: Launch an MVP landing page in 7 days, full site in 30 days. That's a 3. Effort: You write all the copy, you handle hosting, you set up analytics. Client just approves. That's a 2. Value = 63/6 = 10.5.
 
-**Result:** They can now charge $10,000+ and close 4 out of 10 proposals. Same skills. Same team. Completely different offer. The value equation changed everything.
+**Illustrative result:** They can now charge $10,000+ and close 4 out of 10 proposals. Same skills. Same team. Completely different offer. The value equation changed everything.
 
 **Situation:** A SaaS product has a free trial conversion rate of 3%. Users sign up but don't activate.
 
 **Application:** The time delay and effort variables are killing them. Users sign up, see a blank dashboard, and have to figure out 47 features. Time to value is measured in weeks. Solution: Pre-populate the dashboard with sample data (reduces effort). Create a "quick win" onboarding that gets one meaningful result in under 5 minutes (reduces time delay). Add real social proof if it exists: "[real number] businesses use this to save [verified result]." If the proof doesn't exist yet, show process transparency, usage milestones, and a guarantee instead of inventing numbers.
 
-**Result:** Trial conversion jumps to 11%. The product didn't change. The experience of the first 5 minutes changed.
+**Illustrative result:** Trial conversion jumps to 11%. The product didn't change. The experience of the first 5 minutes changed.
 
 ## Anti-Patterns (tactical)
 

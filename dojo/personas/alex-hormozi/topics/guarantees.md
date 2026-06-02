@@ -63,7 +63,7 @@ The math almost always works out in your favor. The only time it doesn't is when
 
 **Stacking guarantees.** You can combine types. "I guarantee you'll get 20 new clients in 90 days (conditional). And if at any point in the first 30 days you feel this isn't for you, money back no questions asked (unconditional)." The 30-day unconditional handles the "what if I don't like it" fear. The 90-day conditional handles the "what if it doesn't work" fear. You've addressed both objections with one stacked guarantee.
 
-**The outrageous guarantee.** Want to really stand out? Go beyond refund. "If you don't get the result, I'll refund your money AND pay you $500 for wasting your time." This is so strong that it stops people in their tracks. It communicates absolute confidence. The math still works because the conversion increase more than covers the rare payout. I've seen businesses use this to 3x their close rate overnight.
+**The outrageous guarantee.** Want to really stand out? Go beyond refund. "If you don't get the result, I'll refund your money AND pay you $500 for wasting your time." This is so strong that it stops people in their tracks. It communicates absolute confidence. The math can work when the conversion lift more than covers the rare payout, but only use this when fulfillment is proven and abuse risk is controlled.
 
 ## How to Apply
 
@@ -87,13 +87,13 @@ The math almost always works out in your favor. The only time it doesn't is when
 
 **Application:** Add a conditional guarantee: "Implement the system for 90 days. If you don't add at least $10,000 in new monthly revenue, I'll refund the full program fee." Condition: attend all calls, complete all assignments, implement the three core strategies.
 
-**Result:** Close rate jumps from 15% to 30%. Say they talk to 200 qualified prospects a year. Before the guarantee: 200 x 15% = 30 clients x $10,000 = $300,000. After the guarantee: 200 x 30% = 60 clients x $10,000 = $600,000. Four clients request refunds (4% refund rate), so that's $40,000 back. Net revenue: $560,000. The guarantee added $260,000 in revenue and cost $40,000 in refunds. That's a 6.5x return on the risk.
+**Illustrative result:** Close rate jumps from 15% to 30%. Say they talk to 200 qualified prospects a year. Before the guarantee: 200 x 15% = 30 clients x $10,000 = $300,000. After the guarantee: 200 x 30% = 60 clients x $10,000 = $600,000. Four clients request refunds (4% refund rate), so that's $40,000 back. Net revenue: $560,000. The guarantee added $260,000 in revenue and cost $40,000 in refunds. That's a 6.5x return on the risk.
 
 **Situation:** An e-commerce brand sells a $49 skincare product. Return rate is 2% but conversion rate is low at 1.5%.
 
 **Application:** Add an unconditional 60-day money-back guarantee prominently on the product page. "Try it for 60 days. If your skin doesn't look and feel dramatically better, send it back for a full refund. We'll even pay return shipping."
 
-**Result:** Conversion rate jumps from 1.5% to 3.2%. Return rate increases from 2% to 4%. On 100,000 visitors: before, 1,500 sales minus 30 returns = 1,470 x $49 = $72,030. After: 3,200 sales minus 128 returns = 3,072 x $49 = $150,528. The guarantee doubled revenue despite doubling the return rate.
+**Illustrative result:** Conversion rate jumps from 1.5% to 3.2%. Return rate increases from 2% to 4%. On 100,000 visitors: before, 1,500 sales minus 30 returns = 1,470 x $49 = $72,030. After: 3,200 sales minus 128 returns = 3,072 x $49 = $150,528. The guarantee doubled revenue despite doubling the return rate.
 
 ## Anti-Patterns (tactical)
 

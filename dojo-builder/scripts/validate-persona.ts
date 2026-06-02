@@ -226,20 +226,30 @@ function validateRules(findings: Finding[], slug: string, text: string, spec: Pe
   });
 }
 
-function validateProofHeuristics(findings: Finding[], slug: string, text: string, spec: PersonaSpec): void {
+function validateProofHeuristics(
+  findings: Finding[],
+  slug: string,
+  text: string,
+  spec: PersonaSpec,
+  label = "persona.md",
+): void {
   const policy = isRecord(spec.proof_policy) ? spec.proof_policy : {};
   if (policy.invented_numbers_allowed !== false) return;
+
+  if (/\*\*Result:\*\*/.test(text)) {
+    add(findings, "warn", slug, `${label} uses **Result:**; use **Illustrative result:** or source-backed proof labeling`);
+  }
 
   const suspicious = [
     /most of our clients (generate|save|achieve)/i,
     /helped \d+ (clients|customers|companies)/i,
     /we found an average of \$?\d/i,
-    /\d+(?:\.\d+)?% (higher|increase|decrease|improvement)/i,
+    /(clients|customers|companies|users|teams).{0,80}\d+(?:\.\d+)?% (higher|increase|decrease|improvement)/i,
   ];
 
   for (const pattern of suspicious) {
-    if (pattern.test(text) && !/\[real number\]|\$X|verified|if you have proof|if true/i.test(text)) {
-      add(findings, "warn", slug, `possible proof-shaped claim without visible placeholder/proof guard: ${pattern}`);
+    if (pattern.test(text) && !/\[real number\]|\$X|verified|if you have proof|if your .* data supports|if true/i.test(text)) {
+      add(findings, "warn", slug, `${label} has possible proof-shaped claim without visible placeholder/proof guard: ${pattern}`);
     }
   }
 }
@@ -450,6 +460,7 @@ function validatePersona(slug: string): Finding[] {
     if (!registeredTopicFiles.has(topicFile)) {
       add(findings, "error", slug, `${topicFile} is not registered in PERSONA_SPEC.yaml frameworks`);
     }
+    validateProofHeuristics(findings, slug, readFileSync(full, "utf8"), spec, topicFile);
   }
 
   const voicePlan = isRecord(spec.voice_plan) ? spec.voice_plan : {};

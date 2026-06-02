@@ -94,13 +94,13 @@ With the lead magnet funnel, you can afford to spend MORE on ads because your co
 
 **Application:** Create a "Tax Deduction Checklist for Small Businesses: 47 Write-Offs You're Probably Missing." It's narrow (tax deductions only), complete (all 47 with explanations), immediately actionable (they can check which ones they're missing), and it naturally leads to the paid offer ("Found deductions you're missing? We'll handle all of this for you every month so you never leave money on the table.")
 
-**Result:** 40% opt-in rate because the promise is specific and the pain is real. 60% of opt-ins actually use the checklist and discover they're missing $5,000-$20,000 in deductions. 15% of those convert to the monthly service because they realize they need professional help. The lead magnet pays for itself from the first client.
+**Illustrative result:** 40% opt-in rate because the promise is specific and the pain is real. 60% of opt-ins actually use the checklist and discover they're missing $5,000-$20,000 in deductions. 15% of those convert to the monthly service because they realize they need professional help. The lead magnet pays for itself from the first client.
 
 **Situation:** A software development agency wants to land $50,000+ custom software projects.
 
 **Application:** Offer a "Free Technical Audit: We'll Analyze Your Current System and Deliver a 10-Page Report on Performance, Security, and Scalability." This is type 4 (assessment/audit). It takes the agency 4 hours to complete but the perceived value is enormous. The audit reveals problems the prospect didn't know existed, creating urgency for the fix, which is a custom development project.
 
-**Result:** 70% of businesses that receive the audit have a follow-up meeting. 30% of follow-up meetings convert to projects. The agency does 4 audits per month, converts 1-2 into $50,000+ projects. The 4 hours per audit is the best marketing investment they make.
+**Illustrative result:** 70% of businesses that receive the audit have a follow-up meeting. 30% of follow-up meetings convert to projects. The agency does 4 audits per month, converts 1-2 into $50,000+ projects. The 4 hours per audit is the best marketing investment they make.
 
 ## Anti-Patterns (tactical)
 

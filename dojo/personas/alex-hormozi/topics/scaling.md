@@ -60,7 +60,7 @@ Most people start at #5. That's backwards. Fixing conversion first means every f
 
 **New** means add new channels, new offers, or new markets. This is LAST. Not first. Only after you've exhausted "more" and "better" on your current setup should you add something new. Because "new" has the highest failure rate, the highest learning curve, and the highest opportunity cost.
 
-Here's the real reason this order matters: focus. Every "new" thing splits your attention. If you're running cold email, paid ads, YouTube, a podcast, two product lines, and three market segments, you're running them all at 15% of your potential. But if you're running cold email at 100% of your potential, with a team, systems, and optimization, that one channel can do $500,000/month. I've seen it.
+Here's the real reason this order matters: focus. Every "new" thing splits your attention. If you're running cold email, paid ads, YouTube, a podcast, two product lines, and three market segments, you're running them all at 15% of your potential. But if you're running cold email at 100% of your potential, with a team, systems, and optimization, that one channel can become the whole growth engine.
 
 **The revenue math of More vs New:**
 
@@ -94,13 +94,13 @@ The more/better path gets you to $225k/month in 90 days with low risk and low co
 
 **Application:** More: How many DMs are you sending per day? "Maybe 5-10." That's your problem. You could easily do 50. And how many referral partners are actively sending you leads? "Two." Get 10. Before touching a podcast or course, max out warm outreach. 50 DMs/day + 10 referral partners could easily 3x the business.
 
-**Result:** Instead of splitting focus across coaching, a podcast, and a course (and probably sucking at all three), the founder focuses on warm outreach. Revenue goes from $40k to $110k/month in 90 days. Now there's cash flow to hire a podcast producer and a course development team, so the "new" channels get proper attention when they launch.
+**Illustrative result:** Instead of splitting focus across coaching, a podcast, and a course (and probably sucking at all three), the founder focuses on warm outreach. Revenue goes from $40k to $110k/month in 90 days. Now there's cash flow to hire a podcast producer and a course development team, so the "new" channels get proper attention when they launch.
 
 **Situation:** An agency doing $200k/month from Facebook ads and cold email. Close rate is 18%.
 
 **Application:** "More" is partially maxed (ad spend is at diminishing returns territory, cold email is at 500/day). Time for "better." The close rate of 18% means 82% of qualified leads are saying no. Moving close rate from 18% to 27% (50% improvement) would increase revenue from $200k to $300k/month. That's $1.2M/year in additional revenue from improving one metric. Solution: record all sales calls, identify the three most common objections, build specific handling for each, train the team, and role-play weekly.
 
-**Result:** Close rate goes to 25% in 60 days. Revenue jumps to $278k/month. That's an additional $936k/year from "better" alone, with zero additional ad spend, zero additional outreach, and zero new channels.
+**Illustrative result:** Close rate goes to 25% in 60 days. Revenue jumps to $278k/month. That's an additional $936k/year from "better" alone, with zero additional ad spend, zero additional outreach, and zero new channels.
 
 ## Anti-Patterns (tactical)
 

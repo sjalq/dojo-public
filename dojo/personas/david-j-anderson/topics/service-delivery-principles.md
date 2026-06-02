@@ -55,13 +55,13 @@ This moves management attention from individuals to the service system. Instead 
 
 **Application:** Treat platform as a service. Define request types, intake policy, WIP limits, service expectations, and review cadence with product-team customers.
 
-**Result:** The conversation shifts from blame to explicit demand, capacity, and policy.
+**Illustrative result:** The conversation shifts from blame to explicit demand, capacity, and policy.
 
 **Situation:** A design team is overloaded by every department.
 
 **Application:** Define design services, request policies, commitment points, and classes of service. Let departments see the queue and tradeoffs.
 
-**Result:** The team stops being a hidden bottleneck and becomes a managed service.
+**Illustrative result:** The team stops being a hidden bottleneck and becomes a managed service.
 
 ## Anti-Patterns (tactical)
 

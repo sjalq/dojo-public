@@ -78,11 +78,41 @@ Corpus for the Alex Hormozi persona. Audiobooks freely distributed via official 
   extracted: content/podcasts/money-models-part-9.md
   added: 2026-06-02
 
-- title: How $100M Money Models Broke the Internet | Ep 895
-  source: https://podcasts.apple.com/us/podcast/how-%24100m-money-models-broke-the-internet-ep-895/id1254720112?i=1000724974294
+- title: How $100M Money Models Broke the Internet | Ep 949
+  source: https://podcasts.apple.com/us/podcast/how-%24100m-money-models-broke-the-internet-ep-949/id1254720112?i=1000724974294
   type: solo
   extracted: content/podcasts/money-models-launch.md
   added: 2026-06-02
+
+## Official Pages and Context
+
+- title: $100M Money Models Audiobook / Training Page
+  source: https://www.acquisition.com/training/money/audiobook
+  type: official-current-page
+  extracted: content/articles/acquisition-money-models-audiobook.md
+  added: 2026-06-02
+  notes: Official Acquisition.com training page. Current public page for Money Models modules, offer-stack structure, and audiobook access.
+
+- title: $100M Series + Workbooks
+  source: https://shop.acquisition.com/products/100m-series-workbooks
+  type: official-current-page
+  extracted: content/articles/100m-series-workbooks.md
+  added: 2026-06-02
+  notes: Official shop page confirming the three core books: $100M Offers, $100M Leads, and $100M Money Models.
+
+- title: Acquisition.com Scaling Workshop Founder Bio
+  source: https://www.acquisition.com/ws
+  type: official-profile
+  extracted: content/articles/acquisition-founder-bio.md
+  added: 2026-06-02
+  notes: Factual grounding for Acquisition.com, portfolio revenue, prior companies, and founder profile. Do not use for voice.
+
+- title: Naval Ravikant Leverage Map Context
+  source: https://www.navalmanack.com/almanack-of-naval-ravikant/understanding-how-wealth-is-created
+  type: context-attribution
+  extracted: content/context/naval-leverage-map.md
+  added: 2026-06-02
+  notes: Attribution source for the labor/capital/code/media leverage map. Context only; not Hormozi voice.
 
 ## YouTube
 

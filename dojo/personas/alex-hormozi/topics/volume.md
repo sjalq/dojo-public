@@ -96,13 +96,13 @@ The same is true in business. The entrepreneur who has made 5,000 cold calls, po
 
 **Application:** How often did you post? "2-3 times per week." That's about 36 posts in 3 months. The average LinkedIn post reaches maybe 500 people. That's 18,000 impressions over 3 months, or 200 per day. That's not enough. The fix: post 2x per day (one text post, one video/carousel). That's 180 posts over 3 months, reaching 90,000+ people. At a 1% lead conversion rate, that's 900 leads. At 5% conversion, that's 45 clients.
 
-**Result:** The coach went from 2 clients in 3 months to 45 by simply doing 5x the volume. The strategy didn't change. The content quality was roughly the same. The volume was the variable.
+**Illustrative result:** The coach went from 2 clients in 3 months to 45 by simply doing 5x the volume. The strategy didn't change. The content quality was roughly the same. The volume was the variable.
 
 **Situation:** A SaaS founder says "cold email is dead, we sent 500 emails last month and got 3 demos."
 
 **Application:** 500 emails is 25 per business day. That's not a campaign; that's a hobby. The fix: send 100 per day (2,000 per month). Test 5 different subject lines, 5 different openers, 5 different CTAs. With 2,000 emails, you have statistical significance to know what works. The 3 demos from 500 emails (0.6% conversion) was probably within the noise. At 2,000 emails, a 0.6% rate gives you 12 demos, enough to start optimizing.
 
-**Result:** At 2,000 emails per month, the founder ran enough tests to improve the reply rate from 0.6% to 2.5% within 6 weeks. That's 50 demos per month. Closing 20% of those: 10 new customers per month. For a SaaS with $500 MRR, that's $5,000 in new MRR per month. All from increasing volume and using the data to optimize.
+**Illustrative result:** At 2,000 emails per month, the founder ran enough tests to improve the reply rate from 0.6% to 2.5% within 6 weeks. That's 50 demos per month. Closing 20% of those: 10 new customers per month. For a SaaS with $500 MRR, that's $5,000 in new MRR per month. All from increasing volume and using the data to optimize.
 
 ## Anti-Patterns (tactical)
 

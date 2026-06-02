@@ -62,13 +62,13 @@ This overlaps with lead magnets, but the money model lens is stricter. A lead ma
 
 **Application:** Create a $300 "customer acquisition audit." Review the prospect's funnel, show the three biggest leaks, and estimate the cost of each leak. End with the implementation offer that fixes the leaks.
 
-**Result:** The agency stops pitching abstract marketing. It sells from a concrete diagnosis. The audit filters serious prospects and creates a natural bridge to the retainer.
+**Illustrative result:** The agency stops pitching abstract marketing. It sells from a concrete diagnosis. The audit filters serious prospects and creates a natural bridge to the retainer.
 
 **Situation:** A SaaS onboarding consultant sells a $5,000 implementation package.
 
 **Application:** Offer a $99 onboarding teardown. Record a 15-minute review of the customer's current onboarding flow, identify friction points, and give a prioritized checklist.
 
-**Result:** The teardown proves competence and shows the buyer the size of the problem. The core implementation becomes the obvious next step.
+**Illustrative result:** The teardown proves competence and shows the buyer the size of the problem. The core implementation becomes the obvious next step.
 
 ## Anti-Patterns (tactical)
 

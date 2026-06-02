@@ -79,13 +79,13 @@ The rule: every offer in the model must make sense from the customer's point of 
 
 **Application:** Build the model. Attraction offer: a $29 implementation checklist with templates. Core offer: the $997 course. Upsell: a $2,500 done-with-you implementation sprint. Downsell: a $297 template pack for people who decline the course. Continuity: $99/month office hours and accountability. Winback: quarterly "implementation week" for former buyers.
 
-**Result:** The business no longer depends on the first $997 purchase alone. Some customers enter cheaply, some buy help, some stay monthly, and former buyers have a reason to come back.
+**Illustrative result:** The business no longer depends on the first $997 purchase alone. Some customers enter cheaply, some buy help, some stay monthly, and former buyers have a reason to come back.
 
 **Situation:** A service business charges $5,000 for a project and then waits for referrals.
 
 **Application:** Attraction offer: a $500 audit. Core offer: the $5,000 implementation. Upsell: ongoing optimization for $2,000/month. Downsell: a self-serve implementation plan for $1,000. Continuity: monthly reporting and review. Winback: annual re-audit.
 
-**Result:** The audit lowers buying friction, the implementation creates the result, and continuity turns one-time projects into predictable revenue.
+**Illustrative result:** The audit lowers buying friction, the implementation creates the result, and continuity turns one-time projects into predictable revenue.
 
 ## Anti-Patterns (tactical)
 

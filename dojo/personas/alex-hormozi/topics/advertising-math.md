@@ -119,13 +119,13 @@ If your ratio is 10:1, you should be INCREASING ad spend until the ratio drops t
 
 **Application:** The gym owner is only counting the first month's revenue. Average member stays 9 months. LTV = $150 x 9 = $1,350. CAC = $3,000 / 3 = $1,000. Ratio: 1.35:1. Still not great. But now we fix it. Step 1: Add a $500 "6-week transformation challenge" as the front-end offer instead of a $150 membership. 3 signups x $500 = $1,500. That covers the ad spend immediately. Step 2: Upsell challenge completers into the $150/month membership. 80% convert = 2.4 members. LTV of a challenge customer who becomes a member: $500 + ($150 x 9) = $1,850. Step 3: Add a nutrition coaching upsell at $100/month. 50% take it. Adjusted LTV: ~$2,200. New ratio: $2,200 / $1,000 = 2.2:1. Better but not great. Step 4: Improve the funnel. The 10-out-of-30 lead-to-trial rate is low. Better follow-up bumps it to 15. The 3-out-of-10 trial-to-signup rate is low. Better trial experience bumps it to 5. New CAC: $3,000 / 5 = $600. New ratio: $2,200 / $600 = 3.67:1.
 
-**Result:** Same $3,000 ad spend. Same market. Revenue goes from "$450/month" (the wrong calculation) to $11,000 over the customer lifetime per cohort (the right calculation). And the ratio supports scaling ad spend to $10,000/month and beyond.
+**Illustrative result:** Same $3,000 ad spend. Same market. Revenue goes from "$450/month" (the wrong calculation) to $11,000 over the customer lifetime per cohort (the right calculation). And the ratio supports scaling ad spend to $10,000/month and beyond.
 
 **Situation:** A SaaS company charges $49/month with an average churn rate of 8% per month (average customer stays ~12.5 months). CAC is $200. LTV is $612. Ratio: 3.06:1.
 
 **Application:** The ratio is barely healthy. Two paths: reduce CAC or increase LTV. LTV path: Reduce churn from 8% to 5% (improve onboarding, add customer success). New average retention: 20 months. New LTV: $980. Add an annual plan at $470/year (2 months free) that locks in retention. 30% of customers take it. Blended LTV: ~$1,100. CAC path: Improve trial conversion from 10% to 15% through better onboarding email sequence. New CAC: $133. New ratio: $1,100 / $133 = 8.27:1.
 
-**Result:** From a barely-profitable 3:1 ratio to a "scale aggressively" 8.27:1 ratio. The SaaS can now spend 2-3x more on ads, acquire 2-3x more customers, and still maintain healthy unit economics. The compounding effect of lower churn and higher LTV transforms the business from surviving to thriving.
+**Illustrative result:** From a barely-profitable 3:1 ratio to a "scale aggressively" 8.27:1 ratio. The SaaS can now spend 2-3x more on ads, acquire 2-3x more customers, and still maintain healthy unit economics. The compounding effect of lower churn and higher LTV transforms the business from surviving to thriving.
 
 ## Anti-Patterns (tactical)
 

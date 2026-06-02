@@ -100,13 +100,13 @@ Plus, the sales cycle compression matters. Closing in 7 days instead of 30 means
 
 **Application:** Capacity scarcity (20 spots, real) combined with enrollment urgency (applications close 2 weeks before cohort starts). The launch sequence: 4 weeks out, announce the next cohort and open applications. 3 weeks out, share a case study and mention 8 spots are taken. 2 weeks out, share FAQ and mention 14 spots taken. 1 week out, share testimonial and mention 3 spots remaining. 3 days out, "final 2 spots." Day of close, "last chance, enrollment closes at midnight."
 
-**Result:** Every cohort fills within the 4-week launch window. The coach creates a waitlist for overflow, which seeds the next cohort. Because the scarcity is real (the group calls genuinely can't accommodate more than 20), the market trusts it. People who've been on the fence for months finally act because they see spots disappearing.
+**Illustrative result:** Every cohort fills within the 4-week launch window. The coach creates a waitlist for overflow, which seeds the next cohort. Because the scarcity is real (the group calls genuinely can't accommodate more than 20), the market trusts it. People who've been on the fence for months finally act because they see spots disappearing.
 
 **Situation:** A SaaS company wants to increase trial-to-paid conversion from 8% to 15%.
 
 **Application:** Enrollment urgency via bonus expiration. During the 14-day free trial: "Upgrade in the first 7 days and get 3 months at 50% off, plus our premium onboarding package (worth $500) for free." Day 1: welcome email with offer. Day 4: "3 days left for the early upgrade bonus." Day 7: "Last day for the 50% off bonus." After day 7: the offer genuinely expires and they pay full price.
 
-**Result:** 40% of conversions now happen in the first 7 days (vs. all 14 before). Trial-to-paid conversion goes from 8% to 14%. The revenue per trial user increases because the compressed timeline reduces the chance of the user forgetting or losing motivation. The 50% discount for 3 months costs less than the revenue gained from the higher conversion rate.
+**Illustrative result:** 40% of conversions now happen in the first 7 days (vs. all 14 before). Trial-to-paid conversion goes from 8% to 14%. The revenue per trial user increases because the compressed timeline reduces the chance of the user forgetting or losing motivation. The 50% discount for 3 months costs less than the revenue gained from the higher conversion rate.
 
 ## Anti-Patterns (tactical)
 

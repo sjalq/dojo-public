@@ -4,9 +4,11 @@ expert_name: Example Expert
 persona_type: framework_author
 status: strict
 
-# Create this file before drafting a new persona. It is the build contract:
-# fetch until source_targets are satisfied, register frameworks before writing
-# topics, then validate persona.md/topics against this spec.
+# All new personas MUST use this strict spec. Legacy mode exists only for
+# personas that existed before this process. Create this file before drafting a
+# new persona. It is the build contract: fetch until source_targets are
+# satisfied, register frameworks before writing topics, then validate
+# persona.md/topics against this spec.
 #
 # persona_type options:
 # - active_operator: current operator/advisor; requires latest-work check and recent spoken source.

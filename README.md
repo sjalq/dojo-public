@@ -121,7 +121,7 @@ The full ten-phase process is in [`DOJO-PERSONA-PROCESS.md`](DOJO-PERSONA-PROCES
 
 ## Build your own expert
 
-Adding a persona is a multi-phase process. The full guide lives in [`DOJO-PERSONA-PROCESS.md`](DOJO-PERSONA-PROCESS.md) — it walks through corpus acquisition, extraction, framework authoring, voice samples, validation, and publishing.
+Adding a persona is a multi-phase process. All new personas must use the strict path: create `PERSONA_SPEC.yaml` before fetching or drafting, satisfy the source and latest-work contract, register framework ownership, write `PERSONA_REVIEW.json`, and pass deterministic validation. The full guide lives in [`DOJO-PERSONA-PROCESS.md`](DOJO-PERSONA-PROCESS.md) — it walks through corpus acquisition, extraction, framework authoring, voice samples, validation, and publishing.
 
 The corpus-acquisition tools (`scripts/fetch-youtube.ts`, `fetch-articles.ts`, `apple-podcast-transcript.py`, `transcribe-audio.py`, `epub-to-markdown.py`, etc.) are in this repo. Copy `scripts/.env.example` to `scripts/.env` and fill in keys (OpenAI, Firecrawl) before running them.
 

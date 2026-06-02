@@ -94,13 +94,13 @@ Step 4: Stack them so the total bonus value exceeds the price of the core offer.
 
 **Application:** Bonus 1 (addresses "how do I know"): "Real-Time Dashboard: a custom SEO dashboard you can check anytime showing rankings, traffic, and revenue attributed to organic search. Normally $500/month as a standalone tool." Bonus 2 (addresses "takes too long"): "Quick Win Audit: in the first 7 days, we identify and fix the 5 highest-impact technical SEO issues on your site, so you start seeing ranking improvements within 2-4 weeks instead of 3-6 months. This audit alone costs $1,500 when purchased separately." Bonus 3 (addresses "been burned before"): "90-Day Performance Guarantee: if organic traffic doesn't increase by at least 30% in 90 days, we work for free until it does. Plus, keep all the optimizations we've already made."
 
-**Result:** The bonus stack addresses all three primary objections directly. Close rate goes from 20% to 38%. Revenue per 100 qualified leads goes from $60,000/month recurring to $114,000/month recurring. The bonuses cost about $300/month per client to deliver (the dashboard is mostly automated, the audit is a standardized process). Massive net gain.
+**Illustrative result:** The bonus stack addresses all three primary objections directly. Close rate goes from 20% to 38%. Revenue per 100 qualified leads goes from $60,000/month recurring to $114,000/month recurring. The bonuses cost about $300/month per client to deliver (the dashboard is mostly automated, the audit is a standardized process). Massive net gain.
 
 **Situation:** An online course priced at $497. Objections: "I've bought courses before and never finished." "What if I get stuck?" "I'm not sure this applies to my specific situation."
 
 **Application:** Bonus 1 ("never finished"): "Accountability Partner Matching: we pair you with another student at your level who's working through the course at the same time. You'll have weekly check-in calls to keep each other on track. Value: $500." Bonus 2 ("get stuck"): "Weekly Office Hours for 8 weeks: live group Q&A where you can ask anything and get real-time answers. Value: $800." Bonus 3 ("my specific situation"): "Custom Roadmap Call: a 30-minute 1-on-1 call where we map the course content to your specific business and create your personalized action plan. Value: $300."
 
-**Result:** Total bonus value: $1,600 on a $497 course. That's 3.2x the price in bonus value. Conversion rate on the sales page jumps from 2.5% to 5.8%. Revenue more than doubles. Completion rate also increases (which generates better testimonials, which further increases conversion).
+**Illustrative result:** Total bonus value: $1,600 on a $497 course. That's 3.2x the price in bonus value. Conversion rate on the sales page jumps from 2.5% to 5.8%. Revenue more than doubles. Completion rate also increases (which generates better testimonials, which further increases conversion).
 
 ## Anti-Patterns (tactical)
 

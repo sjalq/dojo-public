@@ -56,13 +56,13 @@ The method is not "more agile ceremonies at scale." It is planning and decision-
 
 **Application:** Put portfolio WIP limits in place. Use service capability data to decide what can start. Make dependency policies explicit.
 
-**Result:** Leadership trades off commitments before teams are overloaded.
+**Illustrative result:** Leadership trades off commitments before teams are overloaded.
 
 **Situation:** Product, compliance, and platform teams keep blocking each other.
 
 **Application:** Treat each as a service. Map dependencies and review them at portfolio cadence before commitment.
 
-**Result:** Dependencies become planning inputs rather than late surprises.
+**Illustrative result:** Dependencies become planning inputs rather than late surprises.
 
 ## Anti-Patterns (tactical)
 
