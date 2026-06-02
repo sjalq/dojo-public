@@ -5,16 +5,84 @@ Corpus for the Alex Hormozi persona. Audiobooks freely distributed via official 
 ## Books
 
 - title: $100M Offers (Alex Hormozi, 2021)
-  source: 100m-offers-audiobook.mp3
+  source: https://books.apple.com/us/audiobook/%24100m-offers-how-to-make-offers-so-good-people-feel/id1841062279
   extracted: content/sources/100m-offers.md
   added: 2026-05-18
-  notes: 7-part audiobook via The Game with Alex Hormozi podcast (feeds.captivate.fm). Primary spine for offer creation, value equation, pricing, bonuses, guarantees, naming, urgency, scarcity.
+  notes: Public audiobook listing. Original extraction used official The Game with Alex Hormozi audiobook serialization. Primary spine for offer creation, value equation, pricing, bonuses, guarantees, naming, urgency, scarcity.
 
 - title: $100M Leads (Alex Hormozi, 2023)
-  source: 100m-leads-audiobook.mp3
+  source: https://books.apple.com/us/audiobook/%24100m-leads-how-to-get-strangers-to-want-to-buy-your/id1702256506
   extracted: content/sources/100m-leads.md
   added: 2026-05-18
-  notes: 11-part audiobook via The Game with Alex Hormozi podcast (feeds.captivate.fm). Primary spine for Core Four, warm outreach, cold outreach, content, paid ads, lead magnets, referrals, affiliates.
+  notes: Public audiobook listing. Original extraction used official The Game with Alex Hormozi audiobook serialization. Primary spine for Core Four, warm outreach, cold outreach, content, paid ads, lead magnets, referrals, affiliates.
+
+- title: $100M Money Models (Alex Hormozi, 2025)
+  source: https://books.apple.com/us/audiobook/%24100m-money-models-how-to-make-money-acquisition-com/id1834509876
+  extracted: content/sources/100m-money-models.md
+  added: 2026-06-02
+  notes: Third $100M series book. Public sources describe a money model as a deliberate sequence of offers for getting customers to spend more money faster and repeatedly. Primary spine for money models, attraction offers, upsells, downsells, continuity, and winbacks.
+
+## Podcasts
+
+- title: Part 1: Welcome to $100M Money Models | Ep 938
+  source: https://podcasts.apple.com/us/podcast/part-1-welcome-to-%24100m-money-models-ep-938/id1254720112?i=1000722631561
+  type: solo
+  extracted: content/podcasts/money-models-part-1.md
+  added: 2026-06-02
+
+- title: Part 2: What Is A Money Model? | $100M Money Models Audiobook
+  source: https://podcasts.apple.com/us/podcast/part-2-what-is-a-money-model-%24100m-money-models-audiobook/id1254720112?i=1000722634475
+  type: solo
+  extracted: content/podcasts/money-models-part-2.md
+  added: 2026-06-02
+
+- title: Part 3: Attraction Offers | $100M Money Models Audiobook
+  source: https://podcasts.apple.com/us/podcast/part-3-attraction-offers-%24100m-money-models-audiobook/id1254720112?i=1000722634340
+  type: solo
+  extracted: content/podcasts/money-models-part-3.md
+  added: 2026-06-02
+
+- title: Part 4: Attraction Offers Continued | $100M Money Models Audiobook
+  source: https://podcasts.apple.com/us/podcast/part-4-attraction-offers-continued-%24100m-money-models/id1254720112?i=1000722634396
+  type: solo
+  extracted: content/podcasts/money-models-part-4.md
+  added: 2026-06-02
+
+- title: Part 5: Upsell Offers | $100M Money Models Audiobook | Ep 942
+  source: https://podcasts.apple.com/us/podcast/part-5-upsell-offers-%24100m-money-models-audiobook-ep-942/id1254720112?i=1000722634843
+  type: solo
+  extracted: content/podcasts/money-models-part-5.md
+  added: 2026-06-02
+
+- title: Part 6: Downsell Offers | $100M Money Models Audiobook | Ep 943
+  source: https://podcasts.apple.com/us/podcast/part-6-downsell-offers-%24100m-money-models-audiobook-ep-943/id1254720112?i=1000722635546
+  type: solo
+  extracted: content/podcasts/money-models-part-6.md
+  added: 2026-06-02
+
+- title: Part 7: Continuity Offers | $100M Money Models Audiobook | Ep 944
+  source: https://podcasts.apple.com/us/podcast/part-7-continuity-offers-%24100m-money-models-audiobook/id1254720112?i=1000722635694
+  type: solo
+  extracted: content/podcasts/money-models-part-7.md
+  added: 2026-06-02
+
+- title: Part 8: Making Your Money Model | $100M Money Models Audiobook
+  source: https://podcasts.apple.com/us/podcast/part-8-making-your-money-model-%24100m-money-models-audiobook/id1254720112?i=1000722636171
+  type: solo
+  extracted: content/podcasts/money-models-part-8.md
+  added: 2026-06-02
+
+- title: Part 9: Ten Years in Ten Minutes | $100M Money Models Audiobook
+  source: https://podcasts.apple.com/us/podcast/part-9-ten-years-in-ten-minutes-%24100m-money-models/id1254720112?i=1000722636636
+  type: solo
+  extracted: content/podcasts/money-models-part-9.md
+  added: 2026-06-02
+
+- title: How $100M Money Models Broke the Internet | Ep 895
+  source: https://podcasts.apple.com/us/podcast/how-%24100m-money-models-broke-the-internet-ep-895/id1254720112?i=1000724974294
+  type: solo
+  extracted: content/podcasts/money-models-launch.md
+  added: 2026-06-02
 
 ## YouTube
 

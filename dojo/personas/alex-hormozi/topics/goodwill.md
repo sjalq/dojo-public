@@ -92,9 +92,9 @@ Specifically: share your frameworks, your mental models, your case studies, your
 
 **Situation:** A tax strategist is worried that if she shares tax-saving strategies on YouTube, nobody will hire her.
 
-**Application:** She starts posting 3 videos per week: "5 Tax Deductions Most Business Owners Miss," "How to Structure Your Business to Pay Less Tax," "The Tax Mistake That Cost One Client $47,000." Each video gives away real, specific, actionable strategies. At the end of each: "If you want me to audit your specific situation and build a custom tax strategy, link in the description."
+**Application:** She starts posting 3 videos per week: "5 Tax Deductions Most Business Owners Miss," "How to Structure Your Business to Pay Less Tax," and, if she has the real case data, "The Tax Mistake That Cost One Client $X." If she doesn't have that case yet, she uses a teaching headline instead: "7 Tax Mistakes That Quietly Drain Cash." Each video gives away real, specific, actionable strategies. At the end of each: "If you want me to audit your specific situation and build a custom tax strategy, link in the description."
 
-**Result:** In 6 months, her YouTube channel has 12,000 subscribers. She gets 15-20 inbound inquiries per month from business owners who watched her videos, tried to implement the strategies themselves, realized it was complex, and decided they need professional help. Her close rate on these inbound leads is 60% (vs 20% on cold leads) because they already trust her. Revenue triples. Her competition is still buying ads. She's building an asset.
+**Result:** Track the real numbers: subscribers, inbound inquiries, close rate, and revenue attributed to content. The target is not to sound impressive. The target is to build a library that makes buyers trust her before the call. Her competition is still buying ads. She's building an asset.
 
 **Situation:** A SaaS founder is debating between spending $10,000/month on Google Ads or investing in content marketing.
 

@@ -69,7 +69,7 @@ Here's the framework: paint the picture of their life AFTER the problem is solve
 
 Then, briefly explain how you get them there. Not the 47 modules. The 3-4 major steps at a high level. "We do this in three phases: first, we fix your offer so it converts. Then we build your lead generation engine. Then we automate and scale it." Simple. Clear. They can see the path.
 
-Anchor the price against value: "Most of our clients generate $30,000-50,000 in additional revenue in the first 90 days. The investment for the program is $5,000." The $5,000 feels tiny next to $30,000-50,000.
+Anchor the price against value. If your client data supports it, say: "Most of our clients generate $30,000-50,000 in additional revenue in the first 90 days. The investment for the program is $5,000." If you do not have that proof, anchor against the prospect's own economics instead: "You told me one new client is worth $8,000. If this system adds one client, it pays for itself." The price should feel small next to real value, not invented proof.
 
 **E - Explain away their concerns.** After the pitch, ask: "What questions do you have?" NOT "does that make sense?" because that's condescending. NOT "are you ready to get started?" because that's pressure.
 

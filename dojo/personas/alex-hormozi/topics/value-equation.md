@@ -85,7 +85,7 @@ Now engineer it. Dream outcome: Don't sell a website. Sell "a client acquisition
 
 **Situation:** A SaaS product has a free trial conversion rate of 3%. Users sign up but don't activate.
 
-**Application:** The time delay and effort variables are killing them. Users sign up, see a blank dashboard, and have to figure out 47 features. Time to value is measured in weeks. Solution: Pre-populate the dashboard with sample data (reduces effort). Create a "quick win" onboarding that gets one meaningful result in under 5 minutes (reduces time delay). Add social proof showing "12,847 businesses use this to save 10+ hours per week" (increases perceived likelihood).
+**Application:** The time delay and effort variables are killing them. Users sign up, see a blank dashboard, and have to figure out 47 features. Time to value is measured in weeks. Solution: Pre-populate the dashboard with sample data (reduces effort). Create a "quick win" onboarding that gets one meaningful result in under 5 minutes (reduces time delay). Add real social proof if it exists: "[real number] businesses use this to save [verified result]." If the proof doesn't exist yet, show process transparency, usage milestones, and a guarantee instead of inventing numbers.
 
 **Result:** Trial conversion jumps to 11%. The product didn't change. The experience of the first 5 minutes changed.
 

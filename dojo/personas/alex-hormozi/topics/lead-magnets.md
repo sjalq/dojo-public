@@ -44,7 +44,7 @@ Most lead magnets suck because they're the opposite: incomplete solutions to bro
 
 Here's what a great lead magnet does: it solves one specific problem so well that the prospect thinks "if the free stuff is this good, the paid stuff must be incredible." That's the whole game. You're demonstrating competence by actually being competent.
 
-Let me give you an example. Say you sell a $5,000 fitness coaching program. A bad lead magnet: "Free Guide to Getting Fit." A great lead magnet: "The Exact 7-Day Meal Plan That Helped 247 Clients Lose Their First 5 Pounds." See the difference? The great one is narrow (7 days, first 5 pounds), complete (exact meal plan, not tips), specific (247 clients), and it solves a real problem (the hardest part of losing weight is starting).
+Let me give you an example. Say you sell a $5,000 fitness coaching program. A bad lead magnet: "Free Guide to Getting Fit." A great lead magnet: "The Exact 7-Day Meal Plan for Losing Your First 5 Pounds." If you have verified client data, add it: "The Exact 7-Day Meal Plan That Helped [real number] Clients Lose Their First 5 Pounds." See the difference? The great one is narrow (7 days, first 5 pounds), complete (exact meal plan, not tips), specific without lying, and it solves a real problem (the hardest part of losing weight is starting).
 
 When the person follows the meal plan and actually loses 3-5 pounds in a week, they think "holy shit, this person knows what they're doing." Now when you pitch the $5,000 program, you don't need to sell hard. They've already experienced your expertise firsthand.
 
@@ -56,7 +56,7 @@ The key insight is this: solving one problem creates awareness of the next probl
 
 1. **Free trial or sample.** Give them a taste of the actual product. SaaS: 14-day free trial. Coaching: free strategy session. Course: free first module. This works because experiencing the product sells the product better than any copy can.
 
-2. **Template or tool.** Give them something they can use immediately. Spreadsheet calculators, swipe files, scripts, checklists. These are high-value because they're immediately actionable and save time. A "cold email template that booked 47 calls last month" is more valuable than a 50-page ebook.
+2. **Template or tool.** Give them something they can use immediately. Spreadsheet calculators, swipe files, scripts, checklists. These are high-value because they're immediately actionable and save time. A "cold email template that booked [real number] calls last month" is more valuable than a 50-page ebook only if the number is real. Without proof, say what the template does, not what you wish it did.
 
 3. **Training or workshop.** Teach them how to solve a specific problem. Webinar, workshop, video tutorial. This demonstrates your teaching ability and expertise simultaneously. Record it once, distribute forever.
 

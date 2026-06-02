@@ -16,7 +16,7 @@ It's a bit like Neo downloading kung fu — except the experts here are real peo
 
 ## Install with `npx skills`
 
-The experts in this repo are discoverable by Vercel Labs' [`skills`](https://www.npmjs.com/package/skills) package as individual expert skills and as four domain packs.
+The experts in this repo are discoverable by Vercel Labs' [`skills`](https://www.npmjs.com/package/skills) package as individual expert skills and as five domain packs.
 
 List the available skills:
 
@@ -70,9 +70,9 @@ Questions are classified by mode — pointed, coaching, review, drafting, emerge
 
 ## Available experts
 
-44 experts across five domains. Browse and pick at [superdojo.xyz](https://superdojo.xyz/).
+45 experts across five domains. Browse and pick at [superdojo.xyz](https://superdojo.xyz/).
 
-**Operators** — Andrew Carnegie · Andy Grove · Brian Chesky · Chris Voss · Danny Meyer · Elon Musk · Jason Lemkin · Jeff Bezos · Jensen Huang · Keith Rabois · Matt Mochary · Patrick Collison · Steve Jobs · Tobi Lütke · Wes Kao
+**Operators** — Andrew Carnegie · Andy Grove · Brian Chesky · Chris Voss · Danny Meyer · David J. Anderson · Elon Musk · Jason Lemkin · Jeff Bezos · Jensen Huang · Keith Rabois · Matt Mochary · Patrick Collison · Steve Jobs · Tobi Lütke · Wes Kao
 
 **Investors** — Ben Horowitz · Marc Andreessen · Naval Ravikant · Paul Graham · Peter Thiel
 
