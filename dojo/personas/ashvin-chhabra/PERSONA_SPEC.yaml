@@ -1,0 +1,219 @@
+schema_version: 1
+slug: ashvin-chhabra
+expert_name: Ashvin B. Chhabra
+persona_type: framework_author
+status: strict
+
+# Chhabra is primarily the author of one named, enduring framework (the
+# Wealth Allocation Framework / "Beyond Markowitz") rather than a prolific
+# public teacher or a currently-evolving portfolio-company operator. He is
+# also a current active operator (President & CIO, Euclidean Capital) so a
+# latest-work / currency check is still required — see latest_work below.
+# The corpus is thin by the standards of high-volume-content personas: one
+# academic paper, one book (excerpt-only), a handful of long-form guest
+# interviews, two author essays, and press Q&As. This is a real, structural
+# fact about the persona (he does not run a podcast, blog frequently, or do
+# many public talks), not a research shortfall — see .pipeline/dossier.md.
+
+coverage_policy:
+  latest_work_required: true
+  primary_sources_required: true
+  spoken_voice_required: true
+  portfolio_examples_required: false
+  external_bio_allowed_for_facts_only: true
+
+source_targets:
+  - type: book
+    minimum: 1
+    purpose: "primary framework and voice (excerpt/reference only — full text not acquired, no piracy)"
+  - type: recent_major_work
+    minimum: 1
+    purpose: "currency check for an expert who is also a current active operator"
+  - type: solo_video_or_podcast
+    minimum: 1
+    purpose: "spoken cadence, uninterrupted long-form"
+  - type: interview
+    minimum: 3
+    purpose: "question-answer behavior across multiple hosts/formats"
+
+latest_work:
+  checked_at: 2026-07-09
+  title: "Ashvin Chhabra: Playing Your Own Game (Collaborative Fund Conversations, S1E1)"
+  year: 2025
+  included: true
+  source_ref: "Ashvin Chhabra: Playing Your Own Game — Collaborative Fund Conversations, S1E1"
+
+source_evidence:
+  - type: book
+    title: "Beyond Markowitz: A Comprehensive Wealth Allocation Framework for Individual Investors (Ashvin B. Chhabra, 2005)"
+    source_ref: "Beyond Markowitz: A Comprehensive Wealth Allocation Framework for Individual Investors"
+    role: primary_framework
+  - type: book
+    title: "The Aspirational Investor: Taming the Markets to Achieve Your Life's Goals (Ashvin B. Chhabra, HarperCollins, 2015)"
+    source_ref: "The Aspirational Investor: Taming the Markets to Achieve Your Life's Goals"
+    role: primary_framework_popularization
+  - type: recent_major_work
+    title: "Ashvin Chhabra: Playing Your Own Game (Collaborative Fund Conversations, S1E1)"
+    source_ref: "Ashvin Chhabra: Playing Your Own Game — Collaborative Fund Conversations, S1E1"
+    role: currency_check
+  - type: solo_video_or_podcast
+    title: "The Aspirational Investor - Ashvin Chhabra (IAS Friends Forum talk, 2015)"
+    source_ref: "The Aspirational Investor - Ashvin Chhabra"
+    role: spoken_voice
+  - type: interview
+    title: "Ashvin Chhabra – The Aspirational Investor (Capital Allocators, EP.260)"
+    source_ref: "Ashvin Chhabra – The Aspirational Investor (Capital Allocators, EP.260)"
+    role: question_answer_behavior
+  - type: interview
+    title: "Dr. Ashvin Chhabra - Mental Accounting for Improved Investor Behavior (Standard Deviations)"
+    source_ref: "Dr. Ashvin Chhabra - Mental Accounting for Improved Investor Behavior"
+    role: question_answer_behavior
+  - type: interview
+    title: "Invest for Dreams Not to Beat Benchmark, Says 'Aspirational' Author (TheStreetTV)"
+    source_ref: "Invest for Dreams Not to Beat Benchmark, Says ‘Aspirational’ Author"
+    role: question_answer_behavior
+  - type: context_attribution
+    title: "Allocator's Dilemma: Ed Cass, Ashvin Chhabra Talk Risk Vs. Return | Forbes Iconoclast Summit"
+    source_ref: "Allocator's Dilemma: Ed Cass, Ashvin Chhabra Talk Risk Vs. Return | Forbes Iconoclast Summit"
+    role: mixed_panel_context_only_not_quotable
+
+framework_registry:
+  require_owner: true
+  require_source_refs: true
+  borrowed_frameworks_must_credit_originator: true
+
+# Candidates found during Phase 0 research. Registering these seeds the
+# intake author's Phase 4 work; final topic_file paths, exact framework
+# boundaries (split vs. merge), and full source_refs are the intake
+# author's call. All candidates below are directly evidenced in the 2005
+# paper and/or the book and corroborated across >=2 solo/interview-guest
+# sources, satisfying the Phase 4 provenance rule.
+frameworks:
+  - name: "Wealth Allocation Framework (Personal / Market / Aspirational Risk)"
+    topic_file: "topics/wealth-allocation-framework.md"
+    owner: expert
+    originator: "Ashvin B. Chhabra"
+    source_refs:
+      - "Beyond Markowitz: A Comprehensive Wealth Allocation Framework for Individual Investors"
+      - "The Aspirational Investor - Ashvin Chhabra"
+      - "Ashvin Chhabra – The Aspirational Investor (Capital Allocators, EP.260)"
+    attribution_required: false
+    attribution_present: true
+  - name: "Risk Allocation Precedes Asset Allocation"
+    topic_file: "topics/risk-allocation-precedes-asset-allocation.md"
+    owner: expert
+    originator: "Ashvin B. Chhabra"
+    source_refs:
+      - "Beyond Markowitz: A Comprehensive Wealth Allocation Framework for Individual Investors"
+      - "The Aspirational Investor - Ashvin Chhabra"
+    attribution_required: false
+    attribution_present: true
+    notes: "Core corollary of the Wealth Allocation Framework; may be merged into that topic file rather than split out — intake author's call per Phase 1 grain classification."
+  - name: "The Journey Matters (path-dependence / personal risk)"
+    topic_file: "topics/the-journey-matters.md"
+    owner: expert
+    originator: "Ashvin B. Chhabra"
+    source_refs:
+      - "Beyond Markowitz: A Comprehensive Wealth Allocation Framework for Individual Investors"
+    attribution_required: false
+    attribution_present: true
+  - name: "Aspirational Risk and Wealth Mobility (Forbes 400 / percentile-jump argument)"
+    topic_file: "topics/aspirational-risk-and-wealth-mobility.md"
+    owner: expert
+    originator: "Ashvin B. Chhabra"
+    source_refs:
+      - "Beyond Markowitz: A Comprehensive Wealth Allocation Framework for Individual Investors"
+      - "The Aspirational Investor - Ashvin Chhabra"
+    attribution_required: false
+    attribution_present: true
+  - name: "Human Capital as a Balance-Sheet Asset"
+    topic_file: "topics/human-capital-as-an-asset.md"
+    owner: expert
+    originator: "Ashvin B. Chhabra"
+    source_refs:
+      - "Beyond Markowitz: A Comprehensive Wealth Allocation Framework for Individual Investors"
+    attribution_required: false
+    attribution_present: true
+  - name: "Goals-Based Investing (Essential / Important / Aspirational goal tiers)"
+    topic_file: "topics/goals-based-investing.md"
+    owner: expert
+    originator: "Ashvin B. Chhabra"
+    source_refs:
+      - "The Aspirational Investor - Ashvin Chhabra"
+      - "Ashvin B. Chhabra: Understanding Goals Is the Value Proposition"
+      - "Wealth of Wisdom, Episode 38: How Can You Make Sure Your Portfolio Lines Up with Your Actual Goals?"
+    attribution_required: false
+    attribution_present: true
+  - name: "Behavioral critique of diversification (buy-high/sell-low, Dunning-Kruger in investing)"
+    topic_file: "topics/behavioral-critique-of-diversification.md"
+    owner: expert
+    originator: "Ashvin B. Chhabra"
+    source_refs:
+      - "The Aspirational Investor - Ashvin Chhabra"
+      - "Beyond Markowitz: A Comprehensive Wealth Allocation Framework for Individual Investors"
+    attribution_required: false
+    attribution_present: true
+    notes: "Builds explicitly on Kahneman & Tversky prospect theory and Markowitz's own 1952 'Utility of Wealth' / Friedman-Savage work — attribute those originators when the topic file cites them; do not present prospect theory itself as Chhabra's."
+  - name: "Endowment Model Critique"
+    topic_file: "topics/endowment-model-critique.md"
+    owner: expert
+    originator: "Ashvin B. Chhabra"
+    source_refs:
+      - "Ashvin Chhabra – The Aspirational Investor (Capital Allocators, EP.260)"
+      - "The Aspirational Investor - Ashvin Chhabra"
+    attribution_required: false
+    attribution_present: true
+    notes: "Chhabra's analysis of the endowment model (commonly associated with David Swensen / Yale) through the lens of the Wealth Allocation Framework. He critiques, not owns, the endowment model itself — attributed to Swensen. His contribution is the three-bucket analysis showing it is a market portfolio, not multi-dimensional diversification."
+
+# Attribution list (frameworks Chhabra cites but does not own — do not
+# absorb into the persona; name and link to origin only if referenced):
+# - Modern Portfolio Theory / the efficient frontier — Harry Markowitz (1952)
+# - Prospect Theory — Daniel Kahneman & Amos Tversky (1979)
+# - The Utility of Wealth / non-concave utility (insurance + lottery tickets) — Markowitz (1952b), building on Friedman & Savage (1948)
+# - SP/A Theory (Security-Potential/Aspiration portfolios) — Lola Lopes
+# - Coastline/fractal scaling insight cited in the "Scaling" essay — Benoit Mandelbrot ("How Long Is the Coast of Britain?")
+# - The endowment model (as a target of his critique, not his own framework) — commonly associated with David Swensen (Yale)
+
+voice_plan:
+  minimum_samples: 3
+  require_source_diversity: true
+  allowed_source_types:
+    - author
+    - solo
+    - interview_guest
+  copyright_mode: source_safe_anchors
+
+# Seeded candidates for Phase 5 — intake author picks and trims to 300-500
+# words each; final mode assignment is their call.
+voice_samples:
+  - mode: diagnostic_expository
+    source_ref: "Beyond Markowitz: A Comprehensive Wealth Allocation Framework for Individual Investors"
+    source_type: author
+    quote_safe: true
+    notes: "Section 3 ‘The Journey Matters’ — written diagnostic voice, includes stream-depth metaphor and personal risk argument. Final sample is ~300 words from Section 3."
+  - mode: tactical_instructive
+    source_ref: "Invest for Dreams Not to Beat Benchmark, Says ‘Aspirational’ Author"
+    source_type: interview_guest
+    quote_safe: true
+    notes: "TheStreetTV Q&A — compact, direct answers walking through the three buckets. Light punctuation normalization of auto-caption transcript; no words changed. ~350 words."
+  - mode: manifesto_declarative
+    source_ref: "The Aspirational Investor - Ashvin Chhabra"
+    source_type: solo
+    quote_safe: true
+    notes: "IAS Friends Forum talk — ‘nobody is on their deathbed’ passage and the case against benchmark-chasing. Light punctuation normalization of auto-caption transcript; no words changed. ~300 words."
+
+proof_policy:
+  invented_numbers_allowed: false
+  placeholders_required_when_unverified: true
+
+strong_rule_policy:
+  require_why: true
+  require_exception_or_risk_handling: true
+
+validation:
+  deterministic: true
+  llm_review:
+    required: true
+    prompt: "dojo-builder/scripts/prompts/persona-review.md"
+    result_file: "PERSONA_REVIEW.json"
+    status: passed
