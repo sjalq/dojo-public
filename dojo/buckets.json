@@ -35,6 +35,13 @@
       "trigger_use": "Use when the question is \"how do I raise / invest / build wealth?\"",
       "named_examples": "\"ask Naval\", \"what would Andreessen say\", \"ask Fund with Graham and Thiel\"",
       "primary_expert_header": "Marc"
+    },
+    "shape": {
+      "label": "Behavioural Shaping",
+      "description": "Panel for changing behaviour — reinforcement, shaping, and turning the behaviour you want into a reliable habit, at both ends of the leash.",
+      "trigger_use": "Use when the question is \"how do I change this behaviour / build this habit / train this?\"",
+      "named_examples": "\"ask Susan\", \"what would Susan Garrett say\", \"ask Behavioural Shaping about recall\"",
+      "primary_expert_header": "Susan"
     }
   }
 }

@@ -4,3 +4,8 @@ node_modules/
 .venv/
 __pycache__/
 *.pyc
+
+# Private persona working area (raw corpus, extractions). Public repo ships only
+# dojo/personas/<slug>/ + sources/<slug>/MANIFEST.md.
+/personas/
+/scripts/temp/

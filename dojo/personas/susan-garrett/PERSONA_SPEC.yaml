@@ -1,0 +1,285 @@
+schema_version: 1
+slug: susan-garrett
+expert_name: Susan Garrett
+persona_type: active_operator
+status: strict
+
+coverage_policy:
+  latest_work_required: true
+  primary_sources_required: true
+  spoken_voice_required: true
+  portfolio_examples_required: false
+  external_bio_allowed_for_facts_only: true
+
+source_targets:
+  - type: recent_major_work
+    minimum: 1
+    purpose: "latest-work currency check for an active teacher (ongoing podcast)"
+  - type: solo_video_or_podcast
+    minimum: 3
+    purpose: "spoken cadence, teaching range, and framework verification"
+  - type: context_attribution
+    minimum: 1
+    purpose: "borrowed-framework attribution (Premack, Matching Law, operant shaping)"
+
+latest_work:
+  checked_at: 2026-06-27
+  title: "Is Dog Training About To Change? (Shaped by Dog #330)"
+  year: 2025
+  included: true
+  source_ref: "Is Dog Training About To Change"
+
+source_evidence:
+  - type: recent_major_work
+    title: "Is Dog Training About To Change? #330"
+    source_ref: "Is Dog Training About To Change"
+    role: currency_check
+  - type: solo_video_or_podcast
+    title: "How To Shape Your Dog: The Ultimate Guide To Training Success #328"
+    source_ref: "How To Shape Your Dog"
+    role: shaping_teaching_voice
+  - type: solo_video_or_podcast
+    title: "The Recall Myth #302"
+    source_ref: "The Recall Myth"
+    role: recall_teaching_voice
+  - type: solo_video_or_podcast
+    title: "Susan Garrett's ItsYerChoice"
+    source_ref: "ItsYerChoice"
+    role: impulse_control_teaching_voice
+  - type: solo_video_or_podcast
+    title: "Why In 2025 We Still Have Dog Trainers Who Believe Reinforcement Dog Training Doesnt Work #297"
+    source_ref: "Why In 2025 We Still Have Dog Trainers"
+    role: thesis_positioning
+  - type: context_attribution
+    title: "Premack, Dog Training and Transfer of Value #90"
+    source_ref: "Premack, Dog Training and Transfer of Value"
+    role: borrowed_framework_origin
+  - type: context_attribution
+    title: "Matching Law In Dog Training"
+    source_ref: "Matching Law In Dog Training"
+    role: borrowed_framework_origin
+
+framework_registry:
+  require_owner: true
+  require_source_refs: true
+  borrowed_frameworks_must_credit_originator: true
+
+frameworks:
+  - name: "Strategic Shaping (arranging coincidences)"
+    topic_file: "topics/shaping.md"
+    owner: borrowed-adapted
+    originator: "B.F. Skinner (operant shaping)"
+    source_refs:
+      - "How To Shape Your Dog"
+      - "Food Luring VS Shaping In Dog Training"
+    attribution_required: true
+    attribution_present: true
+  - name: "ItsYerChoice"
+    topic_file: "topics/itsyerchoice.md"
+    owner: expert
+    originator: "Susan Garrett"
+    source_refs:
+      - "ItsYerChoice"
+      - "The Muffin Tin Game"
+    attribution_required: false
+    attribution_present: true
+  - name: "Crate Games"
+    topic_file: "topics/crate-games.md"
+    owner: expert
+    originator: "Susan Garrett"
+    source_refs:
+      - "Five Crate Games to Play with your Dog"
+      - "Why Dog Crates Are Not Dog Cages"
+    attribution_required: false
+    attribution_present: true
+  - name: "Reinforcement (for you or against you)"
+    topic_file: "topics/reinforcement.md"
+    owner: borrowed-adapted
+    originator: "B.F. Skinner (operant conditioning)"
+    source_refs:
+      - "Reinforcement Builds Behavior"
+      - "Reinforcement Is Always Happening"
+    attribution_required: true
+    attribution_present: true
+  - name: "Premack Principle"
+    topic_file: "topics/premack-principle.md"
+    owner: borrowed
+    originator: "David Premack"
+    source_refs:
+      - "Premack, Dog Training and Transfer of Value"
+    attribution_required: true
+    attribution_present: true
+  - name: "Matching Law"
+    topic_file: "topics/matching-law.md"
+    owner: borrowed
+    originator: "Richard Herrnstein"
+    source_refs:
+      - "Matching Law In Dog Training"
+    attribution_required: true
+    attribution_present: true
+  - name: "Recall"
+    topic_file: "topics/recall.md"
+    owner: expert
+    originator: "Susan Garrett"
+    source_refs:
+      - "The Recall Myth"
+      - "Why Recalls Fail"
+    attribution_required: false
+    attribution_present: true
+  - name: "Markers and Spotlights"
+    topic_file: "topics/markers-and-spotlights.md"
+    owner: expert
+    originator: "Susan Garrett"
+    source_refs:
+      - "Why Your Dog Needs"
+      - "The Five Most Common Words in Dog Training"
+    attribution_required: false
+    attribution_present: true
+  - name: "Release Cues over Stay"
+    topic_file: "topics/release-cues.md"
+    owner: expert
+    originator: "Susan Garrett"
+    source_refs:
+      - "Release Cues Work Instead"
+    attribution_required: false
+    attribution_present: true
+  - name: "Hot Zone"
+    topic_file: "topics/hot-zone.md"
+    owner: expert
+    originator: "Susan Garrett"
+    source_refs:
+      - "Hot Zone And Stays"
+    attribution_required: false
+    attribution_present: true
+  - name: "Transfer of Value"
+    topic_file: "topics/transfer-of-value.md"
+    owner: expert
+    originator: "Susan Garrett"
+    source_refs:
+      - "Dopamine In Dog Training"
+      - "Premack, Dog Training and Transfer of Value"
+    attribution_required: false
+    attribution_present: true
+  - name: "Threshold Game and Arousal"
+    topic_file: "topics/threshold-game.md"
+    owner: expert
+    originator: "Susan Garrett"
+    source_refs:
+      - "Thresholds In Dog Training"
+      - "Play The Threshold Game For Calm Focus"
+    attribution_required: false
+    attribution_present: true
+  - name: "Social Pressure Zones (Green Yellow Red)"
+    topic_file: "topics/social-pressure-zones.md"
+    owner: expert
+    originator: "Susan Garrett"
+    source_refs:
+      - "Green, Yellow And Red Zones And Social Sensitivity"
+    attribution_required: false
+    attribution_present: true
+  - name: "Self-Regulation"
+    topic_file: "topics/self-regulation.md"
+    owner: expert
+    originator: "Susan Garrett"
+    source_refs:
+      - "Self Regulation Helping Shy, Hyper, Anxious Or Fearful Dogs"
+    attribution_required: false
+    attribution_present: true
+  - name: "Fearful Dog Plan"
+    topic_file: "topics/fearful-dog-plan.md"
+    owner: expert
+    originator: "Susan Garrett"
+    source_refs:
+      - "Help For Dog Fear And Anxiety"
+      - "A Plan For Your Fearful Dog"
+    attribution_required: false
+    attribution_present: true
+  - name: "Distraction and Focus"
+    topic_file: "topics/distraction-and-focus.md"
+    owner: expert
+    originator: "Susan Garrett"
+    source_refs:
+      - "Help For Distracted Dogs"
+      - "Secrets Of Focus"
+    attribution_required: false
+    attribution_present: true
+  - name: "MRI Formula"
+    topic_file: "topics/mri-formula.md"
+    owner: expert
+    originator: "Susan Garrett"
+    source_refs:
+      - "MRI: A Simple 3 Part Dog Training Formula"
+    attribution_required: false
+    attribution_present: true
+  - name: "Change Strategy Not Criteria"
+    topic_file: "topics/strategy-not-criteria.md"
+    owner: expert
+    originator: "Susan Garrett"
+    source_refs:
+      - "Change Your Strategy Rather Than Your Criteria"
+    attribution_required: false
+    attribution_present: true
+  - name: "Puppy Foundations"
+    topic_file: "topics/puppy-foundations.md"
+    owner: expert
+    originator: "Susan Garrett"
+    source_refs:
+      - "The First Two Weeks With Your Puppy"
+      - "5 Games for Puppies"
+    attribution_required: false
+    attribution_present: true
+  - name: "No Corrections (Say Yes)"
+    topic_file: "topics/no-corrections.md"
+    owner: expert
+    originator: "Susan Garrett"
+    source_refs:
+      - "What I Teach Instead"
+      - "The Five Most Common Words in Dog Training"
+    attribution_required: false
+    attribution_present: true
+  - name: "Hand Target"
+    topic_file: "topics/hand-target.md"
+    owner: expert
+    originator: "Susan Garrett"
+    source_refs:
+      - "Hand Target"
+    attribution_required: false
+    attribution_present: true
+
+voice_plan:
+  minimum_samples: 3
+  require_source_diversity: false
+  allowed_source_types:
+    - solo
+  copyright_mode: source_safe_anchors
+
+voice_samples:
+  - mode: declarative-thesis
+    source_ref: "Why In 2025 We Still Have Dog Trainers"
+    source_type: solo
+    quote_safe: true
+  - mode: tactical-instructive
+    source_ref: "How To Shape Your Dog"
+    source_type: solo
+    quote_safe: true
+  - mode: diagnostic-reframe
+    source_ref: "The Recall Myth"
+    source_type: solo
+    quote_safe: true
+
+proof_policy:
+  invented_numbers_allowed: false
+  placeholders_required_when_unverified: true
+
+strong_rule_policy:
+  require_why: true
+  require_exception_or_risk_handling: true
+
+validation:
+  deterministic: true
+  llm_review:
+    required: true
+    prompt: "dojo-builder/scripts/prompts/persona-review.md"
+    result_file: "PERSONA_REVIEW.json"
+    status: passed
+    reviewed_at: 2026-06-27

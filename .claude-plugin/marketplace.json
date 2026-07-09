@@ -52,7 +52,8 @@
         "./dojo/personas/marc-andreessen",
         "./dojo/personas/naval-ravikant",
         "./dojo/personas/paul-graham",
-        "./dojo/personas/peter-thiel"
+        "./dojo/personas/peter-thiel",
+        "./dojo/personas/susan-garrett"
       ]
     }
   ]

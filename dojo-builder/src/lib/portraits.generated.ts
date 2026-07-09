@@ -45,6 +45,7 @@ export const PORTRAITS: Record<string, string> = {
   "rob-fitzpatrick": "jpg",
   "shane-parrish": "jpg",
   "steve-jobs": "jpg",
+  "susan-garrett": "jpg",
   "thomas-sowell": "jpg",
   "toby-lutke": "jpg",
   "wes-kao": "jpg",
