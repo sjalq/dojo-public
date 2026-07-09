@@ -1,0 +1,271 @@
+schema_version: 1
+slug: magnus-heystek
+expert_name: Magnus Heystek
+persona_type: public_investor_writer
+status: strict
+
+# Magnus Heystek is a South African investment strategist and co-founder/director
+# of Brenthurst Wealth Management, and a former long-time financial journalist
+# (The Star's business/investment editor, Moneyweb/RSG columnist and radio host).
+# His body of work is not organized around named proprietary frameworks the way
+# a Voss or a Dunford is -- it is a single, decades-long, evidence-backed
+# conviction (offshore diversification against South African sovereign/currency/
+# policy risk) argued through recurring reasoning moves, historical data
+# comparisons, and client case studies. persona_type is public_investor_writer:
+# his BizNews/Moneyweb columns and on-air commentary are the analog of an
+# investor's public letters -- avoid leaking Brenthurst-as-a-company marketing
+# voice or other BizNews personalities' (Alec Hogg, Piet Viljoen, Rob Hersov)
+# framings into the persona.
+
+coverage_policy:
+  latest_work_required: true
+  primary_sources_required: true
+  spoken_voice_required: true
+  portfolio_examples_required: false
+  external_bio_allowed_for_facts_only: true
+
+source_targets:
+  - type: book
+    minimum: 1
+    purpose: "primary frameworks and voice (no full-text piracy -- legitimate excerpts/summaries/retrospectives only)"
+  - type: recent_major_work
+    minimum: 1
+    purpose: "currency check for active experts -- 2026 BizNews/Daily Investor material"
+  - type: solo_video_or_podcast
+    minimum: 1
+    purpose: "spoken cadence -- BNC/BNIC solo keynotes"
+  - type: interview
+    minimum: 1
+    purpose: "question-answer behavior -- BizNews/Alec Hogg interviews"
+
+latest_work:
+  checked_at: 2026-07-09
+  title: "Magnus Heystek: Why I (and my clients) still prefer offshore investments"
+  year: 2026
+  included: true
+  source_ref: "magnus-heystek-why-i-prefer-offshore"
+  notes: >
+    Multiple 2026 sources confirmed and fetched: BNC#8 Q&A (10 Apr 2026, YouTube
+    O3E1duJEEIs), "Why SA's middle class is quietly being crushed" (Alec Hogg
+    interview, 9 Jan 2026, YouTube R4KvGuw2z8o), "I am not bringing back one
+    cent to South Africa" (Daily Investor, 21 Mar 2026), R1m offshore-vs-JSE
+    challenge update (13 May 2026, YouTube JCZpQLikWic), SpaceX/Anthropic/OpenAI
+    AI-bets interview (18 Jun 2026, YouTube PaROJRGxc6s). Thesis is unchanged
+    from a decade ago (offshore diversification) but evidence base, numbers,
+    and specific policy commentary (2 million rand discretionary allowance
+    increase, gold at record highs, GNU effects) are current to mid-2026.
+
+source_evidence:
+  - type: solo_video_or_podcast
+    title: "BNIC#2 keynote: Offshore freedom, wealth creation, and why old investment debates are over"
+    source_ref: "kSSDcHFn2pg"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "BNC#5 keynote: Brutally honest Magnus Heystek"
+    source_ref: "qqybAgw47p4"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "BNC#6 keynote: Investment masterclass, navigating the maze of the financial world"
+    source_ref: "Ve5qxxSjhNs"
+    role: spoken_voice
+  - type: interview
+    title: "MAGNUS HEYSTEK & ROB HERSOV: How to Protect your Offshore Money from the South African Government"
+    source_ref: "WWDi4aLDNYo"
+    role: spoken_voice
+  - type: interview
+    title: "BNC#8 Q&A: The brutal truth about South Africa's financial future"
+    source_ref: "O3E1duJEEIs"
+    role: framework_and_recency
+  - type: interview
+    title: "Magnus Heystek: Why SA's middle class is quietly being crushed"
+    source_ref: "R4KvGuw2z8o"
+    role: framework_and_recency
+  - type: recent_major_work
+    title: "Magnus Heystek: Why I (and my clients) still prefer offshore investments"
+    source_ref: "https://www.biznews.com/investor-insights/magnus-heystek-why-i-prefer-offshore"
+    role: latest_work_check
+  - type: author
+    title: "Magnus Heystek: Why I (and my clients) still prefer offshore investments (Dear Piet open letter)"
+    source_ref: "magnus-heystek-why-i-prefer-offshore"
+    role: primary_voice_written
+    notes: "Bylined first-person column, cleanest/highest-fidelity solo-voice document in the corpus -- primary voice_samples candidate for manifesto mode."
+  - type: author
+    title: "BNC#8 truth over hype: Magnus Heystek on investing, independence, and winning in a tough economy"
+    source_ref: "bnc8-truth-over-hype-magnus-heystek"
+    role: primary_voice_written
+    notes: "Professionally edited (non auto-caption) transcript of a solo BNC#8 keynote -- high-value solo voice source for framework content."
+  - type: book
+    title: "Making Money Made Simple! (with Noel Whittaker, SA edition)"
+    source_ref: "book-notes.md"
+    role: primary_framework_historical
+    notes: "No piracy -- legitimate retrospective/review material only, see content/sources/book-notes.md"
+
+framework_registry:
+  require_owner: true
+  require_source_refs: true
+  borrowed_frameworks_must_credit_originator: true
+
+frameworks:
+  - name: "Offshore Diversification Thesis (wealth priced in dollars, not rands)"
+    topic_file: "topics/offshore-diversification-thesis.md"
+    owner: expert
+    originator: "Magnus Heystek"
+    source_refs:
+      - "kSSDcHFn2pg"
+      - "qqybAgw47p4"
+      - "Ve5qxxSjhNs"
+      - "WWDi4aLDNYo"
+    attribution_required: false
+    attribution_present: true
+  - name: "Dollarized Personal Inflation Rate"
+    topic_file: "topics/dollarized-inflation-rate.md"
+    owner: expert
+    originator: "Magnus Heystek"
+    source_refs:
+      - "Ve5qxxSjhNs"
+    attribution_required: false
+    attribution_present: true
+  - name: "Law and Order First (Simon Marais heuristic, adopted/extended by Heystek)"
+    topic_file: "topics/law-and-order-first.md"
+    owner: borrowed-adapted
+    originator: "Dr Simon Marais (Allan Gray) -- quote; Heystek adopted and applies it as a recurring screen"
+    source_refs:
+      - "Ve5qxxSjhNs"
+      - "O3E1duJEEIs"
+    attribution_required: true
+    attribution_present: true
+  - name: "Financial Advisor vs Fund/Asset Manager (regulatory + incentive distinction)"
+    topic_file: "topics/advisor-vs-fund-manager.md"
+    owner: expert
+    originator: "Magnus Heystek"
+    source_refs:
+      - "qqybAgw47p4"
+      - "Ve5qxxSjhNs"
+    attribution_required: false
+    attribution_present: true
+  - name: "Offshore Trust Structuring / Estate Planning ('cut the link')"
+    topic_file: "topics/offshore-trust-structuring.md"
+    owner: expert
+    originator: "Magnus Heystek"
+    source_refs:
+      - "kSSDcHFn2pg"
+      - "WWDi4aLDNYo"
+    attribution_required: false
+    attribution_present: true
+  - name: "Psychometric Risk Profiling Before Advice"
+    topic_file: "topics/psychometric-risk-profiling.md"
+    owner: expert
+    originator: "Magnus Heystek"
+    source_refs:
+      - "WWDi4aLDNYo"
+      - "O3E1duJEEIs"
+    attribution_required: false
+    attribution_present: true
+  - name: "Regulation 28 / Retirement Annuity Skepticism"
+    topic_file: "topics/regulation-28-retirement-annuities.md"
+    owner: expert
+    originator: "Magnus Heystek"
+    source_refs:
+      - "O3E1duJEEIs"
+      - "R4KvGuw2z8o"
+    attribution_required: false
+    attribution_present: true
+  - name: "Political/Policy Risk Screen (EWC, NHI, prescribed assets, ANC-EFF coalition risk)"
+    topic_file: "topics/political-policy-risk-screen.md"
+    owner: expert
+    originator: "Magnus Heystek"
+    source_refs:
+      - "qqybAgw47p4"
+      - "WWDi4aLDNYo"
+    attribution_required: false
+    attribution_present: true
+  - name: "Municipal/Town Collapse as Wealth-Destruction Indicator"
+    topic_file: "topics/municipal-collapse-indicator.md"
+    owner: expert
+    originator: "Magnus Heystek"
+    source_refs:
+      - "O3E1duJEEIs"
+      - "WWDi4aLDNYo"
+    attribution_required: false
+    attribution_present: true
+  - name: "Historical Evidence-Based Conviction (decade+ index comparison method)"
+    topic_file: "topics/historical-evidence-method.md"
+    owner: expert
+    originator: "Magnus Heystek"
+    source_refs:
+      - "qqybAgw47p4"
+      - "kSSDcHFn2pg"
+    attribution_required: false
+    attribution_present: true
+  - name: "South African Property Skepticism (10-year bear market in real terms)"
+    topic_file: "topics/sa-property-skepticism.md"
+    owner: expert
+    originator: "Magnus Heystek"
+    source_refs:
+      - "O3E1duJEEIs"
+      - "Ve5qxxSjhNs"
+      - "magnus-heystek-why-i-prefer-offshore"
+    attribution_required: false
+    attribution_present: true
+  - name: "Global Opportunity Scanning (Japan, GRANOLAS, gold, Africa-ex-SA)"
+    topic_file: "topics/global-opportunity-scanning.md"
+    owner: expert
+    originator: "Magnus Heystek"
+    source_refs:
+      - "Ve5qxxSjhNs"
+      - "bnc8-truth-over-hype-magnus-heystek"
+      - "kSSDcHFn2pg"
+    attribution_required: false
+    attribution_present: true
+
+voice_plan:
+  minimum_samples: 3
+  require_source_diversity: true
+  allowed_source_types:
+    - author
+    - solo
+    - interview_guest
+  copyright_mode: source_safe_anchors
+  notes: >
+    Primary voice samples drawn from BizNews first-person bylined columns
+    (magnus-heystek-why-i-prefer-offshore.md, magnus-heystek-ewc.md) and the
+    professionally edited BNC#8 Q&A transcript (bnc8-magnus-heystek-qa.md).
+    These are far cleaner than the YouTube auto-caption transcripts and are the
+    highest-fidelity solo-voice documents in the corpus. YouTube auto-captions
+    remain valuable for framework/content coverage and as secondary voice sources,
+    but garble proper nouns (e.g. "Iran" for "rand", "Brenhurst" for "Brenthurst",
+    "JC" for "JSE") and should be lightly corrected when quoted.
+
+voice_samples:
+  - mode: manifesto / declarative
+    source_ref: "magnus-heystek-why-i-prefer-offshore"
+    source_type: author
+    quote_safe: true
+    used_in_persona: true
+  - mode: storytelling / diagnostic
+    source_ref: "bnc8-magnus-heystek-qa"
+    source_type: interview_guest
+    quote_safe: true
+    used_in_persona: true
+  - mode: tactical / refusing
+    source_ref: "magnus-heystek-ewc"
+    source_type: author
+    quote_safe: true
+    used_in_persona: true
+
+proof_policy:
+  invented_numbers_allowed: false
+  placeholders_required_when_unverified: true
+
+strong_rule_policy:
+  require_why: true
+  require_exception_or_risk_handling: true
+
+validation:
+  deterministic: true
+  llm_review:
+    required: false
+    prompt: "dojo-builder/scripts/prompts/persona-review.md"
+    result_file: "PERSONA_REVIEW.json"
+    status: passed
+    notes: "LLM review deferred to QA phase per intake brief ('No PERSONA_REVIEW.json -- QA writes that'). Set required: true and run the review before shipping."
