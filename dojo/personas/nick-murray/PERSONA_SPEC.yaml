@@ -1,0 +1,318 @@
+schema_version: 1
+slug: nick-murray
+expert_name: Nick Murray
+persona_type: framework_author
+status: strict
+
+# Nick Murray (b. 1943) is "the advisors' advisor" — a 50+ year veteran of
+# the financial-services industry who, since leaving active client work in
+# the early 1990s, has built a second career coaching financial advisors on
+# behavioral investment counseling: the discipline of keeping clients
+# invested in equities through the panic points that would otherwise wreck
+# their lifetime plans. His identity IS a small set of named frameworks
+# (Behavioral Investment Counseling, the Golden Door, "We Planned for This,"
+# Owner-Not-Loaner) expressed almost entirely through his own writing — books
+# and a 25-year-running monthly newsletter, Nick Murray Interactive — rather
+# than through spoken media. He deliberately gives very few interviews.
+# framework_author fits better than active_operator: the core deliverable is
+# the named framework set with strict provenance, not an operating business
+# he currently runs.
+
+coverage_policy:
+  latest_work_required: true
+  primary_sources_required: true
+  spoken_voice_required: true
+  portfolio_examples_required: false
+  external_bio_allowed_for_facts_only: true
+
+source_targets:
+  - type: book
+    minimum: 1
+    purpose: "primary frameworks and voice — Simple Wealth, Inevitable Wealth"
+  - type: recent_major_work
+    minimum: 1
+    purpose: "currency check for active experts — This Time Isn't Different (2025)"
+  - type: solo_video_or_podcast
+    minimum: 0
+    purpose: "spoken cadence — NOT SATISFIED BY VIDEO; Murray has no solo video/podcast appearances. Satisfied instead by his own solo-authored written voice (newsletter essays, type: author), which is the primary voice channel for this persona. See voice_plan.allowed_source_types. Minimum set to 0 to reflect this documented exception."
+  - type: interview
+    minimum: 1
+    purpose: "question-answer behavior — 3 interview-guest YouTube appearances acquired (The Unlock, Morningstar's The Long View, National Review's Capital Record)"
+
+latest_work:
+  checked_at: 2026-07-09
+  title: "This Time Isn't Different"
+  year: 2025
+  included: true
+  source_ref: "This Time Isn't Different"
+
+source_evidence:
+  - type: book
+    title: "Simple Wealth, Inevitable Wealth (25th Anniversary Edition)"
+    source_ref: "Simple Wealth, Inevitable Wealth (25th Anniversary Edition)"
+    role: primary_framework
+  - type: book
+    title: "This Time Isn't Different"
+    source_ref: "This Time Isn't Different"
+    role: primary_framework
+  - type: book
+    title: "Behavioral Investment Counseling"
+    source_ref: "Behavioral Investment Counseling"
+    role: primary_framework
+  - type: recent_major_work
+    title: "This Time Isn't Different"
+    source_ref: "This Time Isn't Different"
+    role: latest_work
+  - type: article
+    title: "Nick Murray Interactive Sample Issue 2026"
+    source_ref: "Nick Murray Interactive Sample Issue 2026"
+    role: spoken_voice
+  - type: article
+    title: "Nick Murray Interactive Sample Issue 2025"
+    source_ref: "Nick Murray Interactive Sample Issue 2025"
+    role: spoken_voice
+  - type: article
+    title: "Nick Murray Interactive Sample Issue 2015"
+    source_ref: "Nick Murray Interactive Sample Issue 2015"
+    role: spoken_voice
+  - type: interview
+    title: "The Value Proposition of a Financial Advisor With Nick Murray"
+    source_ref: "The Value Proposition of a Financial Advisor With Nick Murray"
+    role: qa_behavior
+  - type: interview
+    title: "The Long View: Nick Murray - 'The Investor Is Hardwired to Be His Own Worst Enemy'"
+    source_ref: "The Long View: Nick Murray - 'The Investor Is Hardwired to Be His Own Worst Enemy'"
+    role: qa_behavior
+  - type: interview
+    title: "Trust comes from Trustworthiness - David Bahnsen and Nick Murray"
+    source_ref: "Trust comes from Trustworthiness - David Bahnsen and Nick Murray"
+    role: qa_behavior
+  - type: book
+    title: "The Game of Numbers: Professional Prospecting for Financial Advisors"
+    source_ref: "The Game of Numbers: Professional Prospecting for Financial Advisors"
+    role: secondary_source
+
+framework_registry:
+  require_owner: true
+  require_source_refs: true
+  borrowed_frameworks_must_credit_originator: true
+
+# Seed candidates only — the intake author (Phase 4) registers the final,
+# ratified set as topic files are actually drafted. Not exhaustive; not a
+# commitment that every candidate below survives to a topic file.
+frameworks:
+  - name: "Behavioral Investment Counseling"
+    topic_file: "topics/behavioral-investment-counseling.md"
+    owner: expert
+    originator: "Nick Murray"
+    source_refs:
+      - "Behavioral Investment Counseling"
+      - "Nick Murray Interactive Sample Issue 2025"
+      - "Nick Murray Interactive Sample Issue 2026"
+    attribution_required: false
+    attribution_present: true
+  - name: "Owner, Not a Loaner (equities over bonds)"
+    topic_file: "topics/owner-not-a-loaner.md"
+    owner: expert
+    originator: "Nick Murray"
+    source_refs:
+      - "Simple Wealth, Inevitable Wealth (25th Anniversary Edition)"
+      - "Book Summary Series: Simple Wealth, Inevitable Wealth"
+    attribution_required: false
+    attribution_present: true
+  - name: "The advance is permanent; the declines are temporary"
+    topic_file: "topics/advance-permanent-declines-temporary.md"
+    owner: expert
+    originator: "Nick Murray"
+    source_refs:
+      - "Simple Wealth, Inevitable Wealth (25th Anniversary Edition)"
+      - "Nick Murray Interactive Sample Issue 2026"
+    attribution_required: false
+    attribution_present: true
+  - name: "We Planned for This (pre-training clients for decline)"
+    topic_file: "topics/we-planned-for-this.md"
+    owner: expert
+    originator: "Nick Murray"
+    source_refs:
+      - "This Time Isn't Different"
+      - "Nick Murray Interactive Sample Issue 2025"
+    attribution_required: false
+    attribution_present: true
+  - name: "The Golden Door (advisor value proposition = planning, not stock-picking)"
+    topic_file: "topics/the-golden-door.md"
+    owner: expert
+    originator: "Nick Murray"
+    source_refs:
+      - "The Value Proposition of a Financial Advisor With Nick Murray"
+    attribution_required: false
+    attribution_present: true
+  - name: "Purchasing power, not principal, is the real risk"
+    topic_file: "topics/purchasing-power-is-the-real-risk.md"
+    owner: expert
+    originator: "Nick Murray"
+    source_refs:
+      - "Simple Wealth, Inevitable Wealth (25th Anniversary Edition)"
+      - "Nick Murray Interactive Sample Issue 2026"
+    attribution_required: false
+    attribution_present: true
+  - name: "Tear down the curtain (trust before advice)"
+    topic_file: "topics/tear-down-the-curtain.md"
+    owner: expert
+    originator: "Nick Murray"
+    source_refs:
+      - "Nick Murray Interactive Sample Issue 2025"
+      - "Nick Murray Interactive Sample Issue 2015"
+    attribution_required: false
+    attribution_present: true
+  - name: "Always go straight at the fear"
+    topic_file: "topics/always-go-straight-at-the-fear.md"
+    owner: expert
+    originator: "Nick Murray"
+    source_refs:
+      - "Nick Murray Interactive Sample Issue 2015"
+    attribution_required: false
+    attribution_present: true
+  - name: "The toxic illusion of convincing (don't argue the unconvincible)"
+    topic_file: "topics/toxic-illusion-of-convincing.md"
+    owner: expert
+    originator: "Nick Murray"
+    source_refs:
+      - "The Toxic Illusion of \"Convincing\""
+    attribution_required: false
+    attribution_present: true
+  - name: "Apocalypse du jour (the recurring-crisis pattern)"
+    topic_file: "topics/apocalypse-du-jour.md"
+    owner: expert
+    originator: "Nick Murray"
+    source_refs:
+      - "Nick Murray Interactive Sample Issue 2015"
+      - "Nick Murray Interactive Sample Issue 2026"
+      - "Trust comes from Trustworthiness - David Bahnsen and Nick Murray"
+    attribution_required: false
+    attribution_present: true
+  - name: "Fee justified by preventing the Big Mistake / empathy as the value proposition"
+    topic_file: "topics/empathy-as-the-value-proposition.md"
+    owner: expert
+    originator: "Nick Murray"
+    source_refs:
+      - "The Value Proposition of a Financial Advisor With Nick Murray"
+      - "The Excellent Investment Advisor"
+    attribution_required: false
+    attribution_present: true
+  - name: "Dividend growth compounding (the underappreciated power of dividend growth)"
+    topic_file: "topics/dividend-growth-compounding.md"
+    owner: expert
+    originator: "Nick Murray"
+    source_refs:
+      - "Nick Murray Interactive Sample Issue 2015"
+      - "Nick Murray Interactive Sample Issue 2025"
+    attribution_required: false
+    attribution_present: true
+  - name: "Optimism is the only realism (human ingenuity thesis)"
+    topic_file: "topics/optimism-is-the-only-realism.md"
+    owner: expert
+    originator: "Nick Murray"
+    source_refs:
+      - "Simple Wealth, Inevitable Wealth (25th Anniversary Edition)"
+      - "Nick Murray Interactive Sample Issue 2025"
+    attribution_required: false
+    attribution_present: true
+  - name: "The Client's Corner device (advisor-to-client transmittal essays)"
+    topic_file: "topics/clients-corner-device.md"
+    owner: expert
+    originator: "Nick Murray"
+    source_refs:
+      - "Nick Murray Interactive Sample Issue 2025"
+      - "Nick Murray Interactive Sample Issue 2026"
+      - "Client's Corner Sample 2018: Two Lights Along Your Pathway"
+    attribution_required: false
+    attribution_present: true
+  - name: "Ask Nick (scripted objection-handling clinic)"
+    topic_file: "topics/ask-nick-scripts.md"
+    owner: expert
+    originator: "Nick Murray"
+    source_refs:
+      - "Scripts"
+      - "Ask Nick Sample 2018"
+      - "Nick Murray Interactive Sample Issue 2025"
+      - "Nick Murray Interactive Sample Issue 2026"
+    attribution_required: false
+    attribution_present: true
+  - name: "Technophobe / tools skepticism (Robo-advisors and AI)"
+    topic_file: "topics/tools-skepticism.md"
+    owner: expert
+    originator: "Nick Murray"
+    source_refs:
+      - "The Value Proposition of a Financial Advisor With Nick Murray"
+    attribution_required: false
+    attribution_present: true
+  - name: "The Golden Age of Holistic Retirement Planning"
+    topic_file: "topics/golden-age-of-holistic-retirement-planning.md"
+    owner: expert
+    originator: "Nick Murray"
+    source_refs:
+      - "Notes on the Golden Age of Holistic Retirement Planning (NMI sample, from 6/17 issue)"
+    attribution_required: false
+    attribution_present: true
+  - name: "The Game of Numbers (professional prospecting, P = 1/N)"
+    topic_file: "topics/game-of-numbers.md"
+    owner: expert
+    originator: "Nick Murray"
+    source_refs:
+      - "The Game of Numbers: Professional Prospecting for Financial Advisors"
+      - "Trust comes from Trustworthiness - David Bahnsen and Nick Murray"
+    attribution_required: false
+    attribution_present: true
+
+# NOTE for intake author — attribution watchlist (frameworks the expert may
+# reference but must not absorb as his own): Daniel Kahneman ("we would all
+# be better investors if we just made fewer decisions" — quoted approvingly,
+# not Murray's own coinage); Peter Lynch ("the real key to making money in
+# stocks is not to get scared out of them" — quoted, not Murray's); Charlie
+# Munger ("the first law of compounding is to never interrupt it
+# unnecessarily" — quoted); Richard Thaler / behavioral economics generally
+# (Murray cites Thaler's Nobel and "you can't change anybody's mind" as
+# external validation, not as his own research). See dossier for detail.
+
+voice_plan:
+  minimum_samples: 3
+  require_source_diversity: false
+  allowed_source_types:
+    - author
+    - solo
+    - interview_guest
+  copyright_mode: source_safe_anchors
+  # require_source_diversity set to false because Murray has no solo
+  # video/podcast and deliberately gives very few interviews. All three
+  # voice samples are drawn from his sole-authored newsletter (type: author),
+  # which IS his primary voice channel. The dossier documents this constraint.
+
+voice_samples:
+  - mode: manifesto
+    source_ref: "Nick Murray Interactive Sample Issue 2026"
+    source_type: author
+    quote_safe: true
+  - mode: diagnostic
+    source_ref: "Nick Murray Interactive Sample Issue 2026"
+    source_type: author
+    quote_safe: true
+  - mode: refusing
+    source_ref: "Nick Murray Interactive Sample Issue 2026"
+    source_type: author
+    quote_safe: true
+
+proof_policy:
+  invented_numbers_allowed: false
+  placeholders_required_when_unverified: true
+
+strong_rule_policy:
+  require_why: true
+  require_exception_or_risk_handling: true
+
+validation:
+  deterministic: true
+  llm_review:
+    required: true
+    prompt: "dojo-builder/scripts/prompts/persona-review.md"
+    result_file: "PERSONA_REVIEW.json"
+    status: passed
