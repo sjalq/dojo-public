@@ -1,0 +1,315 @@
+schema_version: 1
+slug: warren-buffett
+expert_name: Warren Buffett
+persona_type: public_investor_writer
+status: strict
+
+# Warren Buffett is Chairman of Berkshire Hathaway (stepped down as CEO
+# effective 2026-01-01; Greg Abel is now President & CEO). His body of work
+# is organized less around named proprietary techniques (a Voss or a
+# Dunford) and more around a small set of durable, decades-repeated
+# principles argued through his own annual shareholder letters (1977-2024,
+# his own unedited prose, freely published) -- the direct analog of an
+# investor's public letters that persona_type: public_investor_writer exists
+# for. Several of his most famous "signature" ideas are NOT his own --
+# Margin of Safety and Mr. Market both belong to Benjamin Graham (Buffett's
+# teacher), and are explicitly attributed to Graham inside Buffett's own
+# letters/essays. The Scuttlebutt Method belongs to Philip Fisher and was
+# NOT found anywhere in this corpus (Buffett does cite Fisher's book in other
+# public talks, but no fetched source in this corpus documents it -- treat as
+# an attribution-only reference if it surfaces via gap-check, do not build a
+# topic file without a corpus source). Charlie Munger is already a separate
+# dojo persona; Buffett shares 30+ years of annual-meeting stage time with
+# him, so annual-meeting Q&A from 1994-2023 was deliberately NOT fetched
+# (see content/MANIFEST.md Skipped section) to avoid guest/co-host voice
+# contamination. One post-Munger (2024) annual-meeting video was fetched
+# for framework context, tagged mixed-voice (Buffett + Greg Abel + Ajit
+# Jain), never for direct quotation.
+
+coverage_policy:
+  latest_work_required: true
+  primary_sources_required: true
+  spoken_voice_required: true
+  portfolio_examples_required: false
+  external_bio_allowed_for_facts_only: true
+
+source_targets:
+  - type: recent_major_work
+    minimum: 1
+    purpose: "currency check for active experts -- 2025/2026 CEO succession material"
+  - type: solo_video_or_podcast
+    minimum: 1
+    purpose: "spoken cadence"
+  - type: interview
+    minimum: 1
+    purpose: "question-answer behavior"
+  - type: author
+    minimum: 1
+    purpose: "primary written voice -- shareholder letters are the highest-fidelity source"
+
+latest_work:
+  checked_at: 2026-07-09
+  title: "Warren Buffett's farewell message to shareholders (\"I'm going quiet\")"
+  year: 2025
+  included: true
+  source_ref: "buffett-farewell-message-nov-2025"
+  notes: >
+    Buffett announced on 2025-11-10 that he would stop writing Berkshire's
+    annual shareholder letter and stop speaking at the annual meeting,
+    handing the CEO role to Greg Abel effective 2025-12-31/2026-01-01.
+    His last authored shareholder letter was the 2024ltr.pdf (published
+    2025-02-18, his 60th and final letter as CEO/author). Abel wrote the
+    first CEO letter for FY2025 (2025ltr.pdf, published 2026-03) -- that
+    letter is explicitly OUT of this persona's corpus (Abel's voice, not
+    Buffett's). Buffett remains Chairman and attended the 2026-05-02 annual
+    meeting from the shareholder floor rather than the stage, giving a
+    ~25-minute one-on-one interview to CNBC's Becky Quick that day
+    (video_id QQOWQcnNmr0) plus an earlier 2026-03-31 interview
+    (video_id DtSrc1lgVpk, his first interview since stepping down as CEO).
+    Both confirm the succession is holding ("We couldn't have made a better
+    decision... [He's doing] everything I did and then some.") and are the
+    currency check for this persona.
+
+source_evidence:
+  - type: author
+    title: "Berkshire Hathaway Shareholder Letter (1977)"
+    source_ref: "berkshire-letter-1977"
+    role: primary_voice_written
+  - type: author
+    title: "Berkshire Hathaway Shareholder Letter (1987)"
+    source_ref: "berkshire-letter-1987"
+    role: primary_framework
+    notes: "Contains the Mr. Market allegory, explicitly attributed to Ben Graham."
+  - type: author
+    title: "Berkshire Hathaway Shareholder Letter (1989)"
+    source_ref: "berkshire-letter-1989"
+    role: primary_framework
+    notes: "\"Mistakes of the First Twenty-Five Years\" -- cigar-butt investing critique, institutional imperative."
+  - type: author
+    title: "Berkshire Hathaway Shareholder Letter (1996)"
+    source_ref: "berkshire-letter-1996"
+    role: primary_framework
+    notes: "Circle of competence, moats, float, intrinsic value all explicit in this letter."
+  - type: author
+    title: "Berkshire Hathaway Shareholder Letter (2014)"
+    source_ref: "berkshire-letter-2014"
+    role: primary_voice_written
+    notes: "50th-anniversary letter; long retrospective/philosophical mode, strong manifesto-voice candidate."
+  - type: author
+    title: "Berkshire Hathaway Shareholder Letter (2024)"
+    source_ref: "berkshire-letter-2024"
+    role: primary_voice_written
+    notes: "Buffett's 60th and final letter as CEO/author."
+  - type: author
+    title: "The Superinvestors of Graham-and-Doddsville (1984 essay/talk)"
+    source_ref: "superinvestors-of-graham-and-doddsville"
+    role: primary_framework
+    notes: "Buffett's own essay defending value investing; Margin of Safety explicitly attributed to Graham throughout."
+  - type: author
+    title: "Buy American. I Am. (NYT op-ed, 2008-10-17)"
+    source_ref: "buy-american-i-am-nyt-oped-2008"
+    role: primary_voice_written
+    notes: "Origin of \"Be fearful when others are greedy, and be greedy when others are fearful.\""
+  - type: author
+    title: "My Philanthropic Pledge (2010)"
+    source_ref: "my-philanthropic-pledge-2010"
+    role: primary_voice_written
+  - type: recent_major_work
+    title: "Warren Buffett's farewell message to shareholders (November 10, 2025)"
+    source_ref: "buffett-farewell-message-nov-2025"
+    role: latest_work_check
+  - type: solo_video_or_podcast
+    title: "Warren Buffett speaks with Florida University"
+    source_ref: "2MHIcabnjrA"
+    role: spoken_voice
+    notes: "interview-guest:University of Florida MBA students -- long-form solo cadence, moats and circle of competence both discussed directly."
+  - type: interview
+    title: "CNBC's Becky Quick interviews Warren Buffett (2/25/19)"
+    source_ref: "Pqc56crs56s"
+    role: spoken_voice
+    notes: "interview-guest:Becky Quick -- circle of competence and moats both discussed directly."
+  - type: interview
+    title: "Squawk Pod: Warren Buffett in Omaha - 03/31/26"
+    source_ref: "DtSrc1lgVpk"
+    role: framework_and_recency
+    notes: "interview-guest:Becky Quick -- first interview since stepping down as CEO."
+  - type: interview
+    title: "Watch CNBC's full interview with Berkshire Hathaway Chair Warren Buffett"
+    source_ref: "QQOWQcnNmr0"
+    role: framework_and_recency
+    notes: "interview-guest:Becky Quick -- 2026 annual meeting, Buffett's first year in the audience as Chairman not CEO."
+  - type: interview
+    title: "Berkshire's 2024 annual shareholder meeting: full afternoon session"
+    source_ref: "r1E20HeIvRc"
+    role: framework_context_only
+    notes: "MIXED VOICE (Buffett + Greg Abel + Ajit Jain) -- context/framework-mining only, never a voice or quote source."
+
+framework_registry:
+  require_owner: true
+  require_source_refs: true
+  borrowed_frameworks_must_credit_originator: true
+
+frameworks:
+  - name: "Moats / Durable Competitive Advantage"
+    topic_file: "topics/moats.md"
+    owner: expert
+    originator: "Warren Buffett"
+    source_refs:
+      - "berkshire-letter-1996"
+      - "berkshire-letter-2005"
+      - "berkshire-letter-2008"
+      - "berkshire-letter-2014"
+      - "berkshire-letter-2016"
+      - "2MHIcabnjrA"
+    attribution_required: false
+    attribution_present: true
+  - name: "Circle of Competence"
+    topic_file: "topics/circle-of-competence.md"
+    owner: expert
+    originator: "Warren Buffett"
+    source_refs:
+      - "berkshire-letter-1996"
+      - "berkshire-letter-2001"
+      - "2MHIcabnjrA"
+      - "Pqc56crs56s"
+    attribution_required: false
+    attribution_present: true
+  - name: "Mr. Market"
+    topic_file: "topics/mr-market.md"
+    owner: borrowed
+    originator: "Benjamin Graham"
+    source_refs:
+      - "berkshire-letter-1987"
+    attribution_required: true
+    attribution_present: true
+    notes: "Buffett names Graham as the source every time he invokes this in the corpus. Persona must do the same -- never present as Buffett's own invention."
+  - name: "Margin of Safety"
+    topic_file: "topics/margin-of-safety.md"
+    owner: borrowed
+    originator: "Benjamin Graham"
+    source_refs:
+      - "superinvestors-of-graham-and-doddsville"
+    attribution_required: true
+    attribution_present: true
+  - name: "Institutional Imperative"
+    topic_file: "topics/institutional-imperative.md"
+    owner: expert
+    originator: "Warren Buffett"
+    source_refs:
+      - "berkshire-letter-1989"
+      - "berkshire-letter-1996"
+    attribution_required: false
+    attribution_present: true
+  - name: "Cigar-Butt Investing (and why he moved away from it)"
+    topic_file: "topics/cigar-butt-investing.md"
+    owner: expert
+    originator: "Warren Buffett"
+    source_refs:
+      - "berkshire-letter-1989"
+    attribution_required: false
+    attribution_present: true
+    notes: "Retrospective self-critique of his own early Graham-style approach; the shift toward quality businesses at fair prices is credited by Buffett to Munger's influence -- name Munger when this comes up, do not absorb Munger's framing as Buffett's own invention."
+  - name: "Float as Investable Capital (insurance economics)"
+    topic_file: "topics/float.md"
+    owner: expert
+    originator: "Warren Buffett"
+    source_refs:
+      - "berkshire-letter-1996"
+      - "berkshire-letter-2001"
+      - "berkshire-letter-2005"
+      - "berkshire-letter-2008"
+      - "berkshire-letter-2014"
+      - "berkshire-letter-2024"
+    attribution_required: false
+    attribution_present: true
+  - name: "Intrinsic Value / Look-Through Earnings"
+    topic_file: "topics/intrinsic-value.md"
+    owner: expert
+    originator: "Warren Buffett"
+    source_refs:
+      - "berkshire-letter-1989"
+      - "berkshire-letter-1996"
+      - "berkshire-letter-2001"
+    attribution_required: false
+    attribution_present: true
+  - name: "Be Fearful When Others Are Greedy"
+    topic_file: "topics/fearful-when-greedy.md"
+    owner: expert
+    originator: "Warren Buffett"
+    source_refs:
+      - "buy-american-i-am-nyt-oped-2008"
+    attribution_required: false
+    attribution_present: true
+  - name: "Efficient Market Hypothesis Rebuttal (the Superinvestors argument)"
+    topic_file: "topics/superinvestors-rebuttal.md"
+    owner: expert
+    originator: "Warren Buffett"
+    source_refs:
+      - "superinvestors-of-graham-and-doddsville"
+    attribution_required: false
+    attribution_present: true
+    notes: "The essay's central argument (non-random clustering of Graham-and-Dodd-trained investors beating the market) is Buffett's own; Margin of Safety, the ingredient those investors share, is Graham's -- see separate margin-of-safety.md entry."
+  - name: "Owner Successor Planning / \"Praise by Name, Criticize by Category\""
+    topic_file: "topics/succession-and-management-philosophy.md"
+    owner: borrowed-adapted
+    originator: "Tom Murphy (quote); management approach applied and extended by Buffett over 60 years"
+    source_refs:
+      - "berkshire-letter-2024"
+      - "buffett-farewell-message-nov-2025"
+    attribution_required: true
+    attribution_present: true
+  - name: "Philanthropic Pledge / \"Ovarian Lottery\""
+    topic_file: "topics/philanthropic-pledge.md"
+    owner: expert
+    originator: "Warren Buffett"
+    source_refs:
+      - "my-philanthropic-pledge-2010"
+    attribution_required: false
+    attribution_present: true
+
+voice_plan:
+  minimum_samples: 3
+  require_source_diversity: true
+  allowed_source_types:
+    - author
+    - solo
+    - interview_guest
+  copyright_mode: source_safe_anchors
+  notes: >
+    Voice samples use two source types for diversity: one interview-guest
+    (2MHIcabnjrA.md, Florida University talk, for tactical/instructive spoken
+    mode) and two author sources (berkshire-letter-1989.md for diagnostic/
+    self-critical mode, buy-american-i-am-nyt-oped-2008.md for declarative/
+    refusing-the-panic mode). All three are safe single-voice sources.
+    Never draw voice samples from r1E20HeIvRc.md (mixed voice) or from any
+    pre-2024 annual-meeting material (not fetched, for the same reason).
+
+voice_samples:
+  - mode: tactical / instructive (spoken)
+    source_ref: "2MHIcabnjrA"
+    source_type: interview_guest
+    quote_safe: true
+  - mode: diagnostic / self-critical
+    source_ref: "berkshire-letter-1989"
+    source_type: author
+    quote_safe: true
+  - mode: declarative / refusing-the-panic
+    source_ref: "buy-american-i-am-nyt-oped-2008"
+    source_type: author
+    quote_safe: true
+
+proof_policy:
+  invented_numbers_allowed: false
+  placeholders_required_when_unverified: true
+
+strong_rule_policy:
+  require_why: true
+  require_exception_or_risk_handling: true
+
+validation:
+  deterministic: true
+  llm_review:
+    required: true
+    prompt: "dojo-builder/scripts/prompts/persona-review.md"
+    result_file: "PERSONA_REVIEW.json"
+    status: passed

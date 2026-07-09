@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "findings": [
+    {
+      "severity": "resolved",
+      "file": "dojo/personas/warren-buffett/persona.md",
+      "line": 8,
+      "issue": "long_blurb uses the 2014-era figure '$19 per share into $146,186' (from the 2014 shareholder letter's 50th anniversary recap) without a date qualifier. By 2024, Berkshire's per-share book value was significantly higher. The figure understates rather than overstates, and is directly traceable to a corpus source, but reads as a current-state claim in a 2026-built persona.",
+      "recommendation": "Either add a parenthetical year ('turned $19 per share into $146,186 by 2014') or update to the most recent comparable figure from the 2024 letter if one exists. Low priority since it understates the track record.",
+      "original_severity": "low",
+      "resolved": true,
+      "resolution": "Added '(by 2014)' year qualifier to the long_blurb figure"
+    }
+  ],
+  "checks": {
+    "latest_work_included": true,
+    "source_coverage_satisfied": true,
+    "framework_attribution_clean": true,
+    "borrowed_frameworks_attributed": true,
+    "invented_proof_absent": true,
+    "voice_sources_diverse": true,
+    "strong_rules_have_risk_handling": true,
+    "topic_routing_matches_topics": true
+  }
+}
