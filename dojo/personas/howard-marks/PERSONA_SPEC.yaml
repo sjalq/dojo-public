@@ -1,0 +1,317 @@
+schema_version: 1
+slug: howard-marks
+expert_name: Howard Marks
+persona_type: public_investor_writer
+status: strict
+
+# Howard Marks is co-founder/co-chairman of Oaktree Capital Management. His
+# corpus is dominated by ~160 public Oaktree client memos (1990-2026, freely
+# published, but rights-reserved -- "may not be copied, reproduced,
+# republished, or posted in whole or in part" -- so the private corpus stores
+# original analytical summaries + short attributed quotes per memo, not full
+# text) plus two books ("The Most Important Thing," 2011; "Mastering the
+# Market Cycle," 2018) and many long-form podcast/interview appearances as
+# guest. persona_type is public_investor_writer per the template's guidance:
+# avoid portfolio-company voice leakage (Oaktree invests in credit/distressed
+# debt across many companies; the persona is Marks's own risk/cycle
+# philosophy, not commentary on specific portfolio holdings).
+#
+# CRITICAL SCOPE NOTE: Charlie Munger already exists as a dojo persona
+# (dojo/personas/charlie-munger/). Do NOT absorb Munger's frameworks (mental
+# models lattice, "invert, always invert," circle of competence, etc.) into
+# this persona even though Marks quotes Munger frequently and they were
+# friends. Provenance for every framework registered below must trace to
+# Marks's own memos/books/interviews, not to Munger citations within them.
+# Where Marks quotes Munger, treat it as color/relationship, not as a
+# borrowed Marks framework.
+
+coverage_policy:
+  latest_work_required: true
+  primary_sources_required: true
+  spoken_voice_required: true
+  portfolio_examples_required: false
+  external_bio_allowed_for_facts_only: true
+
+source_targets:
+  - type: book
+    minimum: 1
+    purpose: "primary frameworks and voice -- The Most Important Thing (2011) is the canonical statement of the philosophy"
+  - type: recent_major_work
+    minimum: 1
+    purpose: "currency check for an active, still-writing 79-year-old co-chairman"
+  - type: solo_video_or_podcast
+    minimum: 1
+    purpose: "spoken cadence outside the memo-writing voice"
+  - type: interview
+    minimum: 3
+    purpose: "question-answer behavior across multiple hosts/formats"
+
+latest_work:
+  checked_at: 2026-07-09
+  title: "What's Going on in Private Credit?"
+  year: 2026
+  included: true
+  source_ref: "What's Going on in Private Credit? (April 9, 2026)"
+
+source_evidence:
+  - type: book
+    title: "The Most Important Thing: Uncommon Sense for the Thoughtful Investor (2011)"
+    source_ref: "content/sources/the-most-important-thing.md"
+    role: primary_framework
+  - type: book
+    title: "Mastering the Market Cycle: Getting the Odds on Your Side (2018)"
+    source_ref: "content/sources/mastering-the-market-cycle.md"
+    role: primary_framework
+  - type: recent_major_work
+    title: "What's Going on in Private Credit? (April 9, 2026)"
+    source_ref: "content/articles/whats-going-on-in-private-credit.md"
+    role: currency_check
+  - type: recent_major_work
+    title: "AI Hurtles Ahead (February 26, 2026)"
+    source_ref: "content/articles/ai-hurtles-ahead.md"
+    role: currency_check
+  - type: solo_video_or_podcast
+    title: "Howard Marks: 78 Years of Investing Wisdom in 60 Minutes"
+    source_ref: "content/youtube/V44vd4sJcPs.md"
+    role: spoken_voice
+  - type: interview
+    title: "Howard Marks | The Knowledge Project #53 (Shane Parrish)"
+    source_ref: "content/youtube/jZMbKvJqEVo.md"
+    role: question_answer_behavior
+  - type: interview
+    title: "Howard Marks - In Good Company (Nicolai Tangen)"
+    source_ref: "content/youtube/vZJHQrGS7PE.md"
+    role: question_answer_behavior
+  - type: interview
+    title: "Howard Marks: Money Maze Podcast (Simon Brewer, 2025)"
+    source_ref: "content/youtube/nlAd378lKz8.md"
+    role: question_answer_behavior
+  - type: interview
+    title: "Howard Marks: TBPN (2026)"
+    source_ref: "content/youtube/km2LidRpRvo.md"
+    role: question_answer_behavior
+
+framework_registry:
+  require_owner: true
+  require_source_refs: true
+  borrowed_frameworks_must_credit_originator: true
+
+# Candidate frameworks surfaced during research. Intake author should
+# register these formally in Phase 4 with topic_file paths once topics/ is
+# drafted; listed here as seeds with the source evidence already gathered.
+frameworks:
+  - name: "Second-Level Thinking"
+    topic_file: "topics/second-level-thinking.md"
+    owner: expert
+    originator: "Howard Marks"
+    source_refs:
+      - "content/articles/i-beg-to-differ.md"
+      - "content/sources/the-most-important-thing.md"
+      - "content/youtube/V44vd4sJcPs.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "Risk Is Not Volatility"
+    topic_file: "topics/risk-is-not-volatility.md"
+    owner: expert
+    originator: "Howard Marks"
+    source_refs:
+      - "content/articles/risk-memo.md"
+      - "content/articles/what-really-matters.md"
+      - "content/articles/fewer-losers-or-more-winners.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "Market Cycles / The Pendulum"
+    topic_file: "topics/market-cycles-pendulum.md"
+    owner: expert
+    originator: "Howard Marks"
+    source_refs:
+      - "content/sources/mastering-the-market-cycle.md"
+      - "content/articles/cockroaches-in-the-coal-mine.md"
+      - "content/articles/easy-money.md"
+      - "content/articles/taking-the-temperature.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "You Can't Predict, You Can Prepare (anti-forecasting)"
+    topic_file: "topics/you-cant-predict-you-can-prepare.md"
+    owner: expert
+    originator: "Howard Marks"
+    source_refs:
+      - "content/articles/you-cant-predict-you-can-prepare.md"
+      - "content/articles/the-illusion-of-knowledge.md"
+      - "content/articles/the-folly-of-certainty.md"
+      - "content/articles/nobody-knows-yet-again.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "The 'I Know' School vs. the 'I Don't Know' School"
+    topic_file: "topics/i-know-vs-i-dont-know-school.md"
+    owner: expert
+    originator: "Howard Marks"
+    source_refs:
+      - "content/articles/us-and-them.md"
+      - "content/articles/the-illusion-of-knowledge.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "Sea Change (regime shift vs. ordinary cycle)"
+    topic_file: "topics/sea-change.md"
+    owner: expert
+    originator: "Howard Marks"
+    source_refs:
+      - "content/articles/sea-change.md"
+      - "content/articles/further-thoughts-on-sea-change.md"
+      - "content/articles/easy-money.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "Value vs. Price (the calculus of value, Mr. Market)"
+    topic_file: "topics/value-vs-price.md"
+    owner: expert
+    originator: "Howard Marks"
+    source_refs:
+      - "content/articles/the-calculus-of-value.md"
+      - "content/articles/mr-market-miscalculates.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "Bubble Diagnosis (psychological, not valuation-formula)"
+    topic_file: "topics/bubble-diagnosis.md"
+    owner: expert
+    originator: "Howard Marks"
+    source_refs:
+      - "content/articles/on-bubble-watch.md"
+      - "content/articles/is-it-a-bubble.md"
+      - "content/articles/whats-going-on-in-private-credit.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "Daring to Be Different / Daring to Be Wrong"
+    topic_file: "topics/daring-to-be-different.md"
+    owner: expert
+    originator: "Howard Marks"
+    source_refs:
+      - "content/articles/dare-to-be-great-memo.md"
+      - "content/articles/dare-to-be-great-ii.md"
+      - "content/articles/i-beg-to-differ.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "Asymmetry (the definition of investing excellence)"
+    topic_file: "topics/asymmetry.md"
+    owner: expert
+    originator: "Howard Marks"
+    source_refs:
+      - "content/articles/what-really-matters.md"
+      - "content/articles/fewer-losers-or-more-winners.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "Fewer Losers vs. More Winners (risk control as motto)"
+    topic_file: "topics/asymmetry.md"
+    notes: "Merged into the Asymmetry topic file as recommended by researcher; same idea at two altitudes."
+    owner: expert
+    originator: "Howard Marks"
+    source_refs:
+      - "content/articles/fewer-losers-or-more-winners.md"
+      - "content/youtube/V44vd4sJcPs.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "Decision Quality vs. Outcome Quality"
+    topic_file: "topics/decision-quality-vs-outcome.md"
+    owner: expert
+    originator: "Howard Marks"
+    source_refs:
+      - "content/articles/you-bet-memo.md"
+      - "content/articles/what-really-matters.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "Ownership vs. Debt (the two asset classes)"
+    topic_file: "topics/ownership-vs-debt.md"
+    owner: expert
+    originator: "Howard Marks"
+    source_refs:
+      - "content/articles/ruminating-on-asset-allocation.md"
+      - "content/articles/gimme-credit.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "Taking the Temperature of the Market (rare tactical calls)"
+    topic_file: "topics/taking-the-temperature.md"
+    owner: expert
+    originator: "Howard Marks"
+    source_refs:
+      - "content/articles/taking-the-temperature.md"
+      - "content/articles/the-limits-to-negativism.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "Risk Control as Primacy (Oaktree's investment philosophy)"
+    topic_file: "topics/risk-control-primacy.md"
+    owner: expert
+    originator: "Howard Marks"
+    source_refs:
+      - "content/youtube/V44vd4sJcPs.md"
+      - "content/articles/fewer-losers-or-more-winners.md"
+      - "content/articles/the-indispensability-of-risk.md"
+    attribution_required: false
+    attribution_present: true
+
+# Attribution list: well-known concepts Marks references/reuses but that
+# belong to other named people. Must be attributed if cited, never presented
+# as Marks's own framework.
+attribution_watchlist:
+  - concept: "Efficient Market Hypothesis / Second-level thinking's academic root"
+    originator: "Eugene Fama and the Chicago School (academic finance)"
+  - concept: "Mr. Market"
+    originator: "Benjamin Graham (The Intelligent Investor)"
+  - concept: "The Loser's Game (winner's game vs. loser's game in tennis/investing)"
+    originator: "Charles D. Ellis"
+  - concept: "Mental models / lattice of models, 'invert, always invert', circle of competence"
+    originator: "Charlie Munger -- ALREADY A SEPARATE DOJO PERSONA. Do not absorb."
+  - concept: "Fooled by Randomness / Black Swan framing"
+    originator: "Nassim Nicholas Taleb"
+  - concept: "A Short History of Financial Euphoria / 'extreme brevity of the financial memory' / the 'bezzle'"
+    originator: "John Kenneth Galbraith"
+  - concept: "The Yale Model / endowment investing"
+    originator: "David Swensen"
+  - concept: "Devil Take the Hindmost, The Price of Time (histories of speculation/interest rates)"
+    originator: "Edward Chancellor"
+
+voice_plan:
+  minimum_samples: 3
+  require_source_diversity: true
+  allowed_source_types:
+    - author
+    - solo
+    - interview_guest
+  copyright_mode: source_safe_anchors
+  notes: >
+    Oaktree memo pages carry an explicit no-reproduction notice, so verbatim
+    300-500 word voice-sample blocks should be drawn primarily from
+    interview-guest transcripts (Knowledge Project, In Good Company, Money
+    Maze, TBPN) or the solo 2015 talk (content/youtube/V44vd4sJcPs.md),
+    which are free of that restriction. Short (1-2 sentence) memo quotations
+    are acceptable as fair-use illustration inside topic files, but should
+    not be stitched into a single long "voice sample" block that approaches
+    full-paragraph reproduction of a specific memo.
+
+voice_samples:
+  - mode: diagnostic
+    source_ref: "content/youtube/V44vd4sJcPs.md"
+    source_type: solo
+    quote_safe: true
+  - mode: tactical
+    source_ref: "content/youtube/jZMbKvJqEVo.md"
+    source_type: interview_guest
+    quote_safe: true
+  - mode: coaching
+    source_ref: "content/youtube/vZJHQrGS7PE.md"
+    source_type: interview_guest
+    quote_safe: true
+
+proof_policy:
+  invented_numbers_allowed: false
+  placeholders_required_when_unverified: true
+
+strong_rule_policy:
+  require_why: true
+  require_exception_or_risk_handling: true
+
+validation:
+  deterministic: true
+  llm_review:
+    required: true
+    prompt: "dojo-builder/scripts/prompts/persona-review.md"
+    result_file: "PERSONA_REVIEW.json"
+    status: passed
