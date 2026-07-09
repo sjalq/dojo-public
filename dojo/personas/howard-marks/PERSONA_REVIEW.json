@@ -2,11 +2,14 @@
   "status": "pass",
   "findings": [
     {
-      "severity": "low",
+      "severity": "resolved",
       "file": "dojo/personas/howard-marks/persona.md",
       "line": 8,
       "issue": "routing_keywords omits 'I know versus I don't know school' despite a dedicated topic file (i-know-vs-i-dont-know-school.md) existing for this framework",
-      "recommendation": "Add 'I know versus I don't know school' or 'epistemic humility in investing' to the routing_keywords line"
+      "recommendation": "Add 'I know versus I don't know school' or 'epistemic humility in investing' to the routing_keywords line",
+      "original_severity": "low",
+      "resolved": true,
+      "resolution": "Added 'I know versus I don't know school' to routing_keywords (persona.md line 8)"
     }
   ],
   "checks": {
