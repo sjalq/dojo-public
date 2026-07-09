@@ -29,6 +29,7 @@ export const PORTRAITS: Record<string, string> = {
   "hamilton-helmer": "jpg",
   "harold-evensky": "jpg",
   "harry-dry": "jpg",
+  "howard-marks": "jpg",
   "jason-lemkin": "webp",
   "jean-brunel": "jpg",
   "jeff-bezos": "jpg",
@@ -53,6 +54,7 @@ export const PORTRAITS: Record<string, string> = {
   "susan-garrett": "jpg",
   "thomas-sowell": "jpg",
   "toby-lutke": "jpg",
+  "warren-buffett": "jpg",
   "wes-kao": "jpg",
   "william-zinsser": "jpg"
 };

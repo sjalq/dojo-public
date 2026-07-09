@@ -51,6 +51,7 @@
         "./dojo/personas/william-zinsser",
         "./dojo/personas/ashvin-chhabra",
         "./dojo/personas/harold-evensky",
+        "./dojo/personas/howard-marks",
         "./dojo/personas/jean-brunel",
         "./dojo/personas/magnus-heystek",
         "./dojo/personas/marc-andreessen",
@@ -58,6 +59,7 @@
         "./dojo/personas/nick-murray",
         "./dojo/personas/paul-graham",
         "./dojo/personas/peter-thiel",
+        "./dojo/personas/warren-buffett",
         "./dojo/personas/susan-garrett"
       ]
     }
