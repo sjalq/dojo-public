@@ -1,0 +1,283 @@
+schema_version: 1
+slug: harold-evensky
+expert_name: Harold Evensky
+persona_type: framework_author
+status: strict
+
+# Harold Evensky is co-founder and chairman of Evensky & Katz /
+# Foldes Financial Wealth Management, a retired Professor of Practice at
+# Texas Tech University's Personal Financial Planning program, and the
+# practitioner Morningstar CEO Don Phillips dubbed the "Dean of Financial
+# Planning." He is classified framework_author because his identity in the
+# corpus is overwhelmingly organized around two named, owned frameworks he
+# invented and popularized for the planning profession: the core-and-satellite
+# portfolio construction approach, and the two-bucket cash-flow reserve
+# (bucket) strategy for retirement income distribution. He is still a living,
+# occasionally-interviewed active practitioner (chairman of his firm as of
+# the most recent corpus evidence, 2024), so the latest-work check is not
+# waived the way it would be for a purely historical_author.
+
+coverage_policy:
+  latest_work_required: true
+  primary_sources_required: true
+  spoken_voice_required: true
+  portfolio_examples_required: false
+  external_bio_allowed_for_facts_only: true
+
+source_targets:
+  - type: book
+    minimum: 1
+    purpose: "primary frameworks and voice"
+  - type: recent_major_work
+    minimum: 1
+    purpose: "currency check for active experts"
+  - type: solo_video_or_podcast
+    minimum: 1
+    purpose: "spoken cadence"
+  - type: interview
+    minimum: 1
+    purpose: "question-answer behavior"
+
+latest_work:
+  checked_at: 2026-07-09
+  title: "How to Retire: Consider a Retirement Bucket Portfolio Strategy (Morningstar 'How to Retire' podcast with Christine Benz)"
+  year: 2024
+  included: true
+  source_ref: "How to Retire: Consider a Retirement Bucket Portfolio Strategy"
+  notes: >-
+    This is the most recent dated, fetchable, verified appearance in the
+    corpus (video_id qBcLCZ634U4). A more recent lead exists — the "Newsletter
+    March 2026 - Evensky & Katz and Foldes Financial Wealth Management"
+    commentary on Advisor Perspectives (covers sustainable/active funds, the
+    new DOL Fiduciary Rule, and long-term performance projections) — but the
+    live page returns 403 to all scraping attempts and no Wayback Machine
+    snapshot exists yet (published too recently to be crawled). It is logged
+    under Skipped in both MANIFEST.md files. The intake author should
+    re-attempt this URL before finalizing the persona; if it becomes
+    accessible it is a better latest-work anchor than the 2024 podcast.
+
+source_evidence:
+  - type: book
+    title: "The New Wealth Management (Harold Evensky, Stephen M. Horan, Thomas R. Robinson; CFA Institute Investment Series, 2011)"
+    source_ref: "The New Wealth Management"
+    role: primary_framework
+  - type: solo_video_or_podcast
+    title: "Six Things - by Harold R. Evensky"
+    source_ref: "Six Things - by Harold R. Evensky"
+    role: spoken_voice
+  - type: interview
+    title: "#FASuccess Ep 116: Building A Consumer Media And Author Presence To Gain Credibility As A Small Independent Advisor, With Harold Evensky"
+    source_ref: "#FASuccess Ep 116: Building A Consumer Media And Author Presence To Gain Credibility As A Small Independent Advisor, With Harold Evensky"
+    role: question_answer_behavior
+  - type: interview
+    title: "Conversation with the Father of the Bucket Strategy--Harold Evensky"
+    source_ref: "Conversation with the Father of the Bucket Strategy--Harold Evensky"
+    role: framework_origin_story
+  - type: recent_major_work
+    title: "How to Retire: Consider a Retirement Bucket Portfolio Strategy"
+    source_ref: "How to Retire: Consider a Retirement Bucket Portfolio Strategy"
+    role: recent_major_work
+  - type: interview
+    title: "Harold Evensky - Strategies for Maintaining Your Retirement Castle (WealthTrack)"
+    source_ref: "Harold Evensky - Strategies for Maintaining Your Retirement Castle (WealthTrack)"
+    role: question_answer_behavior
+  - type: article
+    title: "The Investment World According to Harold Evensky"
+    source_ref: "The Investment World According to Harold Evensky"
+    role: framework_summary_talk
+  - type: article
+    title: "Harold Evensky - Nine Key Communication Points"
+    source_ref: "Harold Evensky - Nine Key Communication Points"
+    role: client_communication_practice
+
+framework_registry:
+  require_owner: true
+  require_source_refs: true
+  borrowed_frameworks_must_credit_originator: true
+
+# Seed candidates found during research. The intake author should register
+# each shipped topic file here during Phase 4, confirming source_refs against
+# content/MANIFEST.md and dropping/attributing any candidate that fails the
+# provenance rule (>= 2 solo/interview-guest sources, or a direct book/article
+# citation in Evensky's own words).
+frameworks:
+  - name: "Core-and-Satellite Portfolio Construction"
+    topic_file: "topics/core-and-satellite.md"
+    owner: expert
+    originator: "Harold Evensky"
+    source_refs:
+      - "The Investment World According to Harold Evensky"
+      - "The New Wealth Management"
+      - "Harold Evensky on the New Rules for Wealth Management"
+    attribution_required: false
+    attribution_present: true
+    notes: >-
+      Evensky adapted an institutional core/satellite concept to retail
+      wealth-management practice; he is broadly credited in the profession
+      as the practitioner who popularized it for planners (not the original
+      institutional inventor of core/satellite investing generally). Worth a
+      one-line attribution note in the topic file rather than claiming
+      outright invention.
+
+  - name: "Two-Bucket Cash-Flow Reserve Strategy"
+    topic_file: "topics/cash-flow-reserve-strategy.md"
+    owner: expert
+    originator: "Harold Evensky"
+    source_refs:
+      - "Conversation with the Father of the Bucket Strategy--Harold Evensky"
+      - "How to Retire: Consider a Retirement Bucket Portfolio Strategy"
+      - "The Investment World According to Harold Evensky"
+      - "Retirement Floors and Implications for Evensky's Cash-Reserve Strategy"
+    attribution_required: false
+    attribution_present: true
+    notes: >-
+      Developed in his practice starting 1985; the "five-year mantra" and
+      "don't invest what you need in the next five years" are signature
+      phrasings. Distinct from the generic multi-bucket (3+ bucket) retail
+      "bucket strategy" popularized elsewhere — Evensky's version is
+      specifically two components (cash reserve + long-term portfolio) with
+      a monthly-payment mechanism. The topic file should be precise about
+      this distinction; conflating it with generic bucket-strategy content
+      risks diluting what is actually his.
+
+  - name: "Wealth Management vs. Money Management (the holistic-practitioner distinction)"
+    topic_file: "topics/wealth-management-vs-money-management.md"
+    owner: expert
+    originator: "Harold Evensky"
+    source_refs:
+      - "The New Wealth Management"
+    attribution_required: false
+    attribution_present: true
+
+  - name: "Behavioral Finance for Client Communication (Nine Key Communication Points)"
+    topic_file: "topics/client-communication-practices.md"
+    owner: expert
+    originator: "Harold Evensky"
+    source_refs:
+      - "Harold Evensky - Nine Key Communication Points"
+      - "#FASuccess Ep 116: Building A Consumer Media And Author Presence To Gain Credibility As A Small Independent Advisor, With Harold Evensky"
+    attribution_required: false
+    attribution_present: true
+
+  - name: "Probability vs. Consequence (Pascal's Wager framing for planning risk)"
+    topic_file: "topics/probability-vs-consequence.md"
+    owner: expert
+    originator: "Harold Evensky"
+    source_refs:
+      - "The Investment World According to Harold Evensky"
+    attribution_required: false
+    attribution_present: true
+    notes: >-
+      Evensky's own application/framing of Pascal's Wager to financial
+      planning risk communication; Pascal's Wager itself is obviously not
+      his — the topic file should name Pascal but present the planning
+      application as Evensky's move.
+
+  - name: "Fiduciary Standard Advocacy"
+    topic_file: "topics/fiduciary-standard-advocacy.md"
+    owner: expert
+    originator: "Harold Evensky"
+    source_refs:
+      - "The Investment World According to Harold Evensky"
+      - "#FASuccess Ep 116: Building A Consumer Media And Author Presence To Gain Credibility As A Small Independent Advisor, With Harold Evensky"
+      - "Six Things - by Harold R. Evensky"
+    attribution_required: false
+    attribution_present: true
+
+  - name: "Behavioral Finance for Clients"
+    topic_file: "topics/behavioral-finance-for-clients.md"
+    owner: expert
+    originator: "Harold Evensky"
+    source_refs:
+      - "The Investment World According to Harold Evensky"
+      - "Six Things - by Harold R. Evensky"
+      - "Harold Evensky - Nine Key Communication Points"
+    attribution_required: false
+    attribution_present: true
+    notes: >-
+      Evensky's applied behavioral finance framework for client management,
+      drawing on Kahneman's work (credited as originator of the field).
+      The application to financial planning client communication is Evensky's
+      own practitioner contribution.
+
+  - name: "Annuities as Longevity Insurance"
+    topic_file: "topics/annuities-as-longevity-insurance.md"
+    owner: expert
+    originator: "Harold Evensky"
+    source_refs:
+      - "The Investment World According to Harold Evensky"
+      - "Conversation with the Father of the Bucket Strategy--Harold Evensky"
+      - "Harold Evensky on the New Rules for Wealth Management"
+    attribution_required: false
+    attribution_present: true
+    notes: >-
+      Documents Evensky's public reversal on annuities: from strongly
+      negative to strongly positive for SPIAs/DIAs once fees came down.
+      The mortality return concept is actuarial, not his invention, but
+      the planning application and the reversal narrative are his.
+
+# Attribution watch-list — frameworks/researchers Evensky cites approvingly
+# but that are NOT his. Name and link; never absorb as his own.
+attribution_watchlist:
+  - framework: "Rising equity glide path in retirement"
+    originator: "Michael Kitces and Wade Pfau"
+    evidence: "The Investment World According to Harold Evensky (Evensky cites both researchers by name and says he is 'very skeptical' practically, even though it works intellectually)"
+  - framework: "Consumption smile (retirement spending pattern)"
+    originator: "David Blanchett (Morningstar)"
+    evidence: "The Investment World According to Harold Evensky"
+  - framework: "Modern Portfolio Theory"
+    originator: "Harry Markowitz"
+    evidence: "The Investment World According to Harold Evensky (Evensky defends Markowitz against misreadings, does not claim MPT as his own)"
+  - framework: "Behavioral finance / heuristics and biases"
+    originator: "Daniel Kahneman (and Amos Tversky)"
+    evidence: "The Investment World According to Harold Evensky"
+  - framework: "Retirement income 'floor' approach (as distinct from/critiqued against the bucket strategy)"
+    originator: "Wade Pfau and others in the floor-vs-bucket academic literature"
+    evidence: "Retirement Floors and Implications for Evensky's Cash-Reserve Strategy"
+
+voice_plan:
+  minimum_samples: 3
+  require_source_diversity: true
+  allowed_source_types:
+    - author
+    - solo
+    - interview_guest
+  copyright_mode: source_safe_anchors
+
+voice_samples:
+  - mode: manifesto
+    source_ref: "The New Wealth Management"
+    source_type: author
+    quote_safe: true
+    word_count: 377
+  - mode: tactical
+    source_ref: "Six Things - by Harold R. Evensky"
+    source_type: solo
+    quote_safe: true
+    word_count: 401
+  - mode: storytelling_or_diagnostic
+    source_ref: "Conversation with the Father of the Bucket Strategy--Harold Evensky"
+    source_type: interview_guest
+    quote_safe: true
+    word_count: 454
+
+proof_policy:
+  invented_numbers_allowed: false
+  placeholders_required_when_unverified: true
+
+strong_rule_policy:
+  require_why: true
+  require_exception_or_risk_handling: true
+
+validation:
+  deterministic: true
+  llm_review:
+    required: true
+    prompt: "dojo-builder/scripts/prompts/persona-review.md"
+    result_file: "PERSONA_REVIEW.json"
+    status: passed
+    notes: >-
+      QA review completed 2026-07-09, polished 2026-07-09. All checks pass.
+      Voice samples extended to 377/401/454 words (all above 300-word Phase 5
+      minimum). Persona.md line count raised from 207 to 232 via extensions
+      and natural paragraph breaks. No high, medium, or low findings remain.
