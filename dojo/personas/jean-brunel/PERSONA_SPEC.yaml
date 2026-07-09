@@ -1,0 +1,248 @@
+schema_version: 1
+slug: jean-brunel
+expert_name: Jean L.P. Brunel
+persona_type: framework_author
+status: strict
+
+# Jean Brunel is a B2B wealth-management practitioner and journal editor, not a
+# public-facing media figure. His corpus is thin relative to mass-media personas
+# by necessity: his primary output (27+ years of Journal of Wealth Management
+# editorials/articles) sits almost entirely behind a Portfolio Management
+# Research institutional-SSO paywall. The one dominant named framework —
+# goals-based wealth management — recurs across a 2002 book, a 2012 CFA
+# Institute conference paper (the crown-jewel public source), a 2015 CFA
+# Annual Conference talk, a 2015 book, and a 2018 anthology chapter. Treat this
+# as ONE framework with several tightly-coupled facets (institutional-vs-
+# individual, dreams/nightmares diagnostic, modular/"bicycle" architecture,
+# iterative process, tax-aware sub-strategy) rather than forcing 20+
+# independent topic files. See .pipeline/dossier.md for the full grain
+# recommendation.
+
+coverage_policy:
+  latest_work_required: true
+  primary_sources_required: true
+  spoken_voice_required: true
+  portfolio_examples_required: false
+  external_bio_allowed_for_facts_only: true
+
+source_targets:
+  - type: book
+    minimum: 1
+    purpose: "primary frameworks and voice"
+  - type: recent_major_work
+    minimum: 1
+    purpose: "currency check for an active journal editor"
+  - type: solo_video_or_podcast
+    minimum: 1
+    purpose: "spoken cadence and framework verification"
+  - type: interview
+    minimum: 1
+    purpose: "question-answer behavior"
+
+latest_work:
+  checked_at: 2026-07-09
+  title: "Constructing an Investment Portfolio to Support Family Goals (Wealth of Wisdom podcast, episode 2, Aug 2023)"
+  year: 2023
+  included: true
+  source_ref: "Constructing an Investment Portfolio to Support Family Goals"
+
+source_evidence:
+  - type: book
+    title: "Integrated Wealth Management (2002)"
+    source_ref: "Integrated Wealth Management"
+    role: origin_diagnosis
+  - type: book
+    title: "Goals-Based Wealth Management (2015)"
+    source_ref: "Goals-Based Wealth Management"
+    role: primary_framework
+  - type: book
+    title: "Wealth of Wisdom Top Practices Chapter 30 (2022)"
+    source_ref: "Wealth of Wisdom: Top Practices for Wealthy Families and Their Advisors"
+    role: currency
+  - type: recent_major_work
+    title: "Goals-Based Wealth Management in Practice (CFA Institute, 2012)"
+    source_ref: "Goals-Based Wealth Management in Practice"
+    role: currency_and_primary_voice
+  - type: solo_video_or_podcast
+    title: "Setting Up a Goals-Based Wealth Management Practice (CFA Institute Take 15, 2017)"
+    source_ref: "Setting Up a Goals-Based Wealth Management Practice"
+    role: spoken_voice_and_framework
+  - type: interview
+    title: "In conversation with Jean Brunel of Brunel Associates"
+    source_ref: "In conversation with Jean Brunel of Brunel Associates"
+    role: question_answer_behavior
+  - type: interview
+    title: "Episode 33: Jean Brunel - What Should Your Asset Allocation Be?"
+    source_ref: "Episode 33: Jean Brunel"
+    role: question_answer_behavior
+
+framework_registry:
+  require_owner: true
+  require_source_refs: true
+  borrowed_frameworks_must_credit_originator: true
+
+frameworks:
+  - name: "Goals-Based Wealth Management (the iterative process architecture)"
+    topic_file: "topics/goals-based-wealth-management.md"
+    owner: expert
+    originator: "Jean L.P. Brunel"
+    source_refs:
+      - "Goals-Based Wealth Management in Practice"
+      - "A Framework for Goals-Based Wealth Management"
+    attribution_required: false
+    attribution_present: true
+  - name: "Institutional vs. Individual Investor Distinction"
+    topic_file: "topics/institutional-vs-individual.md"
+    owner: expert
+    originator: "Jean L.P. Brunel"
+    source_refs:
+      - "Goals-Based Wealth Management in Practice"
+      - "A Framework for Goals-Based Wealth Management"
+    attribution_required: false
+    attribution_present: true
+  - name: "Dreams and Nightmares Diagnostic"
+    topic_file: "topics/dreams-and-nightmares.md"
+    owner: expert
+    originator: "Jean L.P. Brunel"
+    source_refs:
+      - "Goals-Based Wealth Management in Practice"
+      - "A Framework for Goals-Based Wealth Management"
+    attribution_required: false
+    attribution_present: true
+  - name: "Modular Portfolio Architecture (the 'bicycle' / mass-customization analogy)"
+    topic_file: "topics/modular-portfolio-architecture.md"
+    owner: expert
+    originator: "Jean L.P. Brunel"
+    source_refs:
+      - "Goals-Based Wealth Management in Practice"
+    attribution_required: false
+    attribution_present: true
+  - name: "Internal vs. External / Lifestyle vs. Non-Lifestyle Assets (family-office variant)"
+    topic_file: "topics/internal-external-assets.md"
+    owner: expert
+    originator: "Jean L.P. Brunel"
+    source_refs:
+      - "Goals-Based Wealth Management in Practice"
+    attribution_required: false
+    attribution_present: true
+  - name: "Tax-Aware / Tax-Efficient Portfolio Construction"
+    topic_file: "topics/tax-aware-investing.md"
+    owner: expert
+    originator: "Jean L.P. Brunel"
+    source_refs:
+      - "Integrated Wealth Management"
+      - "Goals-Based Wealth Management in Practice"
+    attribution_required: false
+    attribution_present: true
+    notes: "Corpus coverage is thin; draws primarily on tax-awareness themes in the 2012 CFA paper and 2015 book chapter."
+  - name: "Adviser as Translator"
+    topic_file: "topics/adviser-as-translator.md"
+    owner: expert
+    originator: "Jean L.P. Brunel"
+    source_refs:
+      - "Goals-Based Wealth Management in Practice"
+      - "Setting Up a Goals-Based Wealth Management Practice"
+    attribution_required: false
+    attribution_present: true
+  - name: "Benchmarking and Rebalancing (Flight-Plan Analogy)"
+    topic_file: "topics/benchmarking-and-rebalancing.md"
+    owner: expert
+    originator: "Jean L.P. Brunel"
+    source_refs:
+      - "Goals-Based Wealth Management in Practice"
+    attribution_required: false
+    attribution_present: true
+  - name: "Family Wealth Governance (Wisdom Council, Intergenerational Transfer)"
+    topic_file: "topics/family-wealth-governance.md"
+    owner: expert
+    originator: "Jean L.P. Brunel"
+    source_refs:
+      - "Goals-Based Wealth Management"
+      - "Goals-Based Wealth Management in Practice"
+    attribution_required: false
+    attribution_present: true
+  - name: "Behavioral Finance Portfolio Pyramid"
+    topic_file: "topics/goals-based-wealth-management.md"
+    owner: borrowed
+    originator: "Meir Statman"
+    source_refs:
+      - "Goals-Based Wealth Management in Practice"
+    attribution_required: true
+    attribution_present: true
+    notes: "Brunel cites and builds on this; do not present as his own invention. Referenced within goals-based-wealth-management.md with attribution."
+  - name: "Discretionary Wealth Hypothesis"
+    topic_file: "topics/internal-external-assets.md"
+    owner: borrowed
+    originator: "Jarrod Wilcox"
+    source_refs:
+      - "Goals-Based Wealth Management in Practice"
+    attribution_required: true
+    attribution_present: true
+    notes: "Cited for the discretionary/nondiscretionary wealth split. Attributed, not absorbed."
+  - name: "Wealth Allocation Framework"
+    topic_file: "topics/goals-based-wealth-management.md"
+    owner: context
+    originator: "Ashvin B. Chhabra"
+    source_refs:
+      - "Goals-Based Wealth Management in Practice"
+    attribution_required: true
+    attribution_present: true
+    notes: "Explicitly NOT Brunel's framework. Referenced for context only in goals-based-wealth-management.md."
+  - name: "Mental Account Optimization"
+    topic_file: "topics/goals-based-wealth-management.md"
+    owner: borrowed
+    originator: "Sanjiv Das, Harry Markowitz, Jonathan Scheid, Meir Statman"
+    source_refs:
+      - "Goals-Based Wealth Management in Practice"
+      - "Setting Up a Goals-Based Wealth Management Practice"
+    attribution_required: true
+    attribution_present: true
+    notes: "The 2010 JFQA paper that Brunel credits as transforming his work. Cited, not owned."
+
+voice_plan:
+  minimum_samples: 3
+  require_source_diversity: true
+  allowed_source_types:
+    - author
+    - solo
+    - interview_guest
+  copyright_mode: source_safe_anchors
+
+voice_samples:
+  - mode: manifesto
+    source_ref: "Goals-Based Wealth Management in Practice"
+    source_type: solo
+    quote_safe: true
+    word_count: 336
+    status: used
+    notes: "Sample 1 in persona.md. From the 2012 CFA paper opening sections and integrated-wealth-planning paragraph."
+  - mode: narrative_reflective
+    source_ref: "Goals-Based Wealth Management"
+    source_type: solo
+    quote_safe: true
+    word_count: 312
+    status: used
+    notes: "Sample 2 in persona.md. From the 2015 book chapter 1 Educating Future Generations section."
+  - mode: spoken_instructive
+    source_ref: "Setting Up a Goals-Based Wealth Management Practice"
+    source_type: interview_guest
+    quote_safe: true
+    word_count: 367
+    status: used
+    notes: "Sample 3 in persona.md. From the 2017 Take 15 interview, the translator answer."
+
+proof_policy:
+  invented_numbers_allowed: false
+  placeholders_required_when_unverified: true
+
+strong_rule_policy:
+  require_why: true
+  require_exception_or_risk_handling: true
+
+validation:
+  deterministic: true
+  llm_review:
+    required: true
+    prompt: "dojo-builder/scripts/prompts/persona-review.md"
+    result_file: "PERSONA_REVIEW.json"
+    status: passed
