@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "findings": [
+    {
+      "severity": "resolved",
+      "original_severity": "low",
+      "file": "dojo/personas/jean-brunel/persona.md",
+      "line": 152,
+      "issue": "Voice Sample 1 (manifesto/declarative mode) was approximately 257 words, below the 300-word minimum specified in Phase 5.",
+      "recommendation": "Extend the excerpt by one or two additional sentences from the same paragraph of the 2012 CFA paper to reach the 300-word minimum.",
+      "resolved": true,
+      "resolution": "Extended Sample 1 with the contiguous integrated-wealth-planning paragraph from the same 2012 CFA Institute conference paper. New word count: 336."
+    }
+  ],
+  "checks": {
+    "latest_work_included": true,
+    "source_coverage_satisfied": true,
+    "framework_attribution_clean": true,
+    "borrowed_frameworks_attributed": true,
+    "invented_proof_absent": true,
+    "voice_sources_diverse": true,
+    "strong_rules_have_risk_handling": true,
+    "topic_routing_matches_topics": true
+  }
+}
