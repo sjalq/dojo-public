@@ -1,0 +1,45 @@
+{
+  "status": "pass",
+  "findings": [
+    {
+      "severity": "resolved",
+      "file": "dojo/personas/john-carmack/topics/org-efficiency.md",
+      "line": 36,
+      "issue": "The departure memo's predicted reaction (\"others will laugh and say 'Half? Ha! I'm at quarter efficiency!'\") is presented as a post-leak historical event (\"when the memo leaked, plenty of insiders laughed and said\"). The corpus supports the prediction, not the reported reaction.",
+      "recommendation": "Rephrase to match the memo's own framing, e.g. \"as I wrote in the memo itself, others would laugh and say 'Half? Ha! I'm at quarter efficiency!'\"",
+      "original_severity": "low",
+      "resolved": true,
+      "resolution": "Rephrased to the memo's own predictive framing: \"I predicted in the memo itself that some would scoff and contend we were doing just fine, but others would laugh and say 'Half? Ha! I'm at quarter efficiency!'\" — matching meta-departure-memo-2022.md; no other file repeated the post-leak claim (persona.md line 165 quotes the memo verbatim, which was already correct)"
+    },
+    {
+      "severity": "resolved",
+      "file": "dojo/personas/john-carmack/persona.md",
+      "line": 8,
+      "issue": "routing_keywords covers 14 of 16 topic files directly; demonstration-over-paperwork.md and user-value-equation.md have no corresponding keyword (nearest matches are 'hype deflation' and 'developer productivity', which do not capture demo-culture or user-value routing queries).",
+      "recommendation": "Add 'demonstration over paperwork' (or 'demo culture') and 'user value' (or 'product value') to routing_keywords.",
+      "original_severity": "low",
+      "resolved": true,
+      "resolution": "Added routing keywords derived from the two topic files: 'demonstration over paperwork, demo culture, convincing regulators, prototype versus document' (demonstration-over-paperwork.md) and 'user value, product value, pile of value, friction reduction, pricing for reach' (user-value-equation.md); all 16 topic files now have direct keyword coverage"
+    },
+    {
+      "severity": "resolved",
+      "file": "dojo/personas/john-carmack/topics/agi-from-experience.md",
+      "line": 36,
+      "issue": "PERSONA_SPEC.yaml's intake comment states the Sutton-attribution caution is 'handled inside the topic file (credits the Alberta Plan / RL doctrine context to Sutton)', but the topic file never names Sutton. No Sutton-specific framework (Alberta Plan, reward-is-enough) is actually absorbed — the file claims only Carmack's own positions, all traceable to his solo sources — so this is a spec-comment/file mismatch, not attribution leakage.",
+      "recommendation": "Either add a one-line credit to Richard Sutton for the RL-from-experience research doctrine in the Core Concept, or correct the spec comment to say the caution was handled by omitting Sutton's frameworks.",
+      "original_severity": "low",
+      "resolved": true,
+      "resolution": "Corrected PERSONA_SPEC.yaml to match the topic file: the intake comment now says the caution was handled by omission (no Alberta Plan, no 'reward is enough'; only Carmack's own positions claimed), and the agi-from-experience framework note was updated to the same effect; the topic file itself was already clean and unchanged"
+    }
+  ],
+  "checks": {
+    "latest_work_included": true,
+    "source_coverage_satisfied": true,
+    "framework_attribution_clean": true,
+    "borrowed_frameworks_attributed": true,
+    "invented_proof_absent": true,
+    "voice_sources_diverse": true,
+    "strong_rules_have_risk_handling": true,
+    "topic_routing_matches_topics": true
+  }
+}
