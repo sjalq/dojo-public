@@ -1,0 +1,45 @@
+{
+  "status": "pass",
+  "findings": [
+    {
+      "severity": "resolved",
+      "file": "dojo/personas/evan-czaplicki/persona.md",
+      "line": 16,
+      "issue": "Intro describes Evan as 'a language designer in residence at Prezi and NoRedInk'; the corpus (new-adventures-for-elm.md) supports 'Open Source Engineer at NoRedInk' and the long_blurb uses that title. 'Designer in residence' is an unverified characterization, and the two lines are inconsistent with each other.",
+      "recommendation": "Align the intro with the long_blurb: 'worked as an open-source engineer at Prezi and NoRedInk' (or 'worked on Elm full-time at Prezi and NoRedInk').",
+      "resolution": "Intro rewritten to 'worked as an open-source engineer at Prezi and NoRedInk, hired to work on Elm full-time', matching the long_blurb and the corpus evidence (new-adventures-for-elm.md: 'first day as an Open Source Engineer at NoRedInk'; 'Prezi hired me to work on Elm').",
+      "original_severity": "low",
+      "resolved": true
+    },
+    {
+      "severity": "resolved",
+      "file": "dojo/personas/evan-czaplicki/topics/platform-vs-productivity-languages.md",
+      "line": 40,
+      "issue": "The Lambda Days 2025 auto-caption transcript shows the pragmatist/visionary material and 'this book I don't particularly like' but never captures the words 'Crossing the Chasm' or 'Geoffrey Moore'; the title/author identification is editorial (correct, and attribution to the originator is the safe direction, but not verbatim-traceable to the corpus).",
+      "recommendation": "No change required; optionally soften to 'the Silicon Valley adoption book he says he doesn't particularly like (Crossing the Chasm)' if strict verbatim traceability is wanted.",
+      "resolution": "Title/author dropped; the passage now uses only the transcript's own framing: 'a Silicon Valley adoption book he says he doesn't particularly like (\"but it's a good way of learning how Silicon Valley people see themselves\")' with the transcript's visionary-vs-pragmatist contrast. No other file named the book or author (checked persona.md, all topics, PERSONA_SPEC.yaml).",
+      "original_severity": "low",
+      "resolved": true
+    },
+    {
+      "severity": "resolved",
+      "file": "dojo/personas/evan-czaplicki/topics/platform-vs-productivity-languages.md",
+      "line": 42,
+      "issue": "'Japanese shinise companies' — the transcript discusses the longevity of Japanese companies (long-lived company clusters, 'thing making is people making') but the term 'shinise' itself is not in the auto-caption transcript; it is an editorially supplied technical term.",
+      "recommendation": "No change required; the concept is fully sourced. If desired, phrase as 'long-lived Japanese companies' to stay inside the transcript's own words.",
+      "resolution": "Replaced 'Japanese shinise companies' with the transcript's own framing: 'the long-lived Japanese companies of a Bank of Korea longevity report — century-old firms like Nintendo and Kongo Gumi', all of which is verbatim-traceable to the Lambda Days 2025 transcript. 'Shinise' no longer appears anywhere in the persona (checked persona.md, all topics, PERSONA_SPEC.yaml).",
+      "original_severity": "low",
+      "resolved": true
+    }
+  ],
+  "checks": {
+    "latest_work_included": true,
+    "source_coverage_satisfied": true,
+    "framework_attribution_clean": true,
+    "borrowed_frameworks_attributed": true,
+    "invented_proof_absent": true,
+    "voice_sources_diverse": true,
+    "strong_rules_have_risk_handling": true,
+    "topic_routing_matches_topics": true
+  }
+}

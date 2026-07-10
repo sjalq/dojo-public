@@ -1,0 +1,359 @@
+schema_version: 1
+slug: evan-czaplicki
+expert_name: Evan Czaplicki
+persona_type: framework_author
+status: strict
+
+# Build contract for the Evan Czaplicki persona (creator of the Elm programming
+# language). Filled through Phase 0 by the corpus researcher; frameworks/voice
+# sections are SEEDED with candidates and must be finalized by the intake
+# author during Phases 4-5. All source_refs below are titles findable in
+# personas/evan-czaplicki/content/MANIFEST.md (private) and
+# sources/evan-czaplicki/MANIFEST.md (public).
+
+coverage_policy:
+  latest_work_required: true
+  primary_sources_required: true
+  spoken_voice_required: true
+  portfolio_examples_required: false
+  external_bio_allowed_for_facts_only: true
+
+source_targets:
+  - type: authored_writing
+    minimum: 10
+    purpose: "primary frameworks and written voice (elm-lang.org/news essays, the official Elm guide he authored, package design guidelines)"
+  - type: recent_major_work
+    minimum: 1
+    purpose: "currency check - his 2023-2025 talks on language economics and adoption strategy"
+  - type: solo_video_or_podcast
+    minimum: 6
+    purpose: "spoken cadence from solo conference talks (2014-2025)"
+  - type: interview
+    minimum: 2
+    purpose: "question-answer behavior where Evan is the guest"
+
+latest_work:
+  checked_at: 2026-07-10
+  title: "Road to Elm 1.0 (Elm 0.19.2 release announcement)"
+  year: 2026
+  included: true
+  source_ref: "Road to Elm 1.0"
+  notes: >
+    Published 2026-07-06 (four days before this check). Evan released Elm
+    0.19.2, announced a "road to 1.0" via a series of small non-breaking
+    releases, and publicly named his database-related compiler Acadia
+    (acadia.engineering, private alpha, public launch expected later 2026;
+    captured as "Acadia - A pleasant language for efficient queries (landing
+    page)"). Secondary latest work: "Keynote: Rethinking our Adoption
+    Strategy - Evan Czaplicki | Lambda Days 2025" (platform vs productivity
+    languages) and the GOTO 2024 / Developer Voices Nov 2024 interviews on
+    open source economics. He relocated to Denmark (Kodsnack 604 video
+    interview, Oct 2024).
+
+source_evidence:
+  - type: authored_writing
+    title: "Compiler Errors for Humans"
+    source_ref: "Compiler Errors for Humans"
+    role: primary_framework
+  - type: authored_writing
+    title: "Compilers as Assistants"
+    source_ref: "Compilers as Assistants"
+    role: primary_framework
+  - type: authored_writing
+    title: "The Syntax Cliff"
+    source_ref: "The Syntax Cliff"
+    role: primary_framework
+  - type: authored_writing
+    title: "A Farewell to FRP"
+    source_ref: "A Farewell to FRP"
+    role: primary_framework
+  - type: authored_writing
+    title: "Structure in Web Apps / The Life of a File (official guide)"
+    source_ref: "Structure in Web Apps / The Life of a File (official guide)"
+    role: primary_framework
+  - type: authored_writing
+    title: "The Elm Architecture (official guide)"
+    source_ref: "The Elm Architecture (official guide)"
+    role: primary_framework
+  - type: authored_writing
+    title: "Elm Package Design Guidelines"
+    source_ref: "Elm Package Design Guidelines"
+    role: primary_framework
+  - type: authored_writing
+    title: "Small Assets without the Headache"
+    source_ref: "Small Assets without the Headache"
+    role: primary_framework
+  - type: authored_writing
+    title: "The Limits of Elm/JS Interop (official guide)"
+    source_ref: "The Limits of Elm/JS Interop (official guide)"
+    role: primary_framework
+  - type: authored_writing
+    title: "Types as Sets (official guide appendix)"
+    source_ref: "Types as Sets (official guide appendix)"
+    role: primary_framework
+  - type: recent_major_work
+    title: "Road to Elm 1.0 (2026-07-06)"
+    source_ref: "Road to Elm 1.0"
+    role: latest_work
+  - type: recent_major_work
+    title: "Acadia landing page (his current database-language project)"
+    source_ref: "Acadia - A pleasant language for efficient queries (landing page)"
+    role: latest_work
+  - type: recent_major_work
+    title: "The Economics of Programming Languages (Strange Loop 2023)"
+    source_ref: "\"The Economics of Programming Languages\" by Evan Czaplicki (Strange Loop 2023)"
+    role: primary_framework
+  - type: recent_major_work
+    title: "Rethinking our Adoption Strategy (Lambda Days 2025)"
+    source_ref: "Keynote: Rethinking our Adoption Strategy - Evan Czaplicki | Lambda Days 2025"
+    role: latest_work
+  - type: solo_video_or_podcast
+    title: "Let's be mainstream! (Curry On 2015)"
+    source_ref: "Evan Czaplicki - Let's be mainstream! User focused design in Elm - Curry On"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "The Hard Parts of Open Source (Strange Loop 2018)"
+    source_ref: "\"The Hard Parts of Open Source\" by Evan Czaplicki"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "The life of a file (Elm Europe 2017)"
+    source_ref: "Elm Europe 2017 - Evan Czaplicki - The life of a file"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "What is Success? (Elm Europe 2018)"
+    source_ref: "“What is Success?” by Evan Czaplicki"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "Code is the Easy Part (elm-conf 2016)"
+    source_ref: "\"Code is the Easy Part\" by Evan Czaplicki"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "On Storytelling (Deconstruct 2017, official transcript)"
+    source_ref: "Evan Czaplicki   On Storytelling"
+    role: spoken_voice
+  - type: interview
+    title: "Elm & The Future of Open Source (Developer Voices, Nov 2024)"
+    source_ref: "Elm & The Future of Open Source (with Evan Czaplicki)"
+    role: qa_behavior
+  - type: interview
+    title: "Elm & Open Source: What's Next? (GOTO 2024)"
+    source_ref: "Elm & Open Source: What's Next? • Evan Czaplicki & Kris Jenkins • GOTO 2024"
+    role: qa_behavior
+
+framework_registry:
+  require_owner: true
+  require_source_refs: true
+  borrowed_frameworks_must_credit_originator: true
+
+# FINALIZED by the intake author (Phase 4, 2026-07-10). All 17 frameworks
+# below are shipped as topic files; each has >=2 qualifying sources
+# (author-written or solo). See .pipeline/dossier.md for evidence paths.
+frameworks:
+  - name: "The Elm Architecture (Model-Update-View)"
+    topic_file: "topics/the-elm-architecture.md"
+    owner: expert
+    originator: "Evan Czaplicki"
+    source_refs:
+      - "The Elm Architecture (official guide)"
+      - "The Elm Architecture Tutorial README"
+      - "A Farewell to FRP"
+    attribution_required: false
+    attribution_present: true
+  - name: "Compiler Errors as User Experience / Compilers as Assistants"
+    topic_file: "topics/compilers-as-assistants.md"
+    owner: expert
+    originator: "Evan Czaplicki"
+    source_refs:
+      - "Compiler Errors for Humans"
+      - "Compilers as Assistants"
+      - "The Syntax Cliff"
+    attribution_required: false
+    attribution_present: true
+  - name: "The Life of a File (grow modules, do not plan ahead)"
+    topic_file: "topics/the-life-of-a-file.md"
+    owner: expert
+    originator: "Evan Czaplicki"
+    source_refs:
+      - "Elm Europe 2017 - Evan Czaplicki - The life of a file"
+      - "Structure in Web Apps / The Life of a File (official guide)"
+    attribution_required: false
+    attribution_present: true
+  - name: "Culture Shock (defensive instincts imported from other ecosystems)"
+    topic_file: "topics/culture-shock.md"
+    owner: expert
+    originator: "Evan Czaplicki"
+    source_refs:
+      - "Structure in Web Apps / The Life of a File (official guide)"
+      - "Elm Europe 2017 - Evan Czaplicki - The life of a file"
+    attribution_required: false
+    attribution_present: true
+  - name: "Gradual Learning / user-focused language design"
+    topic_file: "topics/gradual-learning.md"
+    owner: expert
+    originator: "Evan Czaplicki"
+    source_refs:
+      - "Evan Czaplicki - Let's be mainstream! User focused design in Elm - Curry On"
+      - "The Syntax Cliff"
+      - "An Introduction to Elm (official guide) — Introduction"
+    attribution_required: false
+    attribution_present: true
+  - name: "Batching (issues accumulate; release holistic fixes as stories)"
+    topic_file: "topics/batching-and-releases.md"
+    owner: expert
+    originator: "Evan Czaplicki"
+    source_refs:
+      - "Evan Czaplicki   On Storytelling"
+      - "\"Code is the Easy Part\" by Evan Czaplicki"
+    attribution_required: false
+    attribution_present: true
+  - name: "On Storytelling (conflict -> shared language -> story -> news)"
+    topic_file: "topics/on-storytelling.md"
+    owner: expert
+    originator: "Evan Czaplicki"
+    source_refs:
+      - "Evan Czaplicki   On Storytelling"
+      - "\"Code is the Easy Part\" by Evan Czaplicki"
+    attribution_required: false
+    attribution_present: true
+  - name: "The Hard Parts of Open Source ('why don't you just', maintainer economics)"
+    topic_file: "topics/hard-parts-of-open-source.md"
+    owner: expert
+    originator: "Evan Czaplicki"
+    source_refs:
+      - "\"The Hard Parts of Open Source\" by Evan Czaplicki"
+      - "“What is Success?” by Evan Czaplicki"
+      - "Elm Radio 026 - Funding Open Source with Evan Czaplicki"
+    attribution_required: false
+    attribution_present: true
+  - name: "The Economics of Programming Languages (corporate vs independent)"
+    topic_file: "topics/economics-of-programming-languages.md"
+    owner: expert
+    originator: "Evan Czaplicki"
+    source_refs:
+      - "\"The Economics of Programming Languages\" by Evan Czaplicki (Strange Loop 2023)"
+      - "Keynote: Rethinking our Adoption Strategy - Evan Czaplicki | Lambda Days 2025"
+    attribution_required: false
+    attribution_present: true
+  - name: "Platform Languages vs Productivity Languages"
+    topic_file: "topics/platform-vs-productivity-languages.md"
+    owner: expert
+    originator: "Evan Czaplicki"
+    source_refs:
+      - "Keynote: Rethinking our Adoption Strategy - Evan Czaplicki | Lambda Days 2025"
+      - "\"The Economics of Programming Languages\" by Evan Czaplicki (Strange Loop 2023)"
+    attribution_required: false
+    attribution_present: true
+  - name: "No Runtime Exceptions (reliability as a designed property)"
+    topic_file: "topics/no-runtime-exceptions.md"
+    owner: expert
+    originator: "Evan Czaplicki"
+    source_refs:
+      - "Types (official guide)"
+      - "Error Handling (official guide)"
+      - "Compilers as Assistants"
+    attribution_required: false
+    attribution_present: true
+  - name: "Types as Sets / data modeling first"
+    topic_file: "topics/types-as-sets.md"
+    owner: expert
+    originator: "Evan Czaplicki"
+    source_refs:
+      - "Types as Sets (official guide appendix)"
+      - "Custom Types (official guide)"
+    attribution_required: false
+    attribution_present: true
+    notes: >
+      CAUTION - the talk "Making Impossible States Impossible" is Richard
+      Feldman's, not Evan's. Evan's own framing is types-as-sets and ruling
+      out invalid data via custom types. Do not absorb Feldman's talk title.
+  - name: "Enforced Semantic Versioning (tooling-verified API changes)"
+    topic_file: "topics/enforced-semver.md"
+    owner: expert
+    originator: "Evan Czaplicki"
+    source_refs:
+      - "Elm Package Manager"
+      - "An Introduction to Elm (official guide) — Introduction"
+    attribution_required: false
+    attribution_present: true
+  - name: "Designed API boundaries (ports, The Limits of Elm/JS Interop)"
+    topic_file: "topics/designed-boundaries.md"
+    owner: expert
+    originator: "Evan Czaplicki"
+    source_refs:
+      - "The Limits of Elm/JS Interop (official guide)"
+      - "JavaScript Interop (official guide)"
+      - "A Farewell to FRP"
+    attribution_required: false
+    attribution_present: true
+  - name: "Package/API design for the long term (Usage-Driven Design)"
+    topic_file: "topics/api-design-guidelines.md"
+    owner: expert
+    originator: "Evan Czaplicki"
+    source_refs:
+      - "Elm Package Design Guidelines"
+      - "elm-sortable-table README (About API Design)"
+    attribution_required: false
+    attribution_present: true
+  - name: "Saying no / intentional feature exclusion / stability as a feature"
+    topic_file: "topics/saying-no.md"
+    owner: expert
+    originator: "Evan Czaplicki"
+    source_refs:
+      - "Elm Compiler Roadmap"
+      - "Evan Czaplicki - Convergent Evolution"
+      - "\"The Hard Parts of Open Source\" by Evan Czaplicki"
+    attribution_required: false
+    attribution_present: true
+  - name: "What is Success? (redefining success away from growth-at-all-costs)"
+    topic_file: "topics/what-is-success.md"
+    owner: expert
+    originator: "Evan Czaplicki"
+    source_refs:
+      - "“What is Success?” by Evan Czaplicki"
+      - "Elm and finding your right path, with Evan Czaplicki #functionalprogramming"
+    attribution_required: false
+    attribution_present: true
+
+voice_plan:
+  minimum_samples: 3
+  require_source_diversity: true
+  allowed_source_types:
+    - author
+    - solo
+    - interview_guest
+  copyright_mode: source_safe_anchors
+
+# FINALIZED (Phase 5, 2026-07-10) - exactly the three samples embedded in
+# persona.md VOICE SAMPLES, in order. Source diversity: author + solo.
+voice_samples:
+  - mode: manifesto
+    source_ref: "Compiler Errors for Humans"
+    source_type: author
+    quote_safe: true
+    notes: "Sample 1 in persona.md - written thesis voice, June 2015 essay."
+  - mode: storytelling
+    source_ref: "Evan Czaplicki   On Storytelling"
+    source_type: solo
+    quote_safe: true
+    notes: "Sample 2 in persona.md - official Deconstruct 2017 conference transcript (punctuated), diagnostic/reframing spoken voice."
+  - mode: tactical
+    source_ref: "Structure in Web Apps / The Life of a File (official guide)"
+    source_type: author
+    quote_safe: true
+    notes: "Sample 3 in persona.md - instructive guide voice incl. Culture Shock section."
+
+proof_policy:
+  invented_numbers_allowed: false
+  placeholders_required_when_unverified: true
+
+strong_rule_policy:
+  require_why: true
+  require_exception_or_risk_handling: true
+
+validation:
+  deterministic: true
+  llm_review:
+    required: true
+    prompt: "dojo-builder/scripts/prompts/persona-review.md"
+    result_file: "PERSONA_REVIEW.json"
+    status: passed
