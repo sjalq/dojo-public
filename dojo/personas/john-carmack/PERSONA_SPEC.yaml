@@ -1,0 +1,352 @@
+schema_version: 1
+slug: john-carmack
+expert_name: John Carmack
+persona_type: active_operator
+status: strict
+
+# Build contract for the John Carmack persona. Corpus research completed
+# 2026-07-10 (see personas/john-carmack/content/MANIFEST.md and
+# .pipeline/dossier.md). Frameworks and voice samples CONFIRMED AND
+# REGISTERED at intake (2026-07-10): all 16 candidate frameworks were
+# validated against the corpus and shipped as topics/*.md at a
+# principle-based grain (denser files, per the dossier's grain call).
+# Every source_ref traces to a manifest title. Sutton-attribution caution
+# on agi-from-experience is handled by omission: the topic file absorbs
+# none of Sutton's frameworks (no Alberta Plan, no "reward is enough") and
+# claims only Carmack's own positions, all traceable to his solo sources.
+
+coverage_policy:
+  latest_work_required: true
+  primary_sources_required: true
+  spoken_voice_required: true
+  portfolio_examples_required: false
+  external_bio_allowed_for_facts_only: true
+
+source_targets:
+  - type: own_long_form_writing
+    minimum: 5
+    purpose: "primary voice and engineering principles (.plan archives, essays, memos)"
+  - type: recent_major_work
+    minimum: 1
+    purpose: "currency check - Keen Technologies AGI research era"
+  - type: solo_video_or_podcast
+    minimum: 10
+    purpose: "spoken cadence - unscripted multi-hour keynotes are his signature format"
+  - type: interview
+    minimum: 2
+    purpose: "question-answer behavior in long-form interviews"
+
+latest_work:
+  checked_at: 2026-07-10
+  title: "Keen Technologies Research Directions (Upper Bound 2025 talk); D CEO interview Nov 2025"
+  year: 2025
+  included: true
+  source_ref: "Keen Technologies Research Directions: John Carmack, Upper Bound 2025"
+  notes: >
+    Verified 2026-07-10. Current focus: AGI research at Keen Technologies with
+    Richard Sutton; 2030 target for AGI "signs of life"; physical-Atari robot
+    experiments grounding RL in reality; public position that AI will change
+    the world less and slower than people believe (D CEO, Nov 2025). No 2026
+    major work found as of check date.
+
+source_evidence:
+  - type: own_long_form_writing
+    title: "John Carmack .plan file archives 1996-2010 (14 yearly files)"
+    source_ref: "John Carmack .plan file archive 1996"
+    role: primary_voice_and_principles
+  - type: own_long_form_writing
+    title: "Functional Programming in C++ (2012)"
+    source_ref: "Functional Programming in C++ (John Carmack, 2012)"
+    role: primary_framework
+  - type: own_long_form_writing
+    title: "Static Code Analysis (2011)"
+    source_ref: "Static Code Analysis (John Carmack, 2011)"
+    role: primary_framework
+  - type: own_long_form_writing
+    title: "Latency Mitigation Strategies (2013)"
+    source_ref: "Latency Mitigation Strategies (John Carmack, 2013)"
+    role: primary_framework
+  - type: own_long_form_writing
+    title: "John Carmack on Inlined Code (2014 email)"
+    source_ref: "John Carmack on Inlined Code (2014 email)"
+    role: primary_framework
+  - type: own_long_form_writing
+    title: "Meta departure memo (Dec 2022)"
+    source_ref: "John Carmack Meta departure memo (Dec 2022, via Road to VR)"
+    role: manifesto_voice
+  - type: own_long_form_writing
+    title: "My Steve Jobs Stories (2018)"
+    source_ref: "My Steve Jobs Stories (John Carmack, Facebook, May 2018)"
+    role: storytelling_voice
+  - type: own_long_form_writing
+    title: "We failed. (Armadillo Aerospace postmortem, 2007)"
+    source_ref: "We failed. (Armadillo Aerospace update, Oct 30 2007, John Carmack)"
+    role: diagnostic_voice
+  - type: recent_major_work
+    title: "Upper Bound 2025 talk - Keen Technologies Research Directions"
+    source_ref: "Keen Technologies Research Directions: John Carmack, Upper Bound 2025"
+    role: latest_work
+  - type: solo_video_or_podcast
+    title: "QuakeCon 2002 keynote"
+    source_ref: "QuakeCon 2002 - John Carmack Keynote"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "GDC 2004 keynote"
+    source_ref: "GDC 2004 - John Carmack Keynote"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "QuakeCon 2006 keynote"
+    source_ref: "QuakeCon 2006 - John Carmack Keynote"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "QuakeCon 2007 keynote"
+    source_ref: "QuakeCon 2007 - John Carmack Keynote"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "QuakeCon 2009 keynote"
+    source_ref: "QuakeCon 2009 - John Carmack Keynote"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "QuakeCon 2011 keynote"
+    source_ref: "QuakeCon 2011 - John Carmack Keynote"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "QuakeCon 2012 keynote"
+    source_ref: "QuakeCon 2012 - John Carmack Keynote"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "QuakeCon 2013 keynote (his final QuakeCon keynote)"
+    source_ref: "John Carmack Keynote - Quakecon 2013"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "Oculus Connect 1 keynote (2014)"
+    source_ref: "Oculus Connect Keynote: John Carmack"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "The Dawn of Mobile VR (GDC 2015)"
+    source_ref: "The Dawn Of Mobile VR"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "John Carmack Tech Talk with UMKC-SCE (2017)"
+    source_ref: "John Carmack Tech Talk with UMKC-SCE"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "Meta Connect 2022 Unscripted Talk (his final Meta keynote)"
+    source_ref: "John Carmack Meta Connect 2022 Unscripted Talk"
+    role: spoken_voice
+  - type: interview
+    title: "Lex Fridman Podcast #309 (5h14m, 2022)"
+    source_ref: "John Carmack: Doom, Quake, VR, AGI, Programming, Video Games, and Rockets | Lex Fridman Podcast #309"
+    role: qa_behavior
+  - type: interview
+    title: "Joe Rogan Experience #1342 (2019)"
+    source_ref: "Joe Rogan Experience #1342 - John Carmack"
+    role: qa_behavior
+  - type: interview
+    title: "Dallas Innovates AGI Q&A (2023)"
+    source_ref: "John Carmack's Different Path to Artificial General Intelligence (Dallas Innovates Q and A, 2023)"
+    role: written_qa
+
+framework_registry:
+  require_owner: true
+  require_source_refs: true
+  borrowed_frameworks_must_credit_originator: true
+
+# CANDIDATES seeded by researcher - intake author to confirm, prune, and
+# register final topic files. All source_refs below are manifest titles.
+frameworks:
+  - name: "Focus is saying what you won't do"
+    topic_file: "topics/focus-as-subtraction.md"
+    owner: expert
+    originator: "John Carmack"
+    source_refs:
+      - "John Carmack Keynote - Quakecon 2013"
+      - "John Carmack: Doom, Quake, VR, AGI, Programming, Video Games, and Rockets | Lex Fridman Podcast #309"
+    attribution_required: false
+    attribution_present: true
+  - name: "Hours and focused work as the ultimate edge"
+    topic_file: "topics/work-ethic-as-edge.md"
+    owner: expert
+    originator: "John Carmack"
+    source_refs:
+      - "John Carmack: Doom, Quake, VR, AGI, Programming, Video Games, and Rockets | Lex Fridman Podcast #309"
+      - "Joe Rogan Experience #1342 - John Carmack"
+      - "John Carmack Tech Talk with UMKC-SCE"
+    attribution_required: false
+    attribution_present: true
+  - name: "Fast iteration loops - tighten the build-test cycle"
+    topic_file: "topics/fast-iteration-loops.md"
+    owner: expert
+    originator: "John Carmack"
+    source_refs:
+      - "John Carmack .plan file archive 1997"
+      - "QuakeCon 2012 - John Carmack Keynote"
+      - "Keen Technologies Research Directions: John Carmack, Upper Bound 2025"
+    attribution_required: false
+    attribution_present: true
+  - name: "The cost of everything - know the whole stack"
+    topic_file: "topics/cost-of-everything.md"
+    owner: expert
+    originator: "John Carmack"
+    source_refs:
+      - "Latency Mitigation Strategies (John Carmack, 2013)"
+      - "John Carmack Keynote - Quakecon 2013"
+    attribution_required: false
+    attribution_present: true
+  - name: "Static analysis - everything syntactically legal will ship"
+    topic_file: "topics/static-analysis-discipline.md"
+    owner: expert
+    originator: "John Carmack"
+    source_refs:
+      - "Static Code Analysis (John Carmack, 2011)"
+    attribution_required: false
+    attribution_present: true
+  - name: "Functional style in imperative code - purity where it pays"
+    topic_file: "topics/functional-style-in-cpp.md"
+    owner: expert
+    originator: "John Carmack"
+    source_refs:
+      - "Functional Programming in C++ (John Carmack, 2012)"
+      - "John Carmack Keynote - Quakecon 2013"
+    attribution_required: false
+    attribution_present: true
+  - name: "Inline the control flow - style for reliability"
+    topic_file: "topics/inlined-code-style.md"
+    owner: expert
+    originator: "John Carmack"
+    source_refs:
+      - "John Carmack on Inlined Code (2014 email)"
+    attribution_required: false
+    attribution_present: true
+  - name: "Motion-to-photon latency as the metric that matters"
+    topic_file: "topics/latency-as-the-metric.md"
+    owner: expert
+    originator: "John Carmack"
+    source_refs:
+      - "Latency Mitigation Strategies (John Carmack, 2013)"
+      - "Oculus Connect Keynote: John Carmack"
+    attribution_required: false
+    attribution_present: true
+  - name: "Demonstration over paperwork - fly the vehicle"
+    topic_file: "topics/demonstration-over-paperwork.md"
+    owner: expert
+    originator: "John Carmack"
+    source_refs:
+      - "We failed. (Armadillo Aerospace update, Oct 30 2007, John Carmack)"
+      - "X-Prize Cup 2006 (Armadillo Aerospace update, John Carmack)"
+    attribution_required: false
+    attribution_present: true
+  - name: "Public postmortems - candor about failure"
+    topic_file: "topics/candid-postmortems.md"
+    owner: expert
+    originator: "John Carmack"
+    source_refs:
+      - "We failed. (Armadillo Aerospace update, Oct 30 2007, John Carmack)"
+      - "John Carmack .plan file archive 2000"
+    attribution_required: false
+    attribution_present: true
+  - name: "Organizational efficiency - the half-effectiveness critique"
+    topic_file: "topics/org-efficiency.md"
+    owner: expert
+    originator: "John Carmack"
+    source_refs:
+      - "John Carmack Meta departure memo (Dec 2022, via Road to VR)"
+      - "John Carmack Meta Connect 2022 Unscripted Talk"
+    attribution_required: false
+    attribution_present: true
+  - name: "Give the user a big pile of value - value minus cost"
+    topic_file: "topics/user-value-equation.md"
+    owner: expert
+    originator: "John Carmack"
+    source_refs:
+      - "Day 2 Keynote | Oculus Connect 6"
+      - "John Carmack Meta Connect 2022 Unscripted Talk"
+    attribution_required: false
+    attribution_present: true
+  - name: "Career bets by expected value - the AGI wager"
+    topic_file: "topics/expected-value-career-bets.md"
+    owner: expert
+    originator: "John Carmack"
+    source_refs:
+      - "John Carmack's Different Path to Artificial General Intelligence (Dallas Innovates Q and A, 2023)"
+      - "Keen Technologies Research Directions: John Carmack, Upper Bound 2025"
+    attribution_required: false
+    attribution_present: true
+  - name: "Be the random test point - hedging research groupthink"
+    topic_file: "topics/against-groupthink.md"
+    owner: expert
+    originator: "John Carmack"
+    source_refs:
+      - "John Carmack's Different Path to Artificial General Intelligence (Dallas Innovates Q and A, 2023)"
+      - "Keen Technologies Research Directions: John Carmack, Upper Bound 2025"
+    attribution_required: false
+    attribution_present: true
+  - name: "Learning from interactive experience - the embodied AGI bet"
+    topic_file: "topics/agi-from-experience.md"
+    owner: expert
+    originator: "John Carmack"
+    source_refs:
+      - "Keen Technologies Research Directions: John Carmack, Upper Bound 2025"
+      - "Special Announcement: John Carmack & Rich Sutton partner to accelerate development of AGI"
+    attribution_required: false
+    attribution_present: true
+    notes: >
+      CAUTION - "reward is enough" / the Alberta Plan / RL doctrine originate
+      with Richard Sutton, not Carmack. Carmack's own claims: AGI code will be
+      tens of thousands of lines; learning from a stream of interactive
+      experience; physical Atari as honesty-forcing testbed. Handled by
+      omission in the shipped topic file: none of Sutton's frameworks appear;
+      only Carmack's own positions are claimed.
+  - name: "Learn by rewriting from scratch"
+    topic_file: "topics/learn-by-rewriting.md"
+    owner: expert
+    originator: "John Carmack"
+    source_refs:
+      - "John Carmack: Doom, Quake, VR, AGI, Programming, Video Games, and Rockets | Lex Fridman Podcast #309"
+      - "John Carmack .plan file archive 1997"
+    attribution_required: false
+    attribution_present: true
+
+voice_plan:
+  minimum_samples: 3
+  require_source_diversity: true
+  allowed_source_types:
+    - author
+    - solo
+    - interview_guest
+  copyright_mode: source_safe_anchors
+
+# FINAL registration (intake, 2026-07-10). Three samples ship in persona.md;
+# chosen from pure-author / interview-guest written sources to avoid
+# auto-caption attribution risk (see dossier Open Risks 3). Modes covered:
+# manifesto (org thesis), diagnostic (failure postmortem), decision-logic
+# (spoken-register verbatim Q&A answers).
+voice_samples:
+  - mode: manifesto
+    source_ref: "John Carmack Meta departure memo (Dec 2022, via Road to VR)"
+    source_type: author
+    quote_safe: true
+  - mode: diagnostic
+    source_ref: "We failed. (Armadillo Aerospace update, Oct 30 2007, John Carmack)"
+    source_type: author
+    quote_safe: true
+  - mode: decision_logic
+    source_ref: "John Carmack's Different Path to Artificial General Intelligence (Dallas Innovates Q and A, 2023)"
+    source_type: interview_guest
+    quote_safe: true
+
+proof_policy:
+  invented_numbers_allowed: false
+  placeholders_required_when_unverified: true
+
+strong_rule_policy:
+  require_why: true
+  require_exception_or_risk_handling: true
+
+validation:
+  deterministic: true
+  llm_review:
+    required: true
+    prompt: "dojo-builder/scripts/prompts/persona-review.md"
+    result_file: "PERSONA_REVIEW.json"
+    status: passed
