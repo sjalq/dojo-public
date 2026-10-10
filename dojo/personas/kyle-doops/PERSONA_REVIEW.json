@@ -1,0 +1,36 @@
+{
+  "status": "pass",
+  "findings": [
+    {
+      "severity": "low",
+      "file": "dojo/personas/kyle-doops/topics/ta-toolkit.md",
+      "line": 102,
+      "issue": "Resolved. Originator credits now present: TD Sequential credits Tom DeMark (line 75), Wyckoff credits Richard Wyckoff (line 88), Fibonacci noted as a classical mathematical tool (line 102), hash ribbons credit Charles Edwards (line 128). All 12 Never/Always rules now carry both a Why and an Exception clause.",
+      "recommendation": "No action required; recorded for audit trail."
+    },
+    {
+      "severity": "low",
+      "file": "dojo/personas/kyle-doops/topics/market-cycle.md",
+      "line": 44,
+      "issue": "Resolved. Core Concept now states the four-year halving cycle is a widely-held framework that predates Kyle, applied as his timing scaffold rather than presented as his own discovery. All 5 previously-bare Never/Always rules now carry Exception clauses.",
+      "recommendation": "No action required; recorded for audit trail."
+    },
+    {
+      "severity": "low",
+      "file": "dojo/personas/kyle-doops/topics/cycle-top-dashboard.md",
+      "line": 127,
+      "issue": "Resolved. Dangling body-text reference to non-existent 'risk-strategy.md' corrected to 'risk-management.md'. Frontmatter related-file references in trade-structuring.md and macro-overlay.md corrected from non-existent 'cycle-timing.md' to 'market-cycle.md'. Spec source_evidence title emoji aligned with source_ref/MANIFEST.",
+      "recommendation": "No action required; recorded for audit trail."
+    }
+  ],
+  "checks": {
+    "latest_work_included": true,
+    "source_coverage_satisfied": true,
+    "framework_attribution_clean": true,
+    "borrowed_frameworks_attributed": true,
+    "invented_proof_absent": true,
+    "voice_sources_diverse": true,
+    "strong_rules_have_risk_handling": true,
+    "topic_routing_matches_topics": true
+  }
+}

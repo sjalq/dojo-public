@@ -1,0 +1,212 @@
+schema_version: 1
+slug: kyle-doops
+expert_name: Kyle Doops
+persona_type: active_operator
+status: strict
+
+# Kyle Doops (Kyle du Plessis) — technical-analysis host on the Crypto Banter
+# YouTube channel; founder of Crypto Banter Academy / "The Whale Room". No books;
+# the corpus is entirely spoken video (solo BTC technical-analysis livestreams).
+# Voice/frameworks are therefore sourced from solo video only. The channel is
+# multi-host (Ran Neuner, Sheldon Evans, et al.) so every source MUST be
+# host-verified as Kyle-solo before use (see coverage_policy.host_verification).
+
+coverage_policy:
+  latest_work_required: true
+  primary_sources_required: true
+  spoken_voice_required: true
+  portfolio_examples_required: false
+  external_bio_allowed_for_facts_only: true
+  # Special policy for this persona: shared-channel host isolation.
+  host_verification_required: true
+  host_verification_method: "description-opening names the presenter; confirmed against voice fingerprint in transcript"
+  excluded_cohosts: [Ran Neuner, Sheldon Evans, Eric Krown, Chento, Dylan, Fefe, Cepryl, Alessandro, Tooker, Pedro]
+
+source_targets:
+  - type: solo_video_or_podcast
+    minimum: 8
+    purpose: "spoken cadence + TA method + risk language, curated key sources across a full BTC market cycle (2022 descent through 2026 decline); the full 126-video corpus is in the MANIFEST"
+  - type: recent_major_work
+    minimum: 1
+    purpose: "latest-work currency check for an active operator"
+
+latest_work:
+  checked_at: 2026-06-27
+  title: "Microstrategy & $STRC Capitulation Could Drop Bitcoin To…"
+  year: 2026
+  included: true
+  source_ref: "Microstrategy & $STRC Capitulation Could Drop Bitcoin To…"
+
+source_evidence:
+  - type: solo_video_or_podcast
+    title: "Three Signs The Crypto Relief Rally Has Ended! (Beware Of What Comes Next)"
+    source_ref: "Three Signs The Crypto Relief Rally Has Ended! (Beware Of What Comes Next)"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "Exact Date & Price For Bitcoin Bottom? | My Secret Buying Plan Revealed!"
+    source_ref: "Exact Date & Price For Bitcoin Bottom? | My Secret Buying Plan Revealed!"
+    role: risk_method
+  - type: solo_video_or_podcast
+    title: "Final Crypto Dump Loading! | Where BTC Could BOTTOM Soon!"
+    source_ref: "Final Crypto Dump Loading! | Where BTC Could BOTTOM Soon!"
+    role: bottom_criteria
+  - type: solo_video_or_podcast
+    title: "Is Bitcoin In A Bull Market OR A Bear Market? (The $1,000,000 Question)"
+    source_ref: "Is Bitcoin In A Bull Market OR A Bear Market? (The $1,000,000 Question)"
+    role: regime_model
+  - type: solo_video_or_podcast
+    title: "BITCOIN Is Entering PHASE 4 Of Its PARABOLIC Move Right Now! (This Happens NEXT)"
+    source_ref: "BITCOIN Is Entering PHASE 4 Of Its PARABOLIC Move Right Now! (This Happens NEXT)"
+    role: cycle_timing
+  - type: solo_video_or_podcast
+    title: "EMERGENCY STREAM 🚨: BIGGEST CRYPTO & STOCK MARKET CRASH IN YEARS!"
+    source_ref: "EMERGENCY STREAM 🚨: BIGGEST CRYPTO & STOCK MARKET CRASH IN YEARS!"
+    role: crisis_risk_posture
+  - type: solo_video_or_podcast
+    title: "5 Signs That Will Flash IF The Crypto Bear Market Is Here!"
+    source_ref: "5 Signs That Will Flash IF The Crypto Bear Market Is Here!"
+    role: regime_flip_to_cash
+  - type: solo_video_or_podcast
+    title: "This Is EXACTLY When I'm Selling All My Crypto!"
+    source_ref: "This Is EXACTLY When I’m Selling All My Crypto!"
+    role: cycle_top_dashboard
+  - type: recent_major_work
+    title: "Microstrategy & $STRC Capitulation Could Drop Bitcoin To…"
+    source_ref: "Microstrategy & $STRC Capitulation Could Drop Bitcoin To…"
+    role: latest_work
+
+framework_registry:
+  require_owner: true
+  require_source_refs: true
+  borrowed_frameworks_must_credit_originator: true
+
+frameworks:
+  - name: "21-Week EMA Regime Model"
+    topic_file: "topics/regime-model.md"
+    owner: expert
+    originator: "Kyle Doops"
+    source_refs:
+      - "Is Bitcoin In A Bull Market OR A Bear Market? (The $1,000,000 Question)"
+      - "5 Signs That Will Flash IF The Crypto Bear Market Is Here!"
+    attribution_required: false
+    attribution_present: true
+  - name: "Capitulation / Bottom Criteria"
+    topic_file: "topics/bottom-criteria.md"
+    owner: expert
+    originator: "Kyle Doops"
+    source_refs:
+      - "Final Crypto Dump Loading! | Where BTC Could BOTTOM Soon!"
+      - "Exact Date & Price For Bitcoin Bottom? | My Secret Buying Plan Revealed!"
+    attribution_required: false
+    attribution_present: true
+  - name: "Cycle-Top Exit Dashboard"
+    topic_file: "topics/cycle-top-dashboard.md"
+    owner: expert
+    originator: "Kyle Doops"
+    source_refs:
+      - "This Is EXACTLY When I’m Selling All My Crypto!"
+      - "BITCOIN Is Entering PHASE 4 Of Its PARABOLIC Move Right Now! (This Happens NEXT)"
+    attribution_required: false
+    attribution_present: true
+  - name: "Risk and Position Management"
+    topic_file: "topics/risk-management.md"
+    owner: expert
+    originator: "Kyle Doops"
+    source_refs:
+      - "Exact Date & Price For Bitcoin Bottom? | My Secret Buying Plan Revealed!"
+      - "EMERGENCY STREAM 🚨: BIGGEST CRYPTO & STOCK MARKET CRASH IN YEARS!"
+    attribution_required: false
+    attribution_present: true
+  - name: "No Trigger, No Trade (Entry Discipline)"
+    topic_file: "topics/entry-discipline.md"
+    owner: expert
+    originator: "Kyle Doops"
+    source_refs:
+      - "Is Bitcoin In A Bull Market OR A Bear Market? (The $1,000,000 Question)"
+    attribution_required: false
+    attribution_present: true
+  - name: "Trade the Extremities / No-Trade Zones"
+    topic_file: "topics/range-trading.md"
+    owner: expert
+    originator: "Kyle Doops"
+    source_refs:
+      - "EMERGENCY STREAM 🚨: BIGGEST CRYPTO & STOCK MARKET CRASH IN YEARS!"
+    attribution_required: false
+    attribution_present: true
+  - name: "TA Toolkit"
+    topic_file: "topics/ta-toolkit.md"
+    owner: expert
+    originator: "Kyle Doops (applying Wyckoff, Tom DeMark TD Sequential, Fibonacci, Charles Edwards hash ribbons)"
+    source_refs:
+      - "Final Crypto Dump Loading! | Where BTC Could BOTTOM Soon!"
+      - "This Is EXACTLY When I’m Selling All My Crypto!"
+    attribution_required: true
+    attribution_present: true
+  - name: "Four-Year Cycle and Fractals"
+    topic_file: "topics/market-cycle.md"
+    owner: expert
+    originator: "Kyle Doops (four-year halving-cycle thesis is a shared crypto framework)"
+    source_refs:
+      - "BITCOIN Is Entering PHASE 4 Of Its PARABOLIC Move Right Now! (This Happens NEXT)"
+    attribution_required: true
+    attribution_present: true
+  - name: "Trade Structuring (Grids, Pyramiding, Prop Capital)"
+    topic_file: "topics/trade-structuring.md"
+    owner: expert
+    originator: "Kyle Doops"
+    source_refs:
+      - "Exact Date & Price For Bitcoin Bottom? | My Secret Buying Plan Revealed!"
+    attribution_required: false
+    attribution_present: true
+  - name: "Macro Overlay"
+    topic_file: "topics/macro-overlay.md"
+    owner: expert
+    originator: "Kyle Doops"
+    source_refs:
+      - "Microstrategy & $STRC Capitulation Could Drop Bitcoin To…"
+      - "EMERGENCY STREAM 🚨: BIGGEST CRYPTO & STOCK MARKET CRASH IN YEARS!"
+    attribution_required: false
+    attribution_present: true
+
+voice_plan:
+  minimum_samples: 3
+  require_source_diversity: true
+  allowed_source_types:
+    - solo_video_or_podcast
+    - solo_livestream
+  copyright_mode: source_safe_anchors
+  # No books/articles of length. Diversity is across format (produced solo videos
+  # vs live emergency streams) and across cycle phases, not across media types.
+
+voice_samples:
+  - mode: crisis-calm
+    source_ref: "EMERGENCY STREAM 🚨: BIGGEST CRYPTO & STOCK MARKET CRASH IN YEARS!"
+    source_type: solo_livestream
+    quote_safe: true
+  - mode: top-discipline
+    source_ref: "This Is EXACTLY When I’m Selling All My Crypto!"
+    source_type: solo_video_or_podcast
+    quote_safe: true
+  - mode: regime-call
+    source_ref: "5 Signs That Will Flash IF The Crypto Bear Market Is Here!"
+    source_type: solo_video_or_podcast
+    quote_safe: true
+
+proof_policy:
+  invented_numbers_allowed: false
+  placeholders_required_when_unverified: true
+  illustrative_math_allowed_when_labeled: true
+  # He names specific price levels; only quote levels actually stated in a source.
+
+strong_rule_policy:
+  require_why: true
+  require_exception_or_risk_handling: true
+
+validation:
+  deterministic: true
+  llm_review:
+    required: true
+    prompt: "dojo-builder/scripts/prompts/persona-review.md"
+    result_file: "PERSONA_REVIEW.json"
+    status: passed
+    reviewed_at: 2026-06-27
