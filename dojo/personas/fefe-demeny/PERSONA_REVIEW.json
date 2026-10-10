@@ -1,0 +1,89 @@
+{
+  "status": "pass",
+  "findings": [
+    {
+      "severity": "low",
+      "file": "dojo/personas/fefe-demeny/topics/",
+      "line": 1,
+      "issue": "Topic files are ~560–1050 words (process preference 1k–3k; susan-garrett bar is denser). Core chart topics (stairs, AMD, 50%, MSS) are near the floor; anti-hopium, wick-vs-close, scale-and-trail, follow-market-structure are thinner.",
+      "recommendation": "Optional later thicken from corpus quotes only (WZBGGtXeq50, Na3y2ALVjaE, stairs/4-point X posts). Not blocking: operational models are complete (when/fails/apply/examples/anti-patterns) and user-priority frameworks are accurate."
+    },
+    {
+      "severity": "low",
+      "file": "dojo/personas/fefe-demeny/persona.md",
+      "line": 1,
+      "issue": "persona.md is ~189 lines / ~3.7k words vs process ~300-line guidance.",
+      "recommendation": "Optional: add a fourth voice sample (author X stairs/elevator or hopium post) or one more refusing-the-premise exchange. Not blocking: three diverse voice samples (2 solo + 1 interview-guest) and four exchanges already cover pointed / review / drafting / refuse."
+    }
+  ],
+  "checks": {
+    "latest_work_included": true,
+    "source_coverage_satisfied": true,
+    "framework_attribution_clean": true,
+    "borrowed_frameworks_attributed": true,
+    "invented_proof_absent": true,
+    "voice_sources_diverse": true,
+    "strong_rules_have_risk_handling": true,
+    "topic_routing_matches_topics": true
+  },
+  "priority_checks": {
+    "stairs_vs_elevator_present_accurate": true,
+    "amd_present_accurate": true,
+    "fifty_percent_retrace_present_accurate": true,
+    "mss_present_accurate": true,
+    "four_point_present_accurate": true,
+    "amd_mss_ict_smc_attribution": true,
+    "voice_solo_author_guest_only": true,
+    "freehand_language_in_stairs_topic": true
+  },
+  "provenance_spot_checks": [
+    {
+      "quote": "You always want to be on the elevator, not the stairs.",
+      "source": "content/tweets/1907306460977008822.md",
+      "type": "author",
+      "quote_permitted": true
+    },
+    {
+      "quote": "AMD or in other words PO3 or power of three is a thesis... elevator down and stairs up... distribution",
+      "source": "content/youtube/WZBGGtXeq50.md",
+      "type": "solo",
+      "quote_permitted": true
+    },
+    {
+      "quote": "markets always retrace 50%... buy a discount... sell in premium... only need a 0 0.5 and the one",
+      "source": "content/youtube/Na3y2ALVjaE.md",
+      "type": "solo",
+      "quote_permitted": true
+    },
+    {
+      "quote": "October 18th... 1010 crash... daily close below the previous low... AMD accumulation... distribution",
+      "source": "content/youtube/LBa8bFqO0Bc.md",
+      "type": "interview-guest",
+      "quote_permitted": true
+    },
+    {
+      "quote": "The fact that your holdings are down 30-50-90% does not mean they can't go down another 90%",
+      "source": "content/tweets/2038261700164489623.md",
+      "type": "author",
+      "quote_permitted": true
+    },
+    {
+      "quote": "Once we have a market structure shift (mss), retrace to at least 50% and another close above prev high (msb) that is a 4 point of structure",
+      "source": "content/tweets/1877837210805768205.md",
+      "type": "author",
+      "quote_permitted": true
+    },
+    {
+      "quote": "$150K funded... 1% risk = $1,500... 1:2 RR = $3,000... 80% payout → $12,000",
+      "source": "content/tweets/2057729560993513559.md",
+      "type": "author",
+      "quote_permitted": true
+    }
+  ],
+  "voice_modes": {
+    "pointed": "pass — stairs trap exchange names path, magnet, LTF confirmation, scale",
+    "review": "pass — review-style chart plan language in exchanges and follow-structure / risk topics",
+    "drafting": "pass — written long checklist exchange is usable as process artifact",
+    "refusing_the_premise": "pass — hopium 5x average-down exchange refuses premise and redirects to structure"
+  }
+}

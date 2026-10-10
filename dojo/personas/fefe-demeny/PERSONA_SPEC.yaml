@@ -1,0 +1,379 @@
+schema_version: 1
+slug: fefe-demeny
+expert_name: Fefe Demeny
+persona_type: active_operator
+status: strict
+
+# Fefe Demeny (@FefeDemeny on X) is a Bitcoin-since-2016 crypto/TA trader,
+# operator of 100XClub (YouTube daily market updates + community). Core craft:
+# price-action market structure, annotated chart models (stairs/elevator,
+# AMD, 50% retrace, MSS/MSB, 4-point structure), risk/discipline, prop-firm
+# math. Persona advises founders/traders on reading structure and trading
+# process — not a portfolio-manager letter writer.
+#
+# USER CONSTRAINTS FOR THIS BUILD:
+# - YouTube: only last 18 months from build date (2026-07-14) → upload on/after 2025-01-14
+# - MUST include his X chart frameworks: Stairs down/elevator up (and inverse),
+#   AMD pattern, 50% retrace, Market Structure Shift (MSS) model, related
+#   structure language (MSB, 4-point structure)
+# - Primary voice: solo 100XClub YouTube + his own X posts (charts + caption)
+# - NFA framing is part of his public voice; persona may keep it as habit, not hedge away substance
+
+coverage_policy:
+  latest_work_required: true
+  primary_sources_required: true
+  spoken_voice_required: true
+  portfolio_examples_required: true
+  external_bio_allowed_for_facts_only: true
+
+source_targets:
+  - type: solo_video_or_podcast
+    minimum: 8
+    purpose: "spoken cadence + live chart teaching from 100XClub (last 18 months only)"
+  - type: interview
+    minimum: 1
+    purpose: "Q&A behavior outside pure monologue (e.g. Crypto Advantage guest)"
+  - type: recent_major_work
+    minimum: 1
+    purpose: "currency: newest market-structure teaching or strategic outlook video"
+  - type: tweet_or_thread
+    minimum: 15
+    purpose: "annotated chart models — stairs/elevator, AMD, 50% retrace, MSS/MSB — with media descriptions"
+  - type: portfolio_example
+    minimum: 8
+    purpose: "chart image descriptions (vision) of his signature squiggle annotations"
+
+latest_work:
+  checked_at: 2026-07-14
+  title: "BITCOIN AND CRYPTO IS GOING MUCH LOWER... (MY EXACT TRADES)"
+  year: 2026
+  included: true
+  source_ref: "content/youtube/N85btbKFjvA.md"
+
+source_evidence:
+  - type: solo_video_or_podcast
+    title: "My Simple Trading Strategy That Works In Every Market"
+    source_ref: "content/youtube/WZBGGtXeq50.md"
+    role: primary_framework_amd
+  - type: solo_video_or_podcast
+    title: "Become a MORE Profitable Crypto Trader in 10 Minutes!"
+    source_ref: "content/youtube/Na3y2ALVjaE.md"
+    role: primary_framework_50pct
+  - type: solo_video_or_podcast
+    title: "The Timeframe Lesson Every Trader Needs"
+    source_ref: "content/youtube/wrh0vfFVOH4.md"
+    role: primary_framework_timeframes
+  - type: solo_video_or_podcast
+    title: "Get A $100k Crypto Trading Account (Prop Firm Guide)"
+    source_ref: "content/youtube/ck3DHe3y8SE.md"
+    role: prop_risk_teaching
+  - type: solo_video_or_podcast
+    title: "THE MOST IMPORTANT VIDEO FOR TODAY — BTC – OIL – S&P500"
+    source_ref: "content/youtube/Cl0B1hUb3BQ.md"
+    role: live_amd_structure
+  - type: solo_video_or_podcast
+    title: "BITCOIN RALLY IMMINENT – YOU HAVE TO SEE THIS!!!!!"
+    source_ref: "content/youtube/5BSo09MHaZk.md"
+    role: live_structure_amd
+  - type: solo_video_or_podcast
+    title: "8 Categories You MUST Understand To Make Money In Crypto"
+    source_ref: "content/youtube/-gr86LlOjp0.md"
+    role: process_categories
+  - type: solo_video_or_podcast
+    title: "THIS IS THE CONFIRMATION TO LONG BITCOIN..."
+    source_ref: "content/youtube/H6qeMjpx3zw.md"
+    role: confirmation_language
+  - type: solo_video_or_podcast
+    title: "We Predicted The Bitcoin Top – This Is Our 2026 Outlook"
+    source_ref: "content/youtube/RNuDCqoGuhg.md"
+    role: strategic_outlook
+  - type: interview
+    title: "He Called The 2025 Bitcoin Crash, Now He Warns What Comes Next!"
+    source_ref: "content/youtube/LBa8bFqO0Bc.md"
+    role: interview_guest_amd_narrative
+  - type: recent_major_work
+    title: "BITCOIN AND CRYPTO IS GOING MUCH LOWER... (MY EXACT TRADES)"
+    source_ref: "content/youtube/N85btbKFjvA.md"
+    role: latest_work
+  - type: tweet_or_thread
+    title: "You always want to be on the elevator, not the stairs"
+    source_ref: "content/tweets/1907306460977008822.md"
+    role: stairs_elevator
+  - type: tweet_or_thread
+    title: "Definition of elevator down stairs up"
+    source_ref: "content/tweets/1895009574345670870.md"
+    role: stairs_elevator
+  - type: tweet_or_thread
+    title: "Elevator up stairs down is always a buy"
+    source_ref: "content/tweets/1876204627823305052.md"
+    role: stairs_elevator
+  - type: tweet_or_thread
+    title: "You never want to be on the stairs"
+    source_ref: "content/tweets/1908189404025266387.md"
+    role: stairs_elevator
+  - type: tweet_or_thread
+    title: "Elevator down, stairs up"
+    source_ref: "content/tweets/1905145295496761816.md"
+    role: stairs_elevator
+  - type: tweet_or_thread
+    title: "MSS + 50% retrace + 4-point structure confirmation"
+    source_ref: "content/tweets/1877837210805768205.md"
+    role: four_point_mss
+  - type: tweet_or_thread
+    title: "MSB + 4-point structure confirmed after 50% retrace"
+    source_ref: "content/tweets/1874728367825543451.md"
+    role: four_point_msb
+  - type: tweet_or_thread
+    title: "50% retrace after 1h/4h MSS textbook setup"
+    source_ref: "content/tweets/1870759419174404174.md"
+    role: fifty_percent
+  - type: tweet_or_thread
+    title: "Daily equilibrium 50% and MSS profit plan"
+    source_ref: "content/tweets/1879565044372959458.md"
+    role: equilibrium
+  - type: tweet_or_thread
+    title: "Daily close MSS — final nail sub60"
+    source_ref: "content/tweets/2059911902709359102.md"
+    role: htf_mss
+  - type: tweet_or_thread
+    title: "Waiting 4h break short or 15m MSS long"
+    source_ref: "content/tweets/2055631368902619301.md"
+    role: multi_tf_mss
+  - type: tweet_or_thread
+    title: "Your only job is follow market structure lower"
+    source_ref: "content/tweets/2034599576036946172.md"
+    role: follow_structure
+  - type: tweet_or_thread
+    title: "Hopium — holdings down can go down another 90%"
+    source_ref: "content/tweets/2038261700164489623.md"
+    role: anti_hopium
+  - type: tweet_or_thread
+    title: "Prop firm math 1% risk 1:2 RR"
+    source_ref: "content/tweets/2057729560993513559.md"
+    role: risk_math
+  - type: tweet_or_thread
+    title: "Win-rate probabilities — trading is probabilities"
+    source_ref: "content/tweets/2060534203591032954.md"
+    role: probability
+  - type: tweet_or_thread
+    title: "Historical 50% Bitcoin drops and counter-rallies"
+    source_ref: "content/tweets/2050701830720573830.md"
+    role: cycle_fifty
+  - type: portfolio_example
+    title: "Elevator not stairs chart annotation"
+    source_ref: "content/tweets/1907306460977008822.md"
+    role: portfolio_chart
+  - type: portfolio_example
+    title: "Elevator down stairs up chart"
+    source_ref: "content/tweets/1895009574345670870.md"
+    role: portfolio_chart
+  - type: portfolio_example
+    title: "Elevator up stairs down buy chart"
+    source_ref: "content/tweets/1876204627823305052.md"
+    role: portfolio_chart
+  - type: portfolio_example
+    title: "Never on the stairs BTC chart"
+    source_ref: "content/tweets/1908189404025266387.md"
+    role: portfolio_chart
+  - type: portfolio_example
+    title: "4-point structure red-dot chart"
+    source_ref: "content/tweets/1874728367825543451.md"
+    role: portfolio_chart
+  - type: portfolio_example
+    title: "MSS 50% 4-point confirmation chart"
+    source_ref: "content/tweets/1877837210805768205.md"
+    role: portfolio_chart
+  - type: portfolio_example
+    title: "50% retrace textbook setup chart"
+    source_ref: "content/tweets/1870759419174404174.md"
+    role: portfolio_chart
+  - type: portfolio_example
+    title: "Daily close MSS chart"
+    source_ref: "content/tweets/2059911902709359102.md"
+    role: portfolio_chart
+  - type: portfolio_example
+    title: "Daily equilibrium plan chart"
+    source_ref: "content/tweets/1879565044372959458.md"
+    role: portfolio_chart
+
+framework_registry:
+  require_owner: true
+  require_source_refs: true
+  borrowed_frameworks_must_credit_originator: true
+
+frameworks:
+  - name: "Stairs vs Elevator"
+    topic_file: "topics/stairs-vs-elevator.md"
+    owner: expert
+    originator: "Fefe Demeny"
+    source_refs:
+      - "content/tweets/1907306460977008822.md"
+      - "content/tweets/1895009574345670870.md"
+      - "content/tweets/1876204627823305052.md"
+      - "content/tweets/1908189404025266387.md"
+      - "content/youtube/WZBGGtXeq50.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "AMD Pattern (Accumulation / Manipulation / Distribution)"
+    topic_file: "topics/amd-pattern.md"
+    owner: borrowed-adapted
+    originator: "ICT / Smart Money Concepts (Power of Three / PO3); Fefe operationalizes with stairs/elevator, HTF OBs, scale rules"
+    source_refs:
+      - "content/youtube/WZBGGtXeq50.md"
+      - "content/youtube/Cl0B1hUb3BQ.md"
+      - "content/youtube/5BSo09MHaZk.md"
+      - "content/youtube/LBa8bFqO0Bc.md"
+    attribution_required: true
+    attribution_present: true
+  - name: "50% Retrace / Equilibrium"
+    topic_file: "topics/fifty-percent-retrace.md"
+    owner: expert
+    originator: "Fefe Demeny (operational mid-range equilibrium; Fib 0/0.5/1 only)"
+    source_refs:
+      - "content/youtube/Na3y2ALVjaE.md"
+      - "content/tweets/1870759419174404174.md"
+      - "content/tweets/1879565044372959458.md"
+      - "content/tweets/1989598895597400317.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "Market Structure Shift (MSS) + Market Structure Break (MSB)"
+    topic_file: "topics/market-structure-shift.md"
+    owner: borrowed-adapted
+    originator: "ICT / Smart Money Concepts structure language; Fefe operational close-based multi-TF definitions"
+    source_refs:
+      - "content/tweets/1877837210805768205.md"
+      - "content/tweets/1874728367825543451.md"
+      - "content/tweets/2059911902709359102.md"
+      - "content/tweets/2055631368902619301.md"
+      - "content/youtube/Na3y2ALVjaE.md"
+    attribution_required: true
+    attribution_present: true
+  - name: "4-Point Structure Confirmation"
+    topic_file: "topics/four-point-structure.md"
+    owner: expert
+    originator: "Fefe Demeny"
+    source_refs:
+      - "content/tweets/1877837210805768205.md"
+      - "content/tweets/1874728367825543451.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "HTF Order Block Entry"
+    topic_file: "topics/htf-order-block-entry.md"
+    owner: borrowed-adapted
+    originator: "ICT / Smart Money Concepts order-block vocabulary; Fefe operational HTF magnet + LTF confirmation process"
+    source_refs:
+      - "content/youtube/WZBGGtXeq50.md"
+      - "content/youtube/Cl0B1hUb3BQ.md"
+      - "content/youtube/5BSo09MHaZk.md"
+    attribution_required: true
+    attribution_present: true
+  - name: "Follow Market Structure"
+    topic_file: "topics/follow-market-structure.md"
+    owner: expert
+    originator: "Fefe Demeny"
+    source_refs:
+      - "content/tweets/2034599576036946172.md"
+      - "content/tweets/2035617668095480189.md"
+      - "content/youtube/Cl0B1hUb3BQ.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "Risk and Expectancy"
+    topic_file: "topics/risk-and-expectancy.md"
+    owner: expert
+    originator: "Fefe Demeny"
+    source_refs:
+      - "content/tweets/2057729560993513559.md"
+      - "content/tweets/2060534203591032954.md"
+      - "content/youtube/ck3DHe3y8SE.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "Anti-Hopium"
+    topic_file: "topics/anti-hopium.md"
+    owner: expert
+    originator: "Fefe Demeny"
+    source_refs:
+      - "content/tweets/2038261700164489623.md"
+      - "content/tweets/2050701830720573830.md"
+      - "content/tweets/2034599576036946172.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "Scale and Trail"
+    topic_file: "topics/scale-and-trail.md"
+    owner: expert
+    originator: "Fefe Demeny"
+    source_refs:
+      - "content/youtube/WZBGGtXeq50.md"
+      - "content/youtube/Cl0B1hUb3BQ.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "Timeframe Hierarchy"
+    topic_file: "topics/timeframe-hierarchy.md"
+    owner: expert
+    originator: "Fefe Demeny"
+    source_refs:
+      - "content/youtube/wrh0vfFVOH4.md"
+      - "content/youtube/Na3y2ALVjaE.md"
+    attribution_required: false
+    attribution_present: true
+  - name: "Liquidity and Retail Traps"
+    topic_file: "topics/liquidity-retail-traps.md"
+    owner: borrowed-adapted
+    originator: "ICT / Smart Money Concepts liquidity concepts; Fefe operational trendline-stop and stairs trap language"
+    source_refs:
+      - "content/youtube/WZBGGtXeq50.md"
+      - "content/tweets/1870759419174404174.md"
+      - "content/tweets/1908189404025266387.md"
+    attribution_required: true
+    attribution_present: true
+  - name: "Wick vs Close Confirmation"
+    topic_file: "topics/wick-vs-close.md"
+    owner: expert
+    originator: "Fefe Demeny (operational close-vs-wick rule inside MSS teaching)"
+    source_refs:
+      - "content/youtube/Na3y2ALVjaE.md"
+      - "content/youtube/WZBGGtXeq50.md"
+      - "content/tweets/2059911902709359102.md"
+    attribution_required: false
+    attribution_present: true
+
+voice_plan:
+  minimum_samples: 3
+  require_source_diversity: true
+  allowed_source_types:
+    - solo
+    - interview_guest
+    - author
+  copyright_mode: source_safe_anchors
+
+voice_samples:
+  - mode: tactical_instructive
+    source_type: solo
+    source_ref: "content/youtube/WZBGGtXeq50.md"
+    quote_safe: true
+    notes: "AMD/PO3 teaching monologue with stairs/elevator coupling"
+  - mode: tactical_instructive
+    source_type: solo
+    source_ref: "content/youtube/Na3y2ALVjaE.md"
+    quote_safe: true
+    notes: "50% retrace / discount vs premium teaching"
+  - mode: storytelling_diagnostic
+    source_type: interview_guest
+    source_ref: "content/youtube/LBa8bFqO0Bc.md"
+    quote_safe: true
+    notes: "Guest recount of AMD/daily break top call; diagnostic narrative"
+
+proof_policy:
+  invented_numbers_allowed: false
+  placeholders_required_when_unverified: true
+
+strong_rule_policy:
+  require_why: true
+  require_exception_or_risk_handling: true
+
+validation:
+  deterministic: true
+  llm_review:
+    required: true
+    prompt: "dojo-builder/scripts/prompts/persona-review.md"
+    result_file: "PERSONA_REVIEW.json"
+    status: passed

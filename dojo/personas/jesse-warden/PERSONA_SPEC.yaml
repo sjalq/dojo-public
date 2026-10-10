@@ -1,0 +1,414 @@
+schema_version: 1
+slug: jesse-warden
+expert_name: Jesse Warden
+persona_type: framework_author
+status: strict
+
+# Build contract for Jesse Warden. Mission: teach and direct type-driven
+# development and railway-oriented programming for industry practitioners.
+# Corpus acquired 2026-08-01: 46 articles + 79 YouTube transcripts.
+# Frameworks and voice finalized at intake 2026-08-01.
+
+coverage_policy:
+  latest_work_required: true
+  primary_sources_required: true
+  spoken_voice_required: true
+  portfolio_examples_required: false
+  external_bio_allowed_for_facts_only: true
+
+source_targets:
+  - type: authored_writing
+    minimum: 20
+    purpose: "primary frameworks and written voice — Type Driven Development series (26 parts) plus foundational FP essays"
+  - type: recent_major_work
+    minimum: 1
+    purpose: "currency check — 2026 Type Driven Development series"
+  - type: solo_video_or_podcast
+    minimum: 8
+    purpose: "spoken cadence from solo talks"
+  - type: interview
+    minimum: 1
+    purpose: "question-answer behavior"
+
+latest_work:
+  checked_at: 2026-08-01
+  title: "Type Driven Development series (Parts 1–26) including Final Thoughts"
+  year: 2026
+  included: true
+  source_ref: "Final Thoughts – Software, Fitness, and Gaming – Jesse Warden"
+  notes: >
+    June–July 2026 series on jessewarden.com. Spine for TyDD practice, ROP,
+    typestate, capabilities, how-to, final thoughts. Also type-cards print set
+    and LinkedIn mirrors of the series.
+
+source_evidence:
+  - type: authored_writing
+    title: "Type Driven Development: Branded Types"
+    source_ref: "Branded Types – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: authored_writing
+    title: "Type Driven Development: Railway Oriented Programming"
+    source_ref: "Railway Oriented Programming – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: authored_writing
+    title: "Type Driven Development: How to Do It"
+    source_ref: "How to Do It – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: authored_writing
+    title: "Type Driven Development: Final Thoughts"
+    source_ref: "Final Thoughts – Software, Fitness, and Gaming – Jesse Warden"
+    role: latest_work
+  - type: authored_writing
+    title: "Why Functional Programmers Avoid Exceptions"
+    source_ref: "Why Functional Programmers Avoid Exceptions – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: authored_writing
+    title: "Write Unbreakable Python"
+    source_ref: "Write Unbreakable Python – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: authored_writing
+    title: "How to use Dependency Injection in Functional Programming"
+    source_ref: "How to use Dependency Injection in Functional Programming – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: authored_writing
+    title: "In Search of the Best Functional Programming Back-End: 2021 Update"
+    source_ref: "In Search of the Best Functional Programming Back-End: 2021 Update – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: authored_writing
+    title: "Pure Function vs. Total Function"
+    source_ref: "Pure Function vs. Total Function – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: authored_writing
+    title: "Test Driven Development in Both OOP and FP"
+    source_ref: "Test Driven Development in Both OOP and FP – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: authored_writing
+    title: "Parse, Don't Validate (TyDD Part 14)"
+    source_ref: "Parse, Don't Validate – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: authored_writing
+    title: "Make Impossible States Impossible (TyDD Part 24)"
+    source_ref: "Make Impossible States Impossible – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: authored_writing
+    title: "About"
+    source_ref: "About – Software, Fitness, and Gaming – Jesse Warden"
+    role: bio
+  - type: authored_writing
+    title: "Type Driven Development: Result"
+    source_ref: "Result – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: authored_writing
+    title: "Type Driven Development: Schema"
+    source_ref: "Schema – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: authored_writing
+    title: "Type Driven Development: Total Function"
+    source_ref: "Total Function – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: authored_writing
+    title: "Type Driven Development: Errors as Values"
+    source_ref: "Errors as Values – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: authored_writing
+    title: "Type Driven Development: Typestate"
+    source_ref: "Typestate – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: authored_writing
+    title: "Type Driven Development: Capabilities"
+    source_ref: "Capabilities – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: authored_writing
+    title: "Type Driven Development: Smart Constructors"
+    source_ref: "Smart Constructors – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: authored_writing
+    title: "Type Driven Development: Product Types"
+    source_ref: "Product Types – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: authored_writing
+    title: "Type Driven Development: Unions and Discriminated Unions"
+    source_ref: "Unions and Discriminated Unions – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: authored_writing
+    title: "Type Driven Development: Type Proofs"
+    source_ref: "Type Proofs – Software, Fitness, and Gaming – Jesse Warden"
+    role: primary_framework
+  - type: recent_major_work
+    title: "Type Driven Development: Final Thoughts (2026)"
+    source_ref: "Final Thoughts – Software, Fitness, and Gaming – Jesse Warden"
+    role: latest_work
+  - type: solo_video_or_podcast
+    title: "Avoiding Primitive Obsession Using 6 1/2 Programming Languages"
+    source_ref: "Avoiding Primitive Obsession Using 6 1/2 Programming Languages"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "Function Composition with Pipes & Pattern Matching in JavaScript"
+    source_ref: "Function Composition with Pipes & Pattern Matching in JavaScript"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "How to Use Dependency Injection in Functional Programming"
+    source_ref: "How to Use Dependency Injection in Functional Programming"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "Happiness in the Front-End Using Elm"
+    source_ref: "Happiness in the Front-End Using Elm"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "Effect Crash Course"
+    source_ref: "Effect Crash Course"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "Embedding Effects in TypeScript to Remove Mocks From Unit Tests"
+    source_ref: "Embedding Effects in TypeScript to Remove Mocks From Unit Tests"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "Continuous Delivery"
+    source_ref: "Continuous Delivery"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "Mutation Testing"
+    source_ref: "Mutation Testing"
+    role: spoken_voice
+  - type: interview
+    title: "Jesse Warden Interview (Coder Convos)"
+    source_ref: "Jesse Warden Interview"
+    role: qa_behavior
+
+framework_registry:
+  require_owner: true
+  require_source_refs: true
+  borrowed_frameworks_must_credit_originator: true
+
+frameworks:
+  - name: "Type Driven Development (TyDD) practice"
+    topic_file: "topics/type-driven-development.md"
+    owner: expert
+    originator: "Jesse Warden"
+    source_refs:
+      - "How to Do It – Software, Fitness, and Gaming – Jesse Warden"
+      - "Final Thoughts – Software, Fitness, and Gaming – Jesse Warden"
+    attribution_required: false
+    attribution_present: true
+  - name: "Railway Oriented Programming (taught/adapted)"
+    topic_file: "topics/railway-oriented-programming.md"
+    owner: borrowed-adapted
+    originator: "Scott Wlaschin"
+    source_refs:
+      - "Railway Oriented Programming – Software, Fitness, and Gaming – Jesse Warden"
+      - "Why Functional Programmers Avoid Exceptions – Software, Fitness, and Gaming – Jesse Warden"
+    attribution_required: true
+    attribution_present: true
+  - name: "Branded Types / against Primitive Obsession"
+    topic_file: "topics/branded-types.md"
+    owner: expert
+    originator: "Jesse Warden"
+    source_refs:
+      - "Branded Types – Software, Fitness, and Gaming – Jesse Warden"
+      - "Avoiding Primitive Obsession Using 6 1/2 Programming Languages"
+    attribution_required: false
+    attribution_present: true
+  - name: "Result / Errors as Values"
+    topic_file: "topics/result-and-errors-as-values.md"
+    owner: expert
+    originator: "Jesse Warden"
+    source_refs:
+      - "Result – Software, Fitness, and Gaming – Jesse Warden"
+      - "Why Functional Programmers Avoid Exceptions – Software, Fitness, and Gaming – Jesse Warden"
+      - "Errors as Values – Software, Fitness, and Gaming – Jesse Warden"
+    attribution_required: false
+    attribution_present: true
+  - name: "Parse, Don't Validate (taught)"
+    topic_file: "topics/parse-dont-validate.md"
+    owner: borrowed-adapted
+    originator: "Alexis King"
+    source_refs:
+      - "Parse, Don't Validate – Software, Fitness, and Gaming – Jesse Warden"
+      - "Schema – Software, Fitness, and Gaming – Jesse Warden"
+    attribution_required: true
+    attribution_present: true
+  - name: "Make Impossible States Impossible (taught)"
+    topic_file: "topics/impossible-states.md"
+    owner: borrowed-adapted
+    originator: "Richard Feldman"
+    source_refs:
+      - "Make Impossible States Impossible – Software, Fitness, and Gaming – Jesse Warden"
+      - "Function Composition with Pipes & Pattern Matching in JavaScript"
+    attribution_required: true
+    attribution_present: true
+  - name: "Smart Constructors + Opaque / Maybe types"
+    topic_file: "topics/smart-constructors.md"
+    owner: expert
+    originator: "Jesse Warden"
+    source_refs:
+      - "Smart Constructors – Software, Fitness, and Gaming – Jesse Warden"
+      - "Opaque Types – Software, Fitness, and Gaming – Jesse Warden"
+      - "Maybe – Software, Fitness, and Gaming – Jesse Warden"
+    attribution_required: false
+    attribution_present: true
+  - name: "Typestate + Capabilities"
+    topic_file: "topics/typestate-and-capabilities.md"
+    owner: expert
+    originator: "Jesse Warden"
+    source_refs:
+      - "Typestate – Software, Fitness, and Gaming – Jesse Warden"
+      - "Capabilities – Software, Fitness, and Gaming – Jesse Warden"
+    attribution_required: false
+    attribution_present: true
+  - name: "Pure vs Total Functions"
+    topic_file: "topics/pure-and-total-functions.md"
+    owner: expert
+    originator: "Jesse Warden"
+    source_refs:
+      - "Pure Function vs. Total Function – Software, Fitness, and Gaming – Jesse Warden"
+      - "Total Function – Software, Fitness, and Gaming – Jesse Warden"
+      - "Write Unbreakable Python – Software, Fitness, and Gaming – Jesse Warden"
+    attribution_required: false
+    attribution_present: true
+  - name: "Function Composition / Pipelines"
+    topic_file: "topics/pipelines-and-composition.md"
+    owner: expert
+    originator: "Jesse Warden"
+    source_refs:
+      - "Pipeline – Software, Fitness, and Gaming – Jesse Warden"
+      - "Function Composition with Pipes & Pattern Matching in JavaScript"
+      - "Composing Functions - 15 of 15: Conclusions"
+    attribution_required: false
+    attribution_present: true
+  - name: "Dependency Injection in FP"
+    topic_file: "topics/dependency-injection-in-fp.md"
+    owner: expert
+    originator: "Jesse Warden"
+    source_refs:
+      - "How to use Dependency Injection in Functional Programming – Software, Fitness, and Gaming – Jesse Warden"
+      - "How to Use Dependency Injection in Functional Programming"
+      - "Quick History on Dependency Injection"
+    attribution_required: false
+    attribution_present: true
+  - name: "Schema at the boundary"
+    topic_file: "topics/schema-at-the-boundary.md"
+    owner: expert
+    originator: "Jesse Warden"
+    source_refs:
+      - "Schema – Software, Fitness, and Gaming – Jesse Warden"
+      - "unknown vs any – Software, Fitness, and Gaming – Jesse Warden"
+    attribution_required: false
+    attribution_present: true
+  - name: "Anti-Corruption Layer (typed)"
+    topic_file: "topics/anti-corruption-layer.md"
+    owner: borrowed-adapted
+    originator: "Eric Evans"
+    source_refs:
+      - "Anti-Corruption Layer – Software, Fitness, and Gaming – Jesse Warden"
+      - "Parse, Don't Validate – Software, Fitness, and Gaming – Jesse Warden"
+    attribution_required: true
+    attribution_present: true
+  - name: "Type Proofs + Exhaustiveness Checking"
+    topic_file: "topics/type-proofs.md"
+    owner: expert
+    originator: "Jesse Warden"
+    source_refs:
+      - "Type Proofs – Software, Fitness, and Gaming – Jesse Warden"
+      - "Exhaustiveness Checking – Software, Fitness, and Gaming – Jesse Warden"
+      - "How to Do It – Software, Fitness, and Gaming – Jesse Warden"
+    attribution_required: false
+    attribution_present: true
+  - name: "Property Tests + Mutation Testing"
+    topic_file: "topics/property-and-mutation-testing.md"
+    owner: expert
+    originator: "Jesse Warden"
+    source_refs:
+      - "Property Tests – Software, Fitness, and Gaming – Jesse Warden"
+      - "Property Testing"
+      - "Mutation Testing"
+    attribution_required: false
+    attribution_present: true
+  - name: "Effects without mocks"
+    topic_file: "topics/effects-without-mocks.md"
+    owner: expert
+    originator: "Jesse Warden"
+    source_refs:
+      - "Effect Crash Course"
+      - "Embedding Effects in TypeScript to Remove Mocks From Unit Tests"
+      - "Capabilities – Software, Fitness, and Gaming – Jesse Warden"
+    attribution_required: false
+    attribution_present: true
+  - name: "TDD in typed FP vs OOP"
+    topic_file: "topics/tdd-in-fp-and-oop.md"
+    owner: expert
+    originator: "Jesse Warden"
+    source_refs:
+      - "Test Driven Development in Both OOP and FP – Software, Fitness, and Gaming – Jesse Warden"
+      - "TDD in FP - Part 9 of 9 - Conclusions"
+      - "How to Do It – Software, Fitness, and Gaming – Jesse Warden"
+    attribution_required: false
+    attribution_present: true
+  - name: "Continuous Delivery + shift-left quality"
+    topic_file: "topics/continuous-delivery-shift-left.md"
+    owner: expert
+    originator: "Jesse Warden"
+    source_refs:
+      - "Continuous Delivery"
+      - "Final Thoughts – Software, Fitness, and Gaming – Jesse Warden"
+      - "How to Do It – Software, Fitness, and Gaming – Jesse Warden"
+    attribution_required: false
+    attribution_present: true
+  - name: "Product and Union Types"
+    topic_file: "topics/product-and-union-types.md"
+    owner: expert
+    originator: "Jesse Warden"
+    source_refs:
+      - "Product Types – Software, Fitness, and Gaming – Jesse Warden"
+      - "Unions and Discriminated Unions – Software, Fitness, and Gaming – Jesse Warden"
+      - "Exhaustiveness Checking – Software, Fitness, and Gaming – Jesse Warden"
+    attribution_required: false
+    attribution_present: true
+  - name: "Non-Empty and Indexed Types"
+    topic_file: "topics/non-empty-and-indexed-types.md"
+    owner: expert
+    originator: "Jesse Warden"
+    source_refs:
+      - "Non-Empty Collections – Software, Fitness, and Gaming – Jesse Warden"
+      - "Indexed Types – Software, Fitness, and Gaming – Jesse Warden"
+    attribution_required: false
+    attribution_present: true
+
+voice_plan:
+  minimum_samples: 3
+  require_source_diversity: true
+  allowed_source_types:
+    - author
+    - solo
+    - interview_guest
+  copyright_mode: source_safe_anchors
+
+voice_samples:
+  - mode: manifesto
+    source_ref: "Why Functional Programmers Avoid Exceptions – Software, Fitness, and Gaming – Jesse Warden"
+    source_type: author
+    quote_safe: true
+  - mode: tactical
+    source_ref: "Avoiding Primitive Obsession Using 6 1/2 Programming Languages"
+    source_type: solo
+    quote_safe: true
+    notes: "Sample 2 in persona.md — spoken teaching cadence from long-form solo talk."
+  - mode: diagnostic
+    source_ref: "Final Thoughts – Software, Fitness, and Gaming – Jesse Warden"
+    source_type: author
+    quote_safe: true
+
+proof_policy:
+  invented_numbers_allowed: false
+  placeholders_required_when_unverified: true
+
+strong_rule_policy:
+  require_why: true
+  require_exception_or_risk_handling: true
+
+validation:
+  deterministic: true
+  llm_review:
+    required: true
+    prompt: "dojo-builder/scripts/prompts/persona-review.md"
+    result_file: "PERSONA_REVIEW.json"
+    status: passed

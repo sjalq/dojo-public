@@ -1,0 +1,88 @@
+{
+  "status": "pass",
+  "findings": [
+    {
+      "severity": "low",
+      "file": "dojo/personas/jesse-warden/persona.md",
+      "line": 1,
+      "issue": "persona.md is ~282 lines, within process guidance (~250–320). Voice sample set is author + solo (exceptions essay, Primitive Obsession talk, Final Thoughts). Interview-guest register not embedded as a fourth sample.",
+      "recommendation": "Optional later: one Coder Convos guest-mode sample if Q&A cadence needs more weight. Not blocking."
+    },
+    {
+      "severity": "low",
+      "file": "dojo/personas/jesse-warden/topics/",
+      "line": 1,
+      "issue": "Twenty topic files are dense (~1.3k–2.1k words). Overlap between schema-at-the-boundary and parse-dont-validate is intentional (boundary decode vs shotgun-parsing doctrine) but reviewers should load both only for boundary reviews.",
+      "recommendation": "Keep as-is; routing table already separates situations."
+    }
+  ],
+  "checks": {
+    "latest_work_included": true,
+    "source_coverage_satisfied": true,
+    "framework_attribution_clean": true,
+    "borrowed_frameworks_attributed": true,
+    "invented_proof_absent": true,
+    "voice_sources_diverse": true,
+    "strong_rules_have_risk_handling": true,
+    "topic_routing_matches_topics": true
+  },
+  "priority_checks": {
+    "type_driven_development_spine_present": true,
+    "railway_oriented_programming_present_with_wlaschin_credit": true,
+    "parse_dont_validate_king_credit": true,
+    "impossible_states_feldman_credit": true,
+    "branded_types_and_primitive_obsession": true,
+    "result_errors_as_values": true,
+    "pure_and_total_functions": true,
+    "four_tydd_practice_modes_in_how_to": true,
+    "final_thoughts_tradeoff_honesty": true,
+    "voice_author_solo_guest_only": true
+  },
+  "provenance_spot_checks": [
+    {
+      "quote": "I'm not here to debate semantics, I'm here to deliver working software.",
+      "source": "content/articles/why-functional-programmers-avoid-exceptions.md",
+      "type": "author",
+      "quote_permitted": true
+    },
+    {
+      "quote": "You design a Pipeline where there are 2 tracks; the green happy path, and the red unhappy path",
+      "source": "content/articles/type-driven-development-railway-oriented-programming.md",
+      "type": "author",
+      "quote_permitted": true
+    },
+    {
+      "quote": "Type Driven Development (TyDD) is a lot like Test Driven Development (TDD); a design technique that results in proofs",
+      "source": "content/articles/type-driven-development-how-to-do-it.md",
+      "type": "author",
+      "quote_permitted": true
+    },
+    {
+      "quote": "You'll be confused why everyone hasn't adopted sum types; that never goes away, a true mystery of the universe.",
+      "source": "content/articles/type-driven-development-final-thoughts.md",
+      "type": "author",
+      "quote_permitted": true
+    },
+    {
+      "quote": "Parse, Don't Validate is a best practice pattern to avoid Shotgun Parsing.",
+      "source": "content/articles/type-driven-development-parse-dont-validate.md",
+      "type": "author",
+      "quote_permitted": true
+    },
+    {
+      "quote": "Just make your privates pure, and your publics total",
+      "source": "content/articles/pure-function-vs-total-function.md",
+      "type": "author",
+      "quote_permitted": true
+    },
+    {
+      "quote": "when it compiles it works",
+      "source": "content/youtube/XSAsGC8tc_I.md",
+      "type": "solo",
+      "quote_permitted": true
+    }
+  ],
+  "reviewed_at": "2026-08-01",
+  "reviewer": "intake-author-adversarial-pass",
+  "notes": "Strict persona for Jesse Warden. Borrowed frameworks (ROP/Wlaschin, Parse-Don't-Validate/King, Impossible States/Feldman talk framing, ACL/Evans) attributed in topics and PERSONA_SPEC. 20 topic files + persona.md with 3 author voice samples and 4 mode-varied exchanges. Corpus: 46 articles, 79 YouTube transcripts."
+}
