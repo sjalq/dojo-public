@@ -1,0 +1,75 @@
+{
+  "status": "pass",
+  "findings": [
+    {
+      "severity": "resolved",
+      "file": "dojo/personas/jordan-peterson/topics/ideology-and-compelled-speech.md",
+      "line": 37,
+      "issue": "First-person claim 'Within a few years I had effectively lost my professorship and my clinical practice' is not supported anywhere in the corpus (the corpus shows him as 'professor emeritus' and still licensed while the College pursued him), and 'lost' strengthens a contested characterization of a resignation. persona.md lines 11 and 16 repeated the same framing ('lost his professorship and clinical practice', 'paid for it with his professorship, his clinical practice').",
+      "recommendation": "Drop the unsourced loss claim from the first-person topic text and restate the bio facts in verifiable terms (left his professorship, now professor emeritus; decade-long College case culminating in a re-education order).",
+      "original_severity": "medium",
+      "resolved": true,
+      "resolution": "Removed the sentence fragment from ideology-and-compelled-speech.md so the paragraph opens 'It cost me. The College of Psychologists of Ontario pursued me for close to a decade...' (sourced to 'Alas, no re-educator to be found'). persona.md line 11 now reads 'later left his University of Toronto professorship (now professor emeritus)' (the On Wrestling With God bio) and line 16 now reads 'paid for it with close to a decade of professional discipline, culminating in an order to undergo social-media \"re-education\"'."
+    },
+    {
+      "severity": "resolved",
+      "file": "dojo/personas/jordan-peterson/topics/children-and-socialization.md",
+      "line": 41,
+      "issue": "Closing line 'Send them out to take their little doses of poison and become fortified along the way' is phrased as Peterson's own words but has no source in any of the 23 corpus files.",
+      "recommendation": "Replace with the sourced line from Joe Rogan Experience #2308 about not making children naive and teaching them to handle serpents.",
+      "original_severity": "low",
+      "resolved": true,
+      "resolution": "Replaced with 'Don't make them naive; you're supposed to teach them to identify serpents and handle them.' (JRE #2308: 'make them extremely naive and then let them encounter malevolence ... because you're supposed to teach them to handle serpents ... to identify them and handle them')."
+    },
+    {
+      "severity": "resolved",
+      "file": "dojo/personas/jordan-peterson/persona.md",
+      "line": 161,
+      "issue": "Voice Sample 1 provenance note says only the opening sentences of the first paragraph were trimmed, but the excerpt also drops the paragraph's two closing sentences ('In this way we can bring about the salvation and redemption of the world...' and 'We can constrain the hell that evil produces...'). Wording otherwise verbatim against content/articles/on-wrestling-with-god.md, with the noted 'even'->'ever' fix.",
+      "recommendation": "Make the edit note accurate.",
+      "original_severity": "low",
+      "resolved": true,
+      "resolution": "Note now reads 'Opening and closing sentences of the first paragraph trimmed; one obvious typo (\"even\" for \"ever\") corrected.'"
+    },
+    {
+      "severity": "resolved",
+      "file": "dojo/personas/jordan-peterson/persona.md",
+      "line": 8,
+      "issue": "routing_keywords had no direct coverage for treat-yourself-like-someone-you-help.md (self-care, friends who want the best for you) and weak coverage for work-discipline-and-career.md and aim-and-the-value-hierarchy.md (no 'career', no 'aim'/'hierarchy of value').",
+      "recommendation": "Add keywords drawn from those topic files.",
+      "original_severity": "low",
+      "resolved": true,
+      "resolution": "Added 'aim and the hierarchy of value, perception and goals', 'career development, entry-level job', and 'treat yourself like someone you are responsible for helping, self-neglect, make friends with people who want the best for you'. All 21 topic files now have direct keyword coverage."
+    },
+    {
+      "severity": "resolved",
+      "file": "dojo/personas/jordan-peterson/PERSONA_SPEC.yaml",
+      "line": 317,
+      "issue": "big-five-personality.md line 36 states that Peterson co-developed the Big Five Aspect Scales with Colin DeYoung and Lena Quilty. This is accurate (DeYoung, Quilty and Peterson, 2007, JPSP) but appears nowhere in the corpus, while the spec note claimed his own claims were limited to the lab political-correctness finding and clinical assertiveness work.",
+      "recommendation": "Record the BFAS authorship as an external bibliographic fact under external_bio_allowed_for_facts_only so the spec matches the topic file.",
+      "original_severity": "low",
+      "resolved": true,
+      "resolution": "Spec framework note now names the BFAS co-authorship and its external citation. The topic credit is correct and gives the Big Five model itself to Goldberg, McCrae and Costa (and extraversion to Jung and Eysenck), so no attribution leakage."
+    },
+    {
+      "severity": "resolved",
+      "file": "dojo/personas/jordan-peterson/topics/suffering-tragedy-and-crisis.md",
+      "line": 43,
+      "issue": "First-person line 'in 2025 I was critically ill and in intensive care for weeks' (also persona.md line 16) is not in the corpus. Checked against external reporting: Mikhaila Peterson Fuller's statements reported by Newsweek and The Epoch Times give about a month in ICU with pneumonia and sepsis in 2025, discharged December 2025, now recovering in Arizona. The wording matches and does not overstate it.",
+      "recommendation": "Keep it, but cite the external sources in the spec so the fact can be traced.",
+      "original_severity": "low",
+      "resolved": true,
+      "resolution": "Spec framework note for suffering-tragedy-and-crisis now names the external sources and the verified details. The line adds no framework content, so it is acceptable under external_bio_allowed_for_facts_only."
+    }
+  ],
+  "checks": {
+    "latest_work_included": true,
+    "source_coverage_satisfied": true,
+    "framework_attribution_clean": true,
+    "borrowed_frameworks_attributed": true,
+    "invented_proof_absent": true,
+    "voice_sources_diverse": true,
+    "strong_rules_have_risk_handling": true,
+    "topic_routing_matches_topics": true
+  }
+}

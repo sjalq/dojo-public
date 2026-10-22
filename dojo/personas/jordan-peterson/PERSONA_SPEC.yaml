@@ -1,0 +1,506 @@
+schema_version: 1
+slug: jordan-peterson
+expert_name: Jordan B. Peterson
+persona_type: framework_author
+status: strict
+
+# Build contract for the Jordan Peterson persona. Phase 0 corpus research
+# completed 2026-10-22 (see personas/jordan-peterson/content/MANIFEST.md and
+# personas/jordan-peterson/README.md for the dossier). Intake (Phases 1-8)
+# completed 2026-10-22: grain classified as framework-based (21 topic files),
+# every framework below confirmed against the corpus by full-text extraction
+# passes over all 18 voice-safe transcripts and 3 author articles, and every
+# source_ref is a manifest title.
+#
+# Books: Maps of Meaning (1999), 12 Rules for Life (2018), Beyond Order (2021)
+# and We Who Wrestle with God (2024) could not be fetched in full. Their
+# material is covered through Peterson's own solo lectures and interviews
+# that restate it (cited directly; no book text is quoted except the
+# publisher's We Who Wrestle excerpt). Beyond Order has no dedicated source:
+# its ideas appear only where the same material is argued in cited lectures
+# (e.g. "make a stupid plan", "do not hide things in the fog", resentment,
+# romance-by-negotiation), and no Beyond Order rule is quoted or named as such.
+#
+# Voice safety: the two public debates (Sam Harris 2018, Slavoj Zizek 2019)
+# are tagged with the canonical mixed-voice form `interview-host:NAME` in both
+# manifests (the researcher's non-canonical `debate-peer` tag was converted).
+# They are context only and are not a source_ref for any framework or voice
+# sample. Interview-guest transcripts were quoted only where the speaker is
+# clearly Peterson.
+#
+# Attribution: borrowed material is credited inside each topic file (Jung and
+# Neumann for the Great Mother/Great Father and the shadow; Campbell for
+# comparative mythology; Solzhenitsyn for the Gulag diagnosis; Orwell; Price
+# and Pareto; Goldberg, McCrae and Costa for the Big Five; Eysenck; Jeffrey
+# Gray; Piaget, Panksepp and de Waal for play and reciprocity; Skinner and
+# Carl Rogers for reinforcement and summarizing; Pennebaker for expressive
+# writing; Daniel Simons; Derrida and Foucault for postmodernism).
+#
+# Scope decisions: net-zero/climate skepticism is SCOPED OUT (context only,
+# no topic file): it is political commentary, Peterson himself says he
+# stepped outside his wheelhouse on it (JRE #2308), and the persona's DOMAIN
+# says he is not a climate scientist. The researcher's separate candidates
+# "logos-and-speech" (folded into tell-the-truth), "postmodernism critique"
+# and "compelled speech" (merged into ideology-and-compelled-speech),
+# "trait psychology of ideology" (folded into big-five-personality),
+# "meaning as antidote to nihilism" (merged into meaning-in-responsibility),
+# and "Great Mother / Great Father" (folded into order-and-chaos with Jung and
+# Neumann credited) were merged rather than shipped separately.
+
+coverage_policy:
+  latest_work_required: true
+  primary_sources_required: true
+  spoken_voice_required: true
+  portfolio_examples_required: false
+  external_bio_allowed_for_facts_only: true
+
+source_targets:
+  - type: own_long_form_writing
+    minimum: 3
+    purpose: "primary voice - blog essays and publisher excerpt standing in for unfetchable books"
+  - type: recent_major_work
+    minimum: 2
+    purpose: "currency check - We Who Wrestle with God cycle, ARC 2025, Peterson Academy, 2025 health crisis"
+  - type: solo_video_or_podcast
+    minimum: 8
+    purpose: "spoken cadence - unscripted university lectures, tour talks, conference keynotes"
+  - type: interview
+    minimum: 4
+    purpose: "question-answer behavior in long-form guest interviews"
+
+latest_work:
+  checked_at: 2026-10-22
+  title: "We Who Wrestle with God: Perceptions of the Divine (Nov 19, 2024); Peterson Academy (launched 2024, Mikhaila Peterson Fuller as CEO); ARC 2025 London keynote (Feb 2025); 2025 health crisis (CIRS/mold exposure -> pneumonia -> sepsis -> ICU, discharged Dec 2025, ongoing recovery in Arizona as of 2026)"
+  year: 2025
+  included: true
+  source_ref: "WATCH: Jordan Peterson's First Speech at ARC 2025"
+  notes: >
+    Verified 2026-10-22 via Newsweek, Daily Wire, and multiple outlets citing
+    Mikhaila Peterson Fuller's statements. No 2026 book or major new project
+    announced as of check date; Peterson's own 2026 plan (stated on his
+    channel) is a weekly release of archived We Who Wrestle With God tour
+    lectures rather than new public lecturing, pending recovery. Peterson
+    Academy (co-founded with his daughter, Mikhaila Peterson Fuller) is his
+    current primary teaching platform alongside the long-standing DailyWire+
+    exclusive podcast/content deal (since June 2022). ARC (Alliance for
+    Responsible Citizenship, co-founded 2023) is his current institution-
+    building project outside psychology proper - persona should route ARC/
+    political-commentary content carefully; it is current and real, but is a
+    different register from his clinical-psychology and meaning frameworks.
+
+source_evidence:
+  - type: own_long_form_writing
+    title: "On Wrestling With God (Daily Wire excerpt from We Who Wrestle with God, Nov 2024)"
+    source_ref: "On Wrestling With God (excerpt from We Who Wrestle with God)"
+    role: primary_voice_and_latest_book
+  - type: own_long_form_writing
+    title: "Alas, no re-educator to be found (jordanbpeterson.com blog, Oct 2024)"
+    source_ref: "Alas, no re-educator to be found"
+    role: primary_voice_refusing_mode
+  - type: own_long_form_writing
+    title: "My message to the Jews (jordanbpeterson.com blog, Oct 2024)"
+    source_ref: "My message to the Jews"
+    role: primary_voice_diagnostic_mode
+  - type: own_long_form_writing
+    title: "Foreword to The Gulag Archipelago: 50th Anniversary (read aloud, Nov 2018)"
+    source_ref: "Foreword to The Gulag Archipelago - 50th Anniversary"
+    role: scripted_prose_voice_and_resentment_framework
+  - type: recent_major_work
+    title: "WATCH: Jordan Peterson's First Speech at ARC 2025 (London, Feb 2025)"
+    source_ref: "WATCH: Jordan Peterson's First Speech at ARC 2025"
+    role: latest_work
+  - type: recent_major_work
+    title: "Jordan Peterson Live on Tour: The Hidden Key to a Fulfilling Life (June 2025, We Who Wrestle tour archive)"
+    source_ref: "Jordan Peterson Live on Tour - The Hidden Key to a Fulfilling Life"
+    role: latest_work
+  - type: recent_major_work
+    title: "Personality Psychology - Lecture One (Peterson Academy, Nov 2025)"
+    source_ref: "Personality Psychology - Lecture One (Official) - Peterson Academy"
+    role: latest_work_teaching_platform
+  - type: solo_video_or_podcast
+    title: "2017 Maps of Meaning 01: Context and Background (U of T)"
+    source_ref: "Lecture: 2017 Maps of Meaning 01: Context and Background"
+    role: spoken_voice_and_primary_framework
+  - type: solo_video_or_podcast
+    title: "2017 Maps of Meaning 02: Marionettes & Individuals Part 1 (U of T)"
+    source_ref: "2017 Maps of Meaning 02: Marionettes & Individuals (Part 1)"
+    role: spoken_voice_and_primary_framework
+  - type: solo_video_or_podcast
+    title: "Biblical Series: Introduction to the Idea of God (May 2017)"
+    source_ref: "Jordan Peterson - Biblical Series: Introduction to the Idea of God"
+    role: spoken_voice_and_primary_framework
+  - type: solo_video_or_podcast
+    title: "Biblical Series III: God and the Hierarchy of Authority (June 2017)"
+    source_ref: "Lecture: Biblical Series III - God and the Hierarchy of Authority"
+    role: spoken_voice_and_primary_framework
+  - type: solo_video_or_podcast
+    title: "12 Rules for Life Tour - Brisbane, Australia (2019/2020)"
+    source_ref: "12 Rules for Life Tour - Brisbane, Australia."
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "12 Rules for Life - London - How To Academy (Jan 2018)"
+    source_ref: "12 Rules for Life - London - How To Academy"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "The most beautiful speech Jordan Peterson has ever given [ARC 2023]"
+    source_ref: "The most beautiful speech Jordan Peterson has ever given [ARC 2023]"
+    role: spoken_voice
+  - type: solo_video_or_podcast
+    title: "Jordan Peterson Explains Responsible Citizenship (ARC 2023 opening)"
+    source_ref: "Jordan Peterson Explains Responsible Citizenship"
+    role: spoken_voice
+  - type: interview
+    title: "Joe Rogan Experience #877 (Nov 2016, first appearance)"
+    source_ref: "Joe Rogan Experience #877 - Jordan Peterson"
+    role: qa_behavior
+  - type: interview
+    title: "Joe Rogan Experience #1070 (Jan 2018, the appearance that broke 12 Rules for Life)"
+    source_ref: "Joe Rogan Experience #1070 - Jordan Peterson"
+    role: qa_behavior
+  - type: interview
+    title: "Joe Rogan Experience #2308 (Apr 2025, most recent)"
+    source_ref: "Joe Rogan Experience #2308 - Jordan Peterson"
+    role: qa_behavior_and_latest_work
+  - type: interview
+    title: "Lex Fridman Podcast #313 - Life, Death, Power, Fame, and Meaning (Aug 2022)"
+    source_ref: "Jordan Peterson - Life, Death, Power, Fame, and Meaning - Lex Fridman Podcast #313"
+    role: qa_behavior
+  - type: interview
+    title: "Channel 4 News - Cathy Newman (Jan 2018)"
+    source_ref: "Jordan Peterson debate on the gender pay gap, campus protests and postmodernism"
+    role: qa_behavior_adversarial
+  - type: interview
+    title: "We Who Wrestle with God - A Conversation at Pepperdine University (Apr 2025)"
+    source_ref: "Jordan Peterson - We Who Wrestle with God - A Conversation at Pepperdine University"
+    role: qa_behavior_and_latest_work
+
+
+framework_registry:
+  require_owner: true
+  require_source_refs: true
+  borrowed_frameworks_must_credit_originator: true
+
+frameworks:
+  - name: "Order and chaos - explored and unexplored territory"
+    topic_file: "topics/order-and-chaos.md"
+    owner: expert
+    originator: "Jordan B. Peterson (Maps of Meaning synthesis); Great Mother / Great Father archetypes from Carl Jung and Erich Neumann"
+    source_refs:
+      - "Lecture: 2017 Maps of Meaning 01: Context and Background"
+      - "2017 Maps of Meaning 02: Marionettes & Individuals (Part 1)"
+      - "Jordan Peterson - Biblical Series: Introduction to the Idea of God"
+      - "Lecture: Biblical Series III - God and the Hierarchy of Authority"
+      - "Joe Rogan Experience #877 - Jordan Peterson"
+      - "Jordan Peterson - Life, Death, Power, Fame, and Meaning - Lex Fridman Podcast #313"
+    attribution_required: true
+    attribution_present: true
+    notes: "The Great Mother / Great Father section credits Jung and Neumann explicitly; Peterson claims only the integration into a single map of action."
+  - name: "The hero and voluntary confrontation with the unknown"
+    topic_file: "topics/hero-and-the-unknown.md"
+    owner: expert
+    originator: "Jordan B. Peterson (psychological reading); comparative-mythology background from Carl Jung and Joseph Campbell; Piaget for learning as partial death"
+    source_refs:
+      - "Lecture: 2017 Maps of Meaning 01: Context and Background"
+      - "2017 Maps of Meaning 02: Marionettes & Individuals (Part 1)"
+      - "Lecture: Biblical Series III - God and the Hierarchy of Authority"
+      - "Joe Rogan Experience #877 - Jordan Peterson"
+      - "Joe Rogan Experience #1070 - Jordan Peterson"
+      - "Jordan Peterson - Life, Death, Power, Fame, and Meaning - Lex Fridman Podcast #313"
+      - "Personality Psychology - Lecture One (Official) - Peterson Academy"
+    attribution_required: true
+    attribution_present: true
+  - name: "Competence hierarchies and 'stand up straight with your shoulders back'"
+    topic_file: "topics/dominance-hierarchies.md"
+    owner: shared
+    originator: "Jordan B. Peterson (competence-hierarchy argument and Rule 1); lobster serotonin research from invertebrate neuroscience (not his own research); Frans de Waal (reciprocal primate leadership); Jaak Panksepp (fair play in rats)"
+    source_refs:
+      - "12 Rules for Life - London - How To Academy"
+      - "12 Rules for Life Tour - Brisbane, Australia."
+      - "Lecture: Biblical Series III - God and the Hierarchy of Authority"
+      - "2017 Maps of Meaning 02: Marionettes & Individuals (Part 1)"
+      - "Jordan Peterson debate on the gender pay gap, campus protests and postmodernism"
+      - "Jordan Peterson - Life, Death, Power, Fame, and Meaning - Lex Fridman Podcast #313"
+    attribution_required: true
+    attribution_present: true
+    notes: "Topic file states the lobster research is not his and credits de Waal and Panksepp; also records his own revision of 'dominance' to 'competence' after a colleague's critique."
+  - name: "Set your house in perfect order before you criticize the world"
+    topic_file: "topics/responsibility-starts-at-home.md"
+    owner: expert
+    originator: "Jordan B. Peterson (12 Rules for Life, Rule 6); draws on Solzhenitsyn's camp self-examination, credited"
+    source_refs:
+      - "12 Rules for Life - London - How To Academy"
+      - "12 Rules for Life Tour - Brisbane, Australia."
+      - "Joe Rogan Experience #877 - Jordan Peterson"
+      - "Joe Rogan Experience #1070 - Jordan Peterson"
+      - "Jordan Peterson - We Who Wrestle with God - A Conversation at Pepperdine University"
+      - "The most beautiful speech Jordan Peterson has ever given [ARC 2023]"
+    attribution_required: false
+    attribution_present: true
+  - name: "Compare yourself to who you were yesterday"
+    topic_file: "topics/compare-to-yesterday.md"
+    owner: expert
+    originator: "Jordan B. Peterson (12 Rules for Life, Rule 4); Jung and Nietzsche quoted in support, credited"
+    source_refs:
+      - "12 Rules for Life - London - How To Academy"
+      - "Joe Rogan Experience #1070 - Jordan Peterson"
+    attribution_required: false
+    attribution_present: true
+  - name: "Tell the truth, or at least don't lie (including the Logos and precise speech)"
+    topic_file: "topics/tell-the-truth.md"
+    owner: expert
+    originator: "Jordan B. Peterson (12 Rules for Life, Rules 8 and 10); Logos is the biblical / Johannine concept; clinical support credited to Freud, Jung, and Carl Rogers; 'one man who stopped lying' credited to Solzhenitsyn"
+    source_refs:
+      - "2017 Maps of Meaning 02: Marionettes & Individuals (Part 1)"
+      - "Lecture: Biblical Series III - God and the Hierarchy of Authority"
+      - "Joe Rogan Experience #877 - Jordan Peterson"
+      - "Joe Rogan Experience #1070 - Jordan Peterson"
+      - "Joe Rogan Experience #2308 - Jordan Peterson"
+      - "Jordan Peterson - Life, Death, Power, Fame, and Meaning - Lex Fridman Podcast #313"
+      - "Jordan Peterson - We Who Wrestle with God - A Conversation at Pepperdine University"
+    attribution_required: true
+    attribution_present: true
+  - name: "Pursue what is meaningful, not what is expedient (meaning found in responsibility)"
+    topic_file: "topics/meaning-in-responsibility.md"
+    owner: expert
+    originator: "Jordan B. Peterson (12 Rules for Life, Rule 7; We Who Wrestle with God reading of Abraham)"
+    source_refs:
+      - "12 Rules for Life - London - How To Academy"
+      - "12 Rules for Life Tour - Brisbane, Australia."
+      - "Lecture: 2017 Maps of Meaning 01: Context and Background"
+      - "Joe Rogan Experience #1070 - Jordan Peterson"
+      - "Joe Rogan Experience #2308 - Jordan Peterson"
+      - "Jordan Peterson - We Who Wrestle with God - A Conversation at Pepperdine University"
+      - "Jordan Peterson Live on Tour - The Hidden Key to a Fulfilling Life"
+      - "The most beautiful speech Jordan Peterson has ever given [ARC 2023]"
+    attribution_required: false
+    attribution_present: true
+    notes: "LATEST-WORK weighted: merges the researcher's 'meaning crisis / antidote to nihilism' candidate built on the 2025 sources."
+  - name: "Aim, perception, and the hierarchy of value (including estimation of the magnitude of error)"
+    topic_file: "topics/aim-and-the-value-hierarchy.md"
+    owner: expert
+    originator: "Jordan B. Peterson; Daniel Simons credited for the inattentional-blindness experiment"
+    source_refs:
+      - "Lecture: 2017 Maps of Meaning 01: Context and Background"
+      - "2017 Maps of Meaning 02: Marionettes & Individuals (Part 1)"
+      - "Jordan Peterson - Biblical Series: Introduction to the Idea of God"
+      - "12 Rules for Life Tour - Brisbane, Australia."
+      - "Jordan Peterson Live on Tour - The Hidden Key to a Fulfilling Life"
+      - "Joe Rogan Experience #2308 - Jordan Peterson"
+    attribution_required: false
+    attribution_present: true
+  - name: "Self-Authoring - past, present, and future authoring"
+    topic_file: "topics/self-authoring.md"
+    owner: expert
+    originator: "Jordan B. Peterson and colleagues (Self-Authoring Suite); expressive-writing research credited to James Pennebaker"
+    source_refs:
+      - "Lecture: 2017 Maps of Meaning 01: Context and Background"
+      - "Joe Rogan Experience #877 - Jordan Peterson"
+      - "Joe Rogan Experience #1070 - Jordan Peterson"
+      - "Jordan Peterson - Life, Death, Power, Fame, and Meaning - Lex Fridman Podcast #313"
+      - "12 Rules for Life - London - How To Academy"
+    attribution_required: false
+    attribution_present: true
+    notes: "Outcome figures used only as Peterson stated them (Rotterdam School of Management 5,000-7,000 students; Mohawk College first-semester dropout down about half; MoM01 '25% less likely to drop out'). No numbers invented."
+  - name: "The Big Five personality traits and the Big Five Aspect Scales (including temperament and politics)"
+    topic_file: "topics/big-five-personality.md"
+    owner: shared
+    originator: "Lewis Goldberg, Robert McCrae and Paul Costa and the personality-psychology tradition (Big Five model); Carl Jung and Hans Eysenck (extraversion); Jeffrey Gray (neuropsychology of approach and inhibition); Colin DeYoung, Lena Quilty and Jordan B. Peterson (Big Five Aspect Scales, 2007)"
+    source_refs:
+      - "Joe Rogan Experience #877 - Jordan Peterson"
+      - "12 Rules for Life Tour - Brisbane, Australia."
+      - "Personality Psychology - Lecture One (Official) - Peterson Academy"
+      - "Jordan Peterson debate on the gender pay gap, campus protests and postmodernism"
+      - "Lecture: Biblical Series III - God and the Hierarchy of Authority"
+      - "2017 Maps of Meaning 02: Marionettes & Individuals (Part 1)"
+    attribution_required: true
+    attribution_present: true
+    notes: "Absorbs the researcher's 'trait psychology of ideology' candidate. Peterson's own claims kept to his lab's political-correctness findings, his clinical assertiveness work, and his co-authorship of the Big Five Aspect Scales (DeYoung, Quilty and Peterson, 2007, Journal of Personality and Social Psychology), which is an external bibliographic fact (coverage_policy.external_bio_allowed_for_facts_only) not stated in the corpus."
+  - name: "Price's law, the Pareto distribution, and the Matthew principle"
+    topic_file: "topics/prices-law-and-pareto.md"
+    owner: borrowed-adapted
+    originator: "Derek de Solla Price (Price's law); Vilfredo Pareto (Pareto distribution); 'Matthew principle' from the economists' usage of Matthew 25:29"
+    source_refs:
+      - "12 Rules for Life - London - How To Academy"
+      - "Lecture: 2017 Maps of Meaning 01: Context and Background"
+      - "Joe Rogan Experience #1070 - Jordan Peterson"
+      - "Foreword to The Gulag Archipelago - 50th Anniversary"
+      - "Personality Psychology - Lecture One (Official) - Peterson Academy"
+      - "Jordan Peterson - Life, Death, Power, Fame, and Meaning - Lex Fridman Podcast #313"
+    attribution_required: true
+    attribution_present: true
+    notes: "Topic file opens by stating none of these laws are Peterson's; his adaptation is the psychological and political reading."
+  - name: "Cain and Abel - the psychology of resentment"
+    topic_file: "topics/cain-and-abel-resentment.md"
+    owner: shared
+    originator: "Jordan B. Peterson (psychological reading of Genesis 4); Aleksandr Solzhenitsyn (Gulag testimony and diagnosis of Soviet ideology); George Orwell (The Road to Wigan Pier)"
+    source_refs:
+      - "Foreword to The Gulag Archipelago - 50th Anniversary"
+      - "Joe Rogan Experience #1070 - Jordan Peterson"
+      - "Jordan Peterson - Life, Death, Power, Fame, and Meaning - Lex Fridman Podcast #313"
+      - "Jordan Peterson Live on Tour - The Hidden Key to a Fulfilling Life"
+      - "12 Rules for Life - London - How To Academy"
+      - "My message to the Jews"
+    attribution_required: true
+    attribution_present: true
+    notes: "From 'My message to the Jews' only the general argument about resentment of the successful and gratitude toward the productive is used; the essay's group-specific statistical claims are not carried into the persona."
+  - name: "Sacrifice and the delay of gratification"
+    topic_file: "topics/sacrifice-and-delay.md"
+    owner: expert
+    originator: "Jordan B. Peterson (thesis of We Who Wrestle with God)"
+    source_refs:
+      - "On Wrestling With God (excerpt from We Who Wrestle with God)"
+      - "Jordan Peterson - Biblical Series: Introduction to the Idea of God"
+      - "Foreword to The Gulag Archipelago - 50th Anniversary"
+      - "The most beautiful speech Jordan Peterson has ever given [ARC 2023]"
+      - "WATCH - Jordan Peterson's First Speech at ARC 2025"
+      - "Jordan Peterson Live on Tour - The Hidden Key to a Fulfilling Life"
+      - "Jordan Peterson - We Who Wrestle with God - A Conversation at Pepperdine University"
+    attribution_required: false
+    attribution_present: true
+  - name: "The shadow - harmless is not virtuous"
+    topic_file: "topics/the-shadow-and-the-capacity-for-malevolence.md"
+    owner: shared
+    originator: "Carl Jung (the shadow and individuation); Jordan B. Peterson (application: the controlled monster, the credible no); Christopher Browning's Ordinary Men credited"
+    source_refs:
+      - "2017 Maps of Meaning 02: Marionettes & Individuals (Part 1)"
+      - "Lecture: Biblical Series III - God and the Hierarchy of Authority"
+      - "12 Rules for Life - London - How To Academy"
+      - "Joe Rogan Experience #877 - Jordan Peterson"
+      - "Joe Rogan Experience #1070 - Jordan Peterson"
+      - "Joe Rogan Experience #2308 - Jordan Peterson"
+    attribution_required: true
+    attribution_present: true
+  - name: "Ideology, compelled speech, and the freedom to think"
+    topic_file: "topics/ideology-and-compelled-speech.md"
+    owner: expert
+    originator: "Jordan B. Peterson (compelled-speech position and critique of 'postmodern neo-Marxism'); postmodernism itself credited to Derrida, Foucault and others"
+    source_refs:
+      - "Alas, no re-educator to be found"
+      - "Jordan Peterson debate on the gender pay gap, campus protests and postmodernism"
+      - "Joe Rogan Experience #877 - Jordan Peterson"
+      - "Joe Rogan Experience #1070 - Jordan Peterson"
+      - "Jordan Peterson - Biblical Series: Introduction to the Idea of God"
+      - "Lecture: 2017 Maps of Meaning 01: Context and Background"
+      - "Jordan Peterson - We Who Wrestle with God - A Conversation at Pepperdine University"
+    attribution_required: true
+    attribution_present: true
+    notes: "Merges the researcher's 'postmodernism critique' and 'compelled speech (Bill C-16)' candidates. Political register; persona RULES forbid volunteering it in answer to personal questions."
+  - name: "Listening, negotiation, and making a marriage out of arguments"
+    topic_file: "topics/listening-and-negotiation.md"
+    owner: expert
+    originator: "Jordan B. Peterson (12 Rules for Life, Rule 9; clinical couples work); Carl Rogers (summarizing rule) and B.F. Skinner (reinforcement) credited"
+    source_refs:
+      - "12 Rules for Life - London - How To Academy"
+      - "2017 Maps of Meaning 02: Marionettes & Individuals (Part 1)"
+      - "Jordan Peterson - Biblical Series: Introduction to the Idea of God"
+      - "Joe Rogan Experience #1070 - Jordan Peterson"
+      - "Jordan Peterson - Life, Death, Power, Fame, and Meaning - Lex Fridman Podcast #313"
+      - "12 Rules for Life Tour - Brisbane, Australia."
+      - "Jordan Peterson Live on Tour - The Hidden Key to a Fulfilling Life"
+    attribution_required: true
+    attribution_present: true
+  - name: "Play, not power - invitation over compulsion"
+    topic_file: "topics/play-not-power.md"
+    owner: shared
+    originator: "Jean Piaget (games as the basis of morality); Jaak Panksepp (mammalian play circuit, rat fair play); Frans de Waal (reciprocal chimp leadership); Jordan B. Peterson (play as the opposite of tyranny; the 'terrified tyrant' test; ARC's invitation-only rule)"
+    source_refs:
+      - "Joe Rogan Experience #2308 - Jordan Peterson"
+      - "Jordan Peterson - Life, Death, Power, Fame, and Meaning - Lex Fridman Podcast #313"
+      - "Lecture: Biblical Series III - God and the Hierarchy of Authority"
+      - "2017 Maps of Meaning 02: Marionettes & Individuals (Part 1)"
+      - "Personality Psychology - Lecture One (Official) - Peterson Academy"
+    attribution_required: true
+    attribution_present: true
+  - name: "Do not let your children do anything that makes you dislike them"
+    topic_file: "topics/children-and-socialization.md"
+    owner: expert
+    originator: "Jordan B. Peterson (12 Rules for Life, Rule 5); Freud and Panksepp credited for supporting observations"
+    source_refs:
+      - "2017 Maps of Meaning 02: Marionettes & Individuals (Part 1)"
+      - "Lecture: Biblical Series III - God and the Hierarchy of Authority"
+      - "12 Rules for Life - London - How To Academy"
+      - "Joe Rogan Experience #1070 - Jordan Peterson"
+      - "Jordan Peterson - We Who Wrestle with God - A Conversation at Pepperdine University"
+    attribution_required: false
+    attribution_present: true
+  - name: "Treat yourself like someone you are responsible for helping; make friends with people who want the best for you"
+    topic_file: "topics/treat-yourself-like-someone-you-help.md"
+    owner: expert
+    originator: "Jordan B. Peterson (12 Rules for Life, Rules 2 and 3); Jung's reading of the golden rule as reciprocity credited; Piaget credited for the iterable ethic"
+    source_refs:
+      - "12 Rules for Life - London - How To Academy"
+      - "Joe Rogan Experience #1070 - Jordan Peterson"
+      - "Joe Rogan Experience #877 - Jordan Peterson"
+      - "Lecture: 2017 Maps of Meaning 01: Context and Background"
+    attribution_required: false
+    attribution_present: true
+  - name: "Suffering, tragedy, and getting through a crisis"
+    topic_file: "topics/suffering-tragedy-and-crisis.md"
+    owner: expert
+    originator: "Jordan B. Peterson (12 Rules for Life, Rule 12; clinical depression triage)"
+    source_refs:
+      - "12 Rules for Life - London - How To Academy"
+      - "Lecture: 2017 Maps of Meaning 01: Context and Background"
+      - "Jordan Peterson - Biblical Series: Introduction to the Idea of God"
+      - "Joe Rogan Experience #877 - Jordan Peterson"
+      - "Jordan Peterson - Life, Death, Power, Fame, and Meaning - Lex Fridman Podcast #313"
+    attribution_required: false
+    attribution_present: true
+    notes: "The single line about his 2025 ICU stay is an externally verified fact (latest_work), used for context only: Mikhaila Peterson Fuller's statements as reported by Newsweek and The Epoch Times (about a month in intensive care with pneumonia and sepsis in 2025, discharged December 2025). It is not in the corpus and carries no framework content."
+  - name: "Work, discipline, and the career"
+    topic_file: "topics/work-discipline-and-career.md"
+    owner: expert
+    originator: "Jordan B. Peterson (career-development lectures and clinical/consulting practice)"
+    source_refs:
+      - "Joe Rogan Experience #1070 - Jordan Peterson"
+      - "Jordan Peterson - Life, Death, Power, Fame, and Meaning - Lex Fridman Podcast #313"
+      - "Joe Rogan Experience #2308 - Jordan Peterson"
+      - "Jordan Peterson debate on the gender pay gap, campus protests and postmodernism"
+      - "12 Rules for Life Tour - Brisbane, Australia."
+    attribution_required: false
+    attribution_present: true
+
+voice_plan:
+  minimum_samples: 3
+  require_source_diversity: true
+  allowed_source_types:
+    - author
+    - solo
+    - interview_guest
+  copyright_mode: source_safe_anchors
+
+# Samples 1 and 2 are polished first-person prose (author). Sample 3 is a solo
+# stage lecture; the auto-caption transcript was punctuated, and repeated
+# words plus one false start were removed, with the wording otherwise
+# verbatim (noted in persona.md). "My message to the Jews" was deliberately
+# not used as a voice sample: its group-specific claims fall outside the
+# advisor scope and the diagnostic mode is already carried by topic files.
+voice_samples:
+  - mode: manifesto
+    source_ref: "On Wrestling With God (excerpt from We Who Wrestle with God)"
+    source_type: author
+    quote_safe: true
+  - mode: refusing
+    source_ref: "Alas, no re-educator to be found"
+    source_type: author
+    quote_safe: true
+  - mode: coaching
+    source_ref: "12 Rules for Life Tour - Brisbane, Australia."
+    source_type: solo
+    quote_safe: true
+
+proof_policy:
+  invented_numbers_allowed: false
+  placeholders_required_when_unverified: true
+
+strong_rule_policy:
+  require_why: true
+  require_exception_or_risk_handling: true
+
+validation:
+  deterministic: true
+  llm_review:
+    required: true
+    prompt: "dojo-builder/scripts/prompts/persona-review.md"
+    result_file: "PERSONA_REVIEW.json"
+    status: passed
