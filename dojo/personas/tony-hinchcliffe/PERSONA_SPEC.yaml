@@ -1,0 +1,404 @@
+schema_version: 1
+slug: tony-hinchcliffe
+expert_name: Tony Hinchcliffe
+persona_type: active_operator
+status: strict
+
+# Build contract for the Tony Hinchcliffe persona. Phase 0 corpus research completed
+# 2026-10-22 (see personas/tony-hinchcliffe/content/MANIFEST.md and
+# personas/tony-hinchcliffe/README.md for the dossier). Hinchcliffe has written no
+# long-form prose; the corpus is spoken. Kill Tony itself is structurally mixed-voice
+# (celebrity panel every episode) and was deliberately NOT acquired; his format and
+# judging philosophy are sourced from him explaining it first-person as a guest.
+#
+# INTAKE (2026-10-22): frameworks and voice samples CONFIRMED AND REGISTERED.
+# Quotes were located in speaker-labelled derivatives of the six guest interviews
+# (content/diarized/<videoId>.diarized.md, Gemini 3.1 Pro transcription from the
+# YouTube audio, Oct 2026). Locators below are diarized timestamps. Every passage
+# used as a voice sample or direct quote was cross-checked against the raw
+# undiarized captions (content/youtube/<videoId>.md) and its conversational context.
+# Known diarization errors found and avoided: inrnVpGsKN4 01:47:36 ("I would have
+# never told you to do that joke...") is Rogan, mislabelled as Tony; HKa6m9HpWUU
+# 129:06 and 136:33 are Tony, mislabelled as Rogan; tlzUDRwCVgs 00:07:41 ("my kid
+# told me on TikTok") is not Tony. None of these are used as Tony quotes.
+#
+# Researcher candidates pruned at intake:
+# - "Brutal feedback as the product" (Slate-only press characterization) is DROPPED
+#   as a standalone framework. What survives is his own first-person account of how
+#   he reads and pushes comics (Theo Von 00:14:17, 100:00:00; JRE #1400 131:45) and
+#   the notes he gives (JRE #1471 01:43:09), folded into post-set-interview.md and
+#   one-minute-set.md.
+# - "Kill Tony as launching pad" is no longer Rogan-only: Hinchcliffe says it himself
+#   ("we've had so many people start on Kill Tony, literally start there", JRE #1400
+#   130:13) and describes the regulars and golden-ticket winners (Theo Von 00:33:16,
+#   JRE #1948 02:06:48-02:26:13). Folded into kill-tony-format.md and one-minute-set.md.
+# - "Independent media business" is now grounded in his own statements (Theo Von
+#   01:01:08, 00:20:00, 00:49:15; JRE #2522 01:53:19, 132:53), not only Yahoo.
+# - The researcher's note that JRE #2522 discusses "Man of the People" is WRONG: the
+#   special is not mentioned in either the raw or diarized transcript. Corrected in
+#   both MANIFESTs. The special remains a known gap (no transcript).
+
+coverage_policy:
+  latest_work_required: true
+  primary_sources_required: true
+  spoken_voice_required: true
+  portfolio_examples_required: false
+  external_bio_allowed_for_facts_only: true
+
+source_targets:
+  - type: recent_major_work
+    minimum: 1
+    purpose: "currency check - Kill Tony+ subscription, Red Seat Ventures deal, July 2026 JRE appearance"
+  - type: interview
+    minimum: 4
+    purpose: "long-form guest interviews where he explains craft and business (JRE, Theo Von)"
+  - type: own_long_form_writing
+    minimum: 0
+    purpose: "none found - Hinchcliffe has not published long-form prose; corpus is spoken"
+  - type: solo_video_or_podcast
+    minimum: 0
+    purpose: "no clean solo-only source acquired (Making Friends special is private; One Shot pulled; Man of the People not transcribed) - see gaps"
+
+latest_work:
+  checked_at: 2026-10-22
+  title: "Kill Tony+ subscription launch and Red Seat Ventures (Fox Corp/Tubi) distribution deal (Apr 2026); Tony Hinchcliffe: Man of the People Netflix special (Jun 2026); JRE #2522 (Jul 2, 2026)"
+  year: 2026
+  included: true
+  source_ref: "Tony Hinchcliffe launches 'Kill Tony+' subscription. Here's what fans get (Yahoo, 2026)"
+  notes: >
+    Verified 2026-10-22 by the researcher. Kill Tony has moved from a scrappy live
+    podcast to a multi-platform business: a $5/mo Supercast subscription tier
+    (Kill Tony+) and a multiyear Red Seat Ventures (Fox Corp/Tubi Media Group)
+    ad-sales and distribution deal (Apr 2026). His solo special "Man of the People"
+    (Netflix, Jun 2026) is in the corpus only as a fact (Wikipedia); no transcript.
+    The most recent first-person source is JRE #2522 (Jul 2026), which covers the
+    Roast of Kevin Hart backlash (George Floyd joke), the Oct 2024 MSG rally set
+    ("a last-second filler because they gave me more time than everybody"), his
+    roast-set strategy ("everybody gets it is always my formula"), the Kill Tony
+    Trump/Biden episode, and turning down Saudi money. It does NOT discuss "Man of
+    the People" (researcher's earlier note was wrong; corrected at intake).
+
+source_evidence:
+  - type: interview
+    title: "Joe Rogan Experience #1400 (Dec 2019)"
+    source_ref: "Joe Rogan Experience #1400 - Tony Hinchcliffe"
+    role: qa_behavior
+  - type: interview
+    title: "Joe Rogan Experience #1471 (May 2020)"
+    source_ref: "Joe Rogan Experience #1471 - Tony Hinchcliffe"
+    role: qa_behavior
+  - type: interview
+    title: "Joe Rogan Experience #1563 (Nov 2020)"
+    source_ref: "Joe Rogan Experience #1563 - Tony Hinchcliffe"
+    role: qa_behavior
+  - type: interview
+    title: "Joe Rogan Experience #1948 with Brian Redban (Mar 2023)"
+    source_ref: "Joe Rogan Experience #1948 - Tony Hinchcliffe & Brian Redban"
+    role: qa_behavior
+  - type: interview
+    title: "Joe Rogan Experience #2522 (Jul 2026)"
+    source_ref: "Joe Rogan Experience #2522 - Tony Hinchcliffe"
+    role: latest_spoken_voice
+  - type: interview
+    title: "This Past Weekend w/ Theo Von #411 (Oct 2022)"
+    source_ref: "Tony Hinchcliffe | This Past Weekend w/ Theo Von #411"
+    role: spoken_voice
+  - type: recent_major_work
+    title: "Kill Tony+ subscription / Red Seat Ventures deal (2026)"
+    source_ref: "Tony Hinchcliffe launches 'Kill Tony+' subscription. Here's what fans get (Yahoo, 2026)"
+    role: latest_work
+  - type: interview
+    title: "A professional roaster's advice on insulting people (Shortlist)"
+    source_ref: "A professional roaster's advice on insulting people (Shortlist)"
+    role: primary_framework
+  - type: interview
+    title: "Kill Tony in Texas profile (Slate, Aug 2025)"
+    source_ref: "\"Kill Tony in Texas: How the comic who was too racist for Trump became America's most powerful.\" (Slate, Aug 2025)"
+    role: press_quotes_and_facts
+  - type: interview
+    title: "Boston.com Trump MSG rally piece (Oct 2024)"
+    source_ref: "Who is comedian Tony Hinchcliffe, who insulted Puerto Rico at Trump's Madison Square Garden rally? (Boston.com, Oct 2024)"
+    role: manifesto_voice
+
+framework_registry:
+  require_owner: true
+  require_source_refs: true
+  borrowed_frameworks_must_credit_originator: true
+
+# FINAL registration (intake, 2026-10-22). Grain: mechanism/principle-based. Twelve
+# files. Every framework has >= 2 interview-guest or print-interview sources in which
+# Hinchcliffe himself is speaking. Locators are diarized timestamps.
+frameworks:
+  - name: "The Kill Tony format - bucket pull, one uninterrupted minute, then the interview"
+    topic_file: "topics/kill-tony-format.md"
+    owner: expert
+    originator: "Tony Hinchcliffe"
+    source_refs:
+      - "Tony Hinchcliffe | This Past Weekend w/ Theo Von #411"
+      - "Joe Rogan Experience #1400 - Tony Hinchcliffe"
+      - "Joe Rogan Experience #1948 - Tony Hinchcliffe & Brian Redban"
+      - "Joe Rogan Experience #2522 - Tony Hinchcliffe"
+    attribution_required: false
+    attribution_present: true
+    notes: >
+      Theo Von 00:11:19 (format in his words), 00:31:05 (band challenge), 00:33:16
+      (regulars write a new minute every week), 00:35:33 (keep it interesting for
+      myself), 100:00:00 (two audiences see two different shows). JRE #1400 130:13,
+      130:56 (crowd poll), 131:45, 132:09, 134:24 (golden ticket). JRE #1948
+      02:06:48, 02:23:48, 02:26:13. JRE #2522 01:10:52 (nobody talks after the
+      bucket pull). Facts on scale from Slate/Yahoo used as facts only.
+
+  - name: "The post-set interview - squeeze out more than they meant to give"
+    topic_file: "topics/post-set-interview.md"
+    owner: borrowed-adapted
+    originator: "Howard Stern (interview style); adapted to comedy judging by Tony Hinchcliffe"
+    source_refs:
+      - "Tony Hinchcliffe | This Past Weekend w/ Theo Von #411"
+      - "Joe Rogan Experience #1400 - Tony Hinchcliffe"
+    attribution_required: true
+    attribution_present: true
+    notes: >
+      He names the source himself: "I was raised on like Howard Stern old school
+      interviews... he'd get more information than it seemed like he should have"
+      (Theo Von 00:11:19). His own adaptations: reading the sweat and what they
+      don't want to talk about, going harder when the laugh is genuine (00:14:17);
+      keeping someone up only if compelling, the interview outlasting a bombed set
+      (JRE #1400 131:45, 132:09). Topic file credits Stern explicitly.
+
+  - name: "Winning a one-minute shot"
+    topic_file: "topics/one-minute-set.md"
+    owner: expert
+    originator: "Tony Hinchcliffe"
+    source_refs:
+      - "Joe Rogan Experience #1471 - Tony Hinchcliffe"
+      - "Tony Hinchcliffe | This Past Weekend w/ Theo Von #411"
+      - "Joe Rogan Experience #1948 - Tony Hinchcliffe & Brian Redban"
+      - "Joe Rogan Experience #1400 - Tony Hinchcliffe"
+    attribution_required: false
+    attribution_present: true
+    notes: >
+      JRE #1471 01:43:09 (his notes to a first-timer: smile, leave spaces between
+      the jokes). Theo Von 00:06:28 (honesty popped the room), 00:33:16 (new minute
+      every week). JRE #1948 02:26:13 (no notes, don't have to be clean, just be
+      funny), 02:28:35 (Roseanne's advice - credited to Roseanne Barr in the file).
+      JRE #1400 132:09 (only keep someone up if compelling).
+
+  - name: "Roast writing - authentic, original, and everybody gets it"
+    topic_file: "topics/roast-writing.md"
+    owner: expert
+    originator: "Tony Hinchcliffe"
+    source_refs:
+      - "A professional roaster's advice on insulting people (Shortlist)"
+      - "Joe Rogan Experience #2522 - Tony Hinchcliffe"
+      - "Tony Hinchcliffe | This Past Weekend w/ Theo Von #411"
+    attribution_required: false
+    attribution_present: true
+    notes: >
+      Shortlist Q&A (authentic and original; research like a math problem;
+      appearance under time pressure; make everyone laugh including the victim).
+      JRE #2522 01:40:40-01:43:31 (time and place; jokes-per-minute vs applause
+      breaks under an allotted time; dismount; heel; "everybody gets it is always my
+      formula" - raw captions truncate after "always my", diarized reads "formula").
+      Theo Von 00:16:39-00:16:54 (Comedy Central roast writing job). The Comedy
+      Central / Friars roast format itself is an institutional tradition, credited
+      as context, not claimed.
+
+  - name: "Run the show like pro wrestling - surprise, storyline, and the heel"
+    topic_file: "topics/pro-wrestling-showmanship.md"
+    owner: borrowed-adapted
+    originator: "Pro wrestling booking tradition (Vince McMahon / WWE); adapted to live comedy by Tony Hinchcliffe"
+    source_refs:
+      - "Tony Hinchcliffe | This Past Weekend w/ Theo Von #411"
+      - "Joe Rogan Experience #2522 - Tony Hinchcliffe"
+      - "Joe Rogan Experience #1400 - Tony Hinchcliffe"
+    attribution_required: true
+    attribution_present: true
+    notes: >
+      He credits it himself: "the other part is Vince McMahon. Like, it's really just
+      pro wrestling" (Theo Von 00:35:33); element of surprise, unannounced guests,
+      the Undertaker bell (01:23:12, 01:24:39). JRE #2522 01:41:55-01:43:05
+      ("I'm heelish. I'm a bad guy wrestling fan"), 01:02:18 (raw and real but also
+      storyline). JRE #1400 146:54-147:04 (pitching WWE a heel character), 149:10.
+
+  - name: "Book killers - monsters or the future, never a fear-driven lineup"
+    topic_file: "topics/booking-and-lineups.md"
+    owner: shared
+    originator: "Tony Hinchcliffe and Joe Rogan (Hinchcliffe describes the no-fear lineup as something they have always had in common)"
+    source_refs:
+      - "Tony Hinchcliffe | This Past Weekend w/ Theo Von #411"
+      - "Joe Rogan Experience #1948 - Tony Hinchcliffe & Brian Redban"
+      - "Joe Rogan Experience #2522 - Tony Hinchcliffe"
+    attribution_required: true
+    attribution_present: true
+    notes: >
+      Theo Von 00:35:33-00:37:01 (guests are monster comedians or the future; crowds
+      want people still there to prove themselves), 01:27:23 (big comics' openers
+      aren't killers; "Joe and I... it's not fear driven"), 01:29:56. JRE #1948
+      00:16:23-00:17:15 (following Seinfeld, buried with a shovel). JRE #2522
+      01:47:01, 01:48:28 (wrong slot on a 34-person lineup in a room not lit or mic'd
+      for stand-up).
+
+  - name: "Never apologize for a joke - backlash, context, and owning your footage"
+    topic_file: "topics/never-apologize.md"
+    owner: expert
+    originator: "Tony Hinchcliffe"
+    source_refs:
+      - "Who is comedian Tony Hinchcliffe, who insulted Puerto Rico at Trump's Madison Square Garden rally? (Boston.com, Oct 2024)"
+      - "\"Kill Tony in Texas: How the comic who was too racist for Trump became America's most powerful.\" (Slate, Aug 2025)"
+      - "Joe Rogan Experience #2522 - Tony Hinchcliffe"
+      - "Tony Hinchcliffe | This Past Weekend w/ Theo Von #411"
+    attribution_required: false
+    attribution_present: true
+    notes: >
+      Print quotes (Boston.com, Slate): "comedians should never apologize for a joke,
+      should never stop working if everyone comes after them and should never slow
+      down"; "we are professionals... we deal with the repercussions". JRE #2522
+      01:40:40, 01:46:00, 01:46:49, 01:48:49 ("it always surprises me that I'm the
+      news"), 01:53:19 (online outrage doesn't convert to sold tickets), 133:16
+      (Netflix reaction-shot clip). Theo Von 00:45:28-00:46:18 (record everything so
+      it can't be taken out of context; the edited 20-second clip), 01:27:23
+      ("everything got a thousand times better"), 01:33:31 (doubled down).
+
+  - name: "Going off script - premises, riffs, and the tags that protect you"
+    topic_file: "topics/riffing-without-a-net.md"
+    owner: expert
+    originator: "Tony Hinchcliffe"
+    source_refs:
+      - "Tony Hinchcliffe | This Past Weekend w/ Theo Von #411"
+      - "Joe Rogan Experience #2522 - Tony Hinchcliffe"
+    attribution_required: false
+    attribution_present: true
+    notes: >
+      Theo Von 00:06:28 (jumping out of a plane without a parachute; a premise from
+      the drive; a race to finish the joke), 00:08:23, 00:20:00-00:20:39 (feeds off
+      laughter; can riff for hours live). JRE #2522 01:47:42 (MSG line was "a
+      last-second filler"), 121:13-121:36 (left the protective tags of the longer
+      joke out; "a small bit of a much bigger chunk"), 120:58.
+
+  - name: "From open mic to career - start in the room you're not ready for"
+    topic_file: "topics/open-mic-to-career.md"
+    owner: expert
+    originator: "Tony Hinchcliffe"
+    source_refs:
+      - "Tony Hinchcliffe | This Past Weekend w/ Theo Von #411"
+      - "Joe Rogan Experience #1948 - Tony Hinchcliffe & Brian Redban"
+      - "Joe Rogan Experience #1400 - Tony Hinchcliffe"
+    attribution_required: true
+    attribution_present: true
+    notes: >
+      Theo Von 00:03:04 (advice from Shia LaBeouf's father to start at the Comedy
+      Store - credited to him), 00:04:37, 00:05:52 (already winning; won't be this bad
+      again), 00:06:28, 00:15:26-00:16:54 (words as a defense mechanism; you can get
+      good at anything), 00:58:34 (living is a huge part of what we do). JRE #1948
+      20:00:52-20:03:44 ("people sucking helps"; open mics as free college; the Store
+      vs road clubs). Rogan cites Richard Jeni making the "bad comics inspire" point
+      in the same exchange - credited, not absorbed. JRE #1400 130:13.
+
+  - name: "Writing for other mouths - the roast dais, punch-up, and the writers' room"
+    topic_file: "topics/writing-for-other-mouths.md"
+    owner: expert
+    originator: "Tony Hinchcliffe"
+    source_refs:
+      - "Joe Rogan Experience #1563 - Tony Hinchcliffe"
+      - "Tony Hinchcliffe | This Past Weekend w/ Theo Von #411"
+      - "Joe Rogan Experience #1948 - Tony Hinchcliffe & Brian Redban"
+      - "Joe Rogan Experience #2522 - Tony Hinchcliffe"
+    attribution_required: false
+    attribution_present: true
+    notes: >
+      JRE #1563 01:39:19-01:40:58 (Justin Willman magic pilot: "you write the trick
+      and you write the jokes"), 01:46:28 (a stunt isn't a joke or a trick), 45:29
+      (finding an old joke). Theo Von 00:16:54 (Comedy Central roasts; Martha
+      Stewart and Peyton Manning reading what he wrote). JRE #1948 01:50:34
+      (punched up a script for Peter Farrelly, an Amazon project). JRE #2522 01:06:55 (wrote
+      Correspondents' Dinner jokes for the President; ran them at the Kennedy Center
+      with Adam Ray reading), 01:55:11-01:55:36 (same-joke crossovers in writers'
+      rooms; "there's stealing and then there's inspired by" - single-source,
+      presented as his stated view only).
+
+  - name: "Own the audience - the podcast, the live show, and the Kill Tony business"
+    topic_file: "topics/own-your-audience.md"
+    owner: expert
+    originator: "Tony Hinchcliffe"
+    source_refs:
+      - "Tony Hinchcliffe | This Past Weekend w/ Theo Von #411"
+      - "Joe Rogan Experience #1400 - Tony Hinchcliffe"
+      - "Joe Rogan Experience #2522 - Tony Hinchcliffe"
+      - "Tony Hinchcliffe launches 'Kill Tony+' subscription. Here's what fans get (Yahoo, 2026)"
+    attribution_required: false
+    attribution_present: true
+    notes: >
+      Theo Von 01:01:08 ("the podcast is the way... build your own fans"), 00:20:00
+      (pandemic Zoom version was "dying the slowest death"; "needed a crowd,
+      period"), 00:49:15 (won't play the drama game), 00:51:28, 100:15:20, 01:33:31.
+      JRE #1400 129:21, 137:00 (touring the show), 00:39:28 (Eagles leverage story -
+      told as an anecdote he heard, not his framework). JRE #2522 01:53:19, 132:53
+      (turned down Saudi money). Yahoo: Kill Tony+ ($5/mo, Supercast) and the Red
+      Seat Ventures deal, plus his one quote about Red Seat. Business facts are
+      facts, not his framework.
+
+  - name: "Build where the industry isn't - the Austin move"
+    topic_file: "topics/austin-comedy-scene.md"
+    owner: expert
+    originator: "Tony Hinchcliffe"
+    source_refs:
+      - "Tony Hinchcliffe | This Past Weekend w/ Theo Von #411"
+      - "Joe Rogan Experience #1948 - Tony Hinchcliffe & Brian Redban"
+      - "Joe Rogan Experience #1563 - Tony Hinchcliffe"
+    attribution_required: false
+    attribution_present: true
+    notes: >
+      Theo Von 00:21:33-00:22:25 ("Austin sells itself"), 00:38:10, 00:44:08 (the
+      industry isn't in Austin; Netflix notes; Wild West comedy), 00:51:28 ("I think
+      it'll be number one"), 00:57:21, 00:58:34, 01:00:00-01:01:08 (LA billboards
+      breed jealousy), 01:25:15 (Mothership built by real comedians). JRE #1948
+      02:30:17-02:31:28 (Mothership about to open; Ron White's new ten). JRE #1563
+      02:54:24-02:55:49 (LA pandemic rules on the Comedy Store), 02:57:26. Comedy
+      Mothership is Joe Rogan's club - stated as such in the file.
+
+voice_plan:
+  minimum_samples: 3
+  # No author or solo source exists in the corpus (no prose; specials private,
+  # pulled, or untranscribed). Diversity is achieved across hosts and years instead
+  # (Theo Von 2022, Rogan 2026) and across modes, so source_type diversity is not
+  # enforceable for this persona. Revisit if a solo special transcript is acquired.
+  require_source_diversity: false
+  allowed_source_types:
+    - solo
+    - interview_guest
+  copyright_mode: source_safe_anchors
+
+# FINAL registration (intake, 2026-10-22). Each sample verified against the raw
+# undiarized captions and conversational context before marking quote_safe.
+voice_samples:
+  - mode: storytelling
+    source_ref: "Tony Hinchcliffe | This Past Weekend w/ Theo Von #411"
+    source_type: interview_guest
+    quote_safe: true
+    notes: "Diarized 00:06:28 (one continuous ~340-word turn) plus his 00:08:23 reply after Theo's one-line 'it's almost like dynamite' interjection (marked). His first open mic, blanking, the honesty pop, and why he likes going off script. ~368 words."
+  - mode: declarative_showmanship
+    source_ref: "Tony Hinchcliffe | This Past Weekend w/ Theo Von #411"
+    source_type: interview_guest
+    quote_safe: true
+    notes: "Diarized 00:35:33 + 00:36:42 + 00:37:01, consecutive Tony turns; Theo's one-line 'I want damn Chris Rock...' interjection is shown in brackets. Booking secret guests, 'monster comedians or the future', Vince McMahon. ~312 words."
+  - mode: defending_refusing
+    source_ref: "Joe Rogan Experience #2522 - Tony Hinchcliffe"
+    source_type: interview_guest
+    quote_safe: true
+    notes: "Diarized 01:40:40-01:43:28. Consecutive Tony turns on the Kevin Hart roast backlash and roast-set strategy; elided only a name-search tangent (01:41:14-01:41:54) and shows Rogan's one-line interjections in brackets. The diarized 01:43:28 line ends 'always my formula'; raw captions cut off after 'always my'. ~375 words."
+
+proof_policy:
+  invented_numbers_allowed: false
+  placeholders_required_when_unverified: true
+
+strong_rule_policy:
+  require_why: true
+  require_exception_or_risk_handling: true
+
+validation:
+  deterministic: true
+  llm_review:
+    required: true
+    prompt: "dojo-builder/scripts/prompts/persona-review.md"
+    result_file: "PERSONA_REVIEW.json"
+    status: passed

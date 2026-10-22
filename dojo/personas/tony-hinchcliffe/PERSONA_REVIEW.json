@@ -1,0 +1,107 @@
+{
+  "status": "pass",
+  "findings": [
+    {
+      "severity": "resolved",
+      "file": "dojo/personas/tony-hinchcliffe/persona.md",
+      "line": 149,
+      "issue": "Example exchange 3 said the edited 2021 clip 'cut off right before I'm going, come on, relax...'. The source (Theo Von #411, diarized 46:18) says the line came 25 seconds after the edited clip ends, and the line is 'come on lady relax'.",
+      "recommendation": "Match the source: the clip ended twenty-five seconds before the line, and restore 'lady'.",
+      "original_severity": "medium",
+      "resolved": true,
+      "resolution": "Rewritten to 'ended twenty-five seconds before I'm going, come on, lady, relax, you're looking at me like I'm serious over here.' never-apologize.md line 45 also restored 'lady' (it already had the 25-second detail right)."
+    },
+    {
+      "severity": "resolved",
+      "file": "dojo/personas/tony-hinchcliffe/topics/pro-wrestling-showmanship.md",
+      "line": 54,
+      "issue": "Quoted '\"Anything can happen, Mr. President\" is a frame' as Tony's line from the Trump/Biden Kill Tony episode. The played clip (JRE #2522 diarized 01:10:13-01:10:16) has Shane-as-Trump asking how many more guys are coming and Tony answering only 'Anything can happen.' 'Mr. President' does not appear in the source.",
+      "recommendation": "Quote only what he said.",
+      "original_severity": "medium",
+      "resolved": true,
+      "resolution": "Now reads: When Shane's Trump asked how many more guys were coming out of the bucket, \"Anything can happen\" was the frame."
+    },
+    {
+      "severity": "resolved",
+      "file": "dojo/personas/tony-hinchcliffe/persona.md",
+      "line": 159,
+      "issue": "Example exchange 4 (and own-your-audience.md line 39) said the pandemic response was 'we went on the road / hit the road, and then moved to where the rooms were open'. The corpus supports the failed remote version, 'needed a crowd, period', and Austin opening ('Austin's like, come do it here. Bars are open', Theo Von 00:20:39-00:21:37). A pandemic-era road run is not stated anywhere in the six transcripts. The pre-pandemic touring (Australia, Europe, Canada; JRE #1400 129:21) is a separate fact.",
+      "recommendation": "Drop the unsupported pandemic road trip.",
+      "original_severity": "low",
+      "resolved": true,
+      "resolution": "persona.md: 'so we went where the rooms were open.' own-your-audience.md: 'So we went where the rooms were open, which turned out to be Austin. Before that we'd already been taking the show on the road for years: ...'"
+    },
+    {
+      "severity": "resolved",
+      "file": "dojo/personas/tony-hinchcliffe/topics/writing-for-other-mouths.md",
+      "line": 39,
+      "issue": "'The best writing job I ever took' overstates the source. In JRE #1563 01:39:19-01:40:00 he calls the Justin Willman pilot a short two-to-four-week gig and says it was when he 'realized how cool this job was about to be'. He never ranks it as his best.",
+      "recommendation": "Remove the superlative.",
+      "original_severity": "low",
+      "resolved": true,
+      "resolution": "Now reads: 'One short writing job taught me how big the brief can be.'"
+    },
+    {
+      "severity": "resolved",
+      "file": "dojo/personas/tony-hinchcliffe/topics/never-apologize.md",
+      "line": 39,
+      "issue": "Added 'That's my act.' to the JRE #2522 01:48:49 paraphrase ('Me saying it, that's normal'). The source does not contain it.",
+      "recommendation": "Remove the added sentence.",
+      "original_severity": "low",
+      "resolved": true,
+      "resolution": "Removed; the paragraph now ends at 'Me saying it? That's normal.'"
+    },
+    {
+      "severity": "resolved",
+      "file": "personas/tony-hinchcliffe/content/MANIFEST.md",
+      "line": 202,
+      "issue": "The private MANIFEST's Skipped entry for 'Man of the People' still claimed it was 'discussed extensively ... via the Jul 2 2026 JRE #2522 appearance and multiple reviews (AV Club, dmtalkies, Rotten Tomatoes), which are acquired'. That contradicts the intake correction, and no review files exist in content/. The README 'Latest work' bullet (line 218) still said #2522 'discusses Man of the People directly'.",
+      "recommendation": "Bring both private files in line with the correction.",
+      "original_severity": "low",
+      "resolved": true,
+      "resolution": "Both private files corrected. The MANIFEST now records the June 9 2026 Netflix release date, which QA re-verified by web search, and says the special is not discussed in #2522 and no reviews are acquired. The public sources MANIFEST was already correct."
+    },
+    {
+      "severity": "low",
+      "file": "dojo/personas/tony-hinchcliffe/persona.md",
+      "line": 177,
+      "issue": "Voice sample 1 keeps a mid-turn 'Really?' ('...were the bad ones. Really? When I remembered my jokes...'). The raw captions run it together ('bad ones really when I remembered'), so it may be a Theo interjection that the diarizer folded into Tony's turn. Voice sample 2 (line 191) also silently drops Theo's one-word 'Yeah.' (diarized 00:37:00) between 00:36:42 and 00:37:01, while marking his other interjection.",
+      "recommendation": "Optional. Re-listen to 00:07:20-00:07:30 and bracket 'Really?' as Theo if it is his, and mark the dropped 'Yeah.' with an ellipsis. Neither changes meaning or attribution of the substantive speech.",
+      "resolved": false
+    },
+    {
+      "severity": "low",
+      "file": "dojo/personas/tony-hinchcliffe/PERSONA_SPEC.yaml",
+      "line": 365,
+      "issue": "voice_plan.require_source_diversity is false. All three voice samples are interview_guest. QA judges this an acceptable, honest exception: he has published no prose, the specials are private, pulled or untranscribed, and Kill Tony is mixed-voice by design. The samples are spread across two hosts (Theo Von, Rogan), two years (2022, 2026) and three modes (storytelling, declarative, defending). All three were confirmed verbatim against the diarized transcript and the raw captions, with correct speaker attribution.",
+      "recommendation": "Revisit if a transcript of Man of the People (Netflix, Jun 9 2026), Making Friends, or the Tom Brady or Kevin Hart roast sets is acquired; a solo performance sample would be the strongest addition.",
+      "resolved": false
+    },
+    {
+      "severity": "low",
+      "file": "dojo/personas/tony-hinchcliffe/persona.md",
+      "line": 109,
+      "issue": "The four example exchanges are pointed, drafting, refusing-the-premise and coaching, as Phase 6 requires. None is a review of an existing piece of work, even though default_modes names review as his strongest mode. Review mode is still covered by the reasoning moves, by the 'That's not research, that's a dating profile' read in exchange 2, and by the topic files' anti-patterns.",
+      "recommendation": "Optional. If the 4-mode test shows weak review answers, swap exchange 4 for a short review of a user's one-minute set built from one-minute-set.md and roast-writing.md.",
+      "resolved": false
+    },
+    {
+      "severity": "low",
+      "file": "dojo/personas/tony-hinchcliffe/persona.md",
+      "line": 127,
+      "issue": "Example exchange 2 drafts new roast jokes in his voice. These are clearly a generated drafting demonstration for a hypothetical user, not presented as his real material. The roast-writing standards they illustrate (authentic and original; everybody gets it, including the girlfriend; the target has to laugh) are all corpus-sourced, so this is not attribution of invented jokes to him.",
+      "recommendation": "None required. Keep any future demonstrations framed as drafts for the user, never as quoted Hinchcliffe material.",
+      "resolved": false
+    }
+  ],
+  "checks": {
+    "latest_work_included": true,
+    "source_coverage_satisfied": true,
+    "framework_attribution_clean": true,
+    "borrowed_frameworks_attributed": true,
+    "invented_proof_absent": true,
+    "voice_sources_diverse": true,
+    "strong_rules_have_risk_handling": true,
+    "topic_routing_matches_topics": true
+  }
+}
