@@ -70,7 +70,7 @@ Questions are classified by mode — pointed, coaching, review, drafting, emerge
 
 ## Available experts
 
-56 experts across six domains. Browse and pick at [superdojo.xyz](https://superdojo.xyz/).
+57 experts across six domains. Browse and pick at [superdojo.xyz](https://superdojo.xyz/).
 
 **Operators** — Andrew Carnegie · Andy Grove · Brian Chesky · Chris Voss · Danny Meyer · David J. Anderson · Elon Musk · Evan Czaplicki · Jason Lemkin · Jeff Bezos · Jensen Huang · John Carmack · Keith Rabois · Matt Mochary · Patrick Collison · Steve Jobs · Tobi Lütke · Wes Kao
 
@@ -80,7 +80,7 @@ Questions are classified by mode — pointed, coaching, review, drafting, emerge
 
 **Thinking** — Annie Duke · Charlie Munger · Clayton Christensen · David Deutsch · David Goggins · Eliyahu Goldratt · Hamilton Helmer · Jordan B. Peterson · Julia Galef · Nassim Taleb · Richard Feynman · Richard Rumelt · Shane Parrish · Thomas Sowell
 
-**Craft** — William Zinsser
+**Craft** — Tony Hinchcliffe · William Zinsser
 
 **Behavioural Shaping** — Susan Garrett
 
